@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulador CAPM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="contenedor">
+    <h1>Simulador CAPM</h1>
+    <p class="subtitulo">5 simulacros de 50 preguntas con feedback por dominio</p>
+
+    <section id="pantalla-inicio" class="tarjeta">
+      <h2>Selecciona un examen</h2>
+      <p class="texto-ayuda">
+        Cada simulacro está diseñado para practicar con preguntas tipo CAPM y detectar tus puntos débiles.
+      </p>
+
+      <div id="lista-examenes" class="grid-examenes"></div>
+    </section>
+
+    <section id="pantalla-examen" class="tarjeta oculto">
+      <div class="barra-superior">
+        <span id="numero-pregunta"></span>
+        <span id="temporizador">60:00</span>
+      </div>
+
+      <div class="progreso">
+        <div id="barra-progreso"></div>
+      </div>
+
+      <div class="etiquetas-pregunta">
+        <span id="dominio-pregunta"></span>
+        <span id="dificultad-pregunta"></span>
+      </div>
+
+      <h2 id="texto-pregunta"></h2>
+
+      <div id="opciones" class="opciones"></div>
+
+      <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente</button>
+    </section>
+
+    <section id="pantalla-resultados" class="tarjeta oculto">
+      <h2>Resultados del examen</h2>
+
+      <div id="resultado-general"></div>
+      <div id="resultado-dominios"></div>
+      <div id="feedback"></div>
+
+      <h3>Revisión de preguntas</h3>
+      <div id="revision"></div>
+
+      <button onclick="volverInicio()">Volver al inicio</button>
+    </section>
+  </main>
+
+  <script src="preguntas.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
