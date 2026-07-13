@@ -2,59 +2,182 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Simulador CAPM con cinco exámenes situacionales de nivel intermedio y avanzado.">
+  <meta name="theme-color" content="#123f68">
   <title>Simulador CAPM</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="encabezado">
+    <div class="encabezado__contenido">
+      <a class="marca" href="#" id="logo-inicio" aria-label="Ir al inicio">
+        <span class="marca__icono" aria-hidden="true">C</span>
+        <span>
+          <strong>CAPM Trainer</strong>
+          <small>Simulador de preparación</small>
+        </span>
+      </a>
+
+      <button id="btn-tema" class="boton boton--icono boton--claro" type="button" aria-label="Cambiar tema">
+        <span id="icono-tema" aria-hidden="true">☾</span>
+        <span class="texto-boton-tema">Tema</span>
+      </button>
+    </div>
+  </header>
 
   <main class="contenedor">
-    <h1>Simulador CAPM</h1>
-    <p class="subtitulo">5 simulacros de 50 preguntas con feedback por dominio</p>
+    <section id="pantalla-inicio" aria-labelledby="titulo-principal">
+      <div class="hero">
+        <span class="hero__etiqueta">Preparación CAPM</span>
+        <h1 id="titulo-principal">Practica, mide tu avance y refuerza tus puntos débiles</h1>
+        <p>Practica con 250 preguntas situacionales de nivel intermedio a avanzado, distractores plausibles, análisis por dominio y revisión detallada.</p>
+      </div>
 
-    <section id="pantalla-inicio" class="tarjeta">
-      <h2>Selecciona un examen</h2>
-      <p class="texto-ayuda">
-        Cada simulacro está diseñado para practicar con preguntas tipo CAPM y detectar tus puntos débiles.
-      </p>
+      <div id="aviso-continuar" class="aviso-continuar oculto" role="status">
+        <div>
+          <strong>Tienes un examen en curso</strong>
+          <p id="texto-continuar"></p>
+        </div>
+        <button id="btn-continuar" class="boton" type="button">Continuar examen</button>
+      </div>
 
-      <div id="lista-examenes" class="grid-examenes"></div>
+      <section class="seccion" aria-labelledby="titulo-examenes">
+        <div class="seccion__cabecera">
+          <div>
+            <span class="sobrelinea">Simulacros</span>
+            <h2 id="titulo-examenes">Selecciona un examen</h2>
+          </div>
+          <p>Cada simulacro contiene 50 preguntas y dura 60 minutos.</p>
+        </div>
+        <div id="lista-examenes" class="grid-examenes"></div>
+      </section>
+
+      <section id="historial-seccion" class="seccion oculto" aria-labelledby="titulo-historial">
+        <div class="seccion__cabecera">
+          <div>
+            <span class="sobrelinea">Seguimiento</span>
+            <h2 id="titulo-historial">Historial reciente</h2>
+          </div>
+          <button id="btn-borrar-historial" class="boton boton--texto" type="button">Borrar historial</button>
+        </div>
+        <div id="historial" class="historial"></div>
+      </section>
     </section>
 
-    <section id="pantalla-examen" class="tarjeta oculto">
-      <div class="barra-superior">
-        <span id="numero-pregunta"></span>
-        <span id="temporizador">60:00</span>
+    <section id="pantalla-examen" class="oculto" aria-labelledby="texto-pregunta">
+      <div class="panel-examen">
+        <div class="barra-examen">
+          <div>
+            <span id="nombre-examen" class="barra-examen__nombre"></span>
+            <span id="numero-pregunta" class="barra-examen__avance"></span>
+          </div>
+          <div class="barra-examen__acciones">
+            <div id="temporizador" class="temporizador" aria-live="polite">60:00</div>
+            <button id="btn-salir" class="boton boton--claro boton--compacto" type="button">Salir</button>
+          </div>
+        </div>
+
+        <div class="progreso" aria-label="Progreso del examen">
+          <div id="barra-progreso" class="progreso__relleno"></div>
+        </div>
+
+        <div class="layout-examen">
+          <article class="tarjeta tarjeta--pregunta">
+            <div class="etiquetas-pregunta">
+              <span id="dominio-pregunta"></span>
+              <span id="dificultad-pregunta"></span>
+            </div>
+
+            <h2 id="texto-pregunta" class="pregunta"></h2>
+            <div id="opciones" class="opciones" role="radiogroup" aria-label="Alternativas"></div>
+
+            <div class="controles-pregunta">
+              <button id="btn-anterior" class="boton boton--secundario" type="button">← Anterior</button>
+              <button id="btn-marcar" class="boton boton--marcar" type="button" aria-pressed="false">☆ Marcar</button>
+              <button id="btn-siguiente" class="boton" type="button">Siguiente →</button>
+            </div>
+          </article>
+
+          <aside class="tarjeta tarjeta--navegador" aria-labelledby="titulo-navegador">
+            <div class="navegador__cabecera">
+              <div>
+                <span class="sobrelinea">Navegación</span>
+                <h3 id="titulo-navegador">Preguntas</h3>
+              </div>
+              <span id="contador-respondidas" class="contador"></span>
+            </div>
+
+            <div id="navegador-preguntas" class="navegador-preguntas"></div>
+
+            <div class="leyenda">
+              <span><i class="leyenda__icono leyenda__icono--respondida"></i>Respondida</span>
+              <span><i class="leyenda__icono leyenda__icono--marcada"></i>Marcada</span>
+              <span><i class="leyenda__icono leyenda__icono--actual"></i>Actual</span>
+            </div>
+
+            <button id="btn-finalizar" class="boton boton--finalizar" type="button">Finalizar examen</button>
+          </aside>
+        </div>
       </div>
-
-      <div class="progreso">
-        <div id="barra-progreso"></div>
-      </div>
-
-      <div class="etiquetas-pregunta">
-        <span id="dominio-pregunta"></span>
-        <span id="dificultad-pregunta"></span>
-      </div>
-
-      <h2 id="texto-pregunta"></h2>
-
-      <div id="opciones" class="opciones"></div>
-
-      <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente</button>
     </section>
 
-    <section id="pantalla-resultados" class="tarjeta oculto">
-      <h2>Resultados del examen</h2>
+    <section id="pantalla-resultados" class="oculto" aria-labelledby="titulo-resultados">
+      <div class="resultados-cabecera">
+        <span class="sobrelinea">Examen completado</span>
+        <h1 id="titulo-resultados">Resultados del simulacro</h1>
+        <p id="mensaje-resultado"></p>
+      </div>
 
-      <div id="resultado-general"></div>
-      <div id="resultado-dominios"></div>
-      <div id="feedback"></div>
+      <div id="resultado-general" class="grid-resumen"></div>
 
-      <h3>Revisión de preguntas</h3>
-      <div id="revision"></div>
+      <div class="grid-resultados">
+        <section class="tarjeta" aria-labelledby="titulo-dominios">
+          <div class="tarjeta__cabecera">
+            <div>
+              <span class="sobrelinea">Desempeño</span>
+              <h2 id="titulo-dominios">Rendimiento por dominio</h2>
+            </div>
+          </div>
+          <div id="resultado-dominios"></div>
+        </section>
 
-      <button onclick="volverInicio()">Volver al inicio</button>
+        <section class="tarjeta" aria-labelledby="titulo-feedback">
+          <div class="tarjeta__cabecera">
+            <div>
+              <span class="sobrelinea">Plan de mejora</span>
+              <h2 id="titulo-feedback">Feedback personalizado</h2>
+            </div>
+          </div>
+          <div id="feedback"></div>
+        </section>
+      </div>
+
+      <section class="tarjeta tarjeta--revision" aria-labelledby="titulo-revision">
+        <div class="revision-cabecera">
+          <div>
+            <span class="sobrelinea">Análisis</span>
+            <h2 id="titulo-revision">Revisión de preguntas</h2>
+          </div>
+          <div class="filtros" role="group" aria-label="Filtrar revisión">
+            <button class="filtro activo" type="button" data-filtro="todas">Todas</button>
+            <button class="filtro" type="button" data-filtro="incorrectas">Incorrectas</button>
+            <button class="filtro" type="button" data-filtro="sin-respuesta">Sin responder</button>
+          </div>
+        </div>
+        <div id="revision"></div>
+      </section>
+
+      <div class="acciones-resultados">
+        <button id="btn-repetir" class="boton boton--secundario" type="button">Repetir examen</button>
+        <button id="btn-volver" class="boton" type="button">Volver al inicio</button>
+      </div>
     </section>
   </main>
+
+  <footer class="pie">
+    <p>Tu avance se guarda únicamente en este navegador.</p>
+  </footer>
 
   <script src="preguntas.js"></script>
   <script src="app.js"></script>

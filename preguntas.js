@@ -2,4001 +2,4001 @@ var bancoPreguntas = [
   {
     "id": 1,
     "examen": 1,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Definición de proyecto",
-    "dificultad": "media",
-    "pregunta": "¿Cuál de las siguientes opciones describe mejor un proyecto?",
+    "dominio": "Predictivo",
+    "tema": "Ruta crítica y holgura",
+    "dificultad": "intermedia",
+    "pregunta": "En construcción de un almacén industrial, una actividad crítica sin holgura se retrasa tres días. Si nada más cambia, ¿cuál es el efecto más probable?",
     "opciones": [
-      "Una actividad continua y repetitiva de la organización",
-      "Un esfuerzo temporal para crear un producto, servicio o resultado único",
-      "Una tarea operativa sin fecha de finalización",
-      "Una función permanente dentro de una empresa"
+      "La actividad obtiene tres días de holgura positiva.",
+      "Solo cambia el costo, nunca el plazo.",
+      "La actividad deja automáticamente de ser crítica.",
+      "La fecha final del proyecto se retrasa tres días."
     ],
-    "respuestaCorrecta": 1,
-    "explicacion": "Un proyecto es temporal y busca producir un resultado único."
+    "respuestaCorrecta": 3,
+    "explicacion": "Las actividades críticas determinan la duración mínima y su retraso suele mover la fecha final."
   },
   {
     "id": 2,
     "examen": 1,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Proyecto vs operaciones",
-    "dificultad": "media",
-    "pregunta": "Una empresa realiza mensualmente el mismo proceso de facturación. ¿Cómo se clasifica mejor este trabajo?",
+    "tema": "Conflicto e inteligencia emocional",
+    "dificultad": "intermedia",
+    "pregunta": "Dos especialistas de implementación de un sistema de inventarios defienden soluciones distintas y la discusión se vuelve personal. ¿Qué debería hacer primero el director?",
     "opciones": [
-      "Proyecto",
-      "Programa",
-      "Operación",
-      "Portafolio"
+      "Escuchar posiciones e intereses y reenfocar la conversación en datos y objetivos.",
+      "Elegir de inmediato a la persona con mayor cargo.",
+      "Evitar el tema hasta que una parte ceda.",
+      "Escalar sin intentar comprender la fuente del conflicto."
     ],
-    "respuestaCorrecta": 2,
-    "explicacion": "Las operaciones son continuas y repetitivas; los proyectos son temporales y producen resultados únicos."
+    "respuestaCorrecta": 0,
+    "explicacion": "La resolución colaborativa comienza por comprender la causa y separar a las personas del problema."
   },
   {
     "id": 3,
     "examen": 1,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Programa",
-    "dificultad": "media",
-    "pregunta": "Una organización agrupa varios proyectos relacionados para obtener beneficios coordinados. ¿Qué está gestionando?",
+    "tema": "Gobernanza y autoridad",
+    "dificultad": "intermedia",
+    "pregunta": "En implementación de un sistema de inventarios, un cambio supera el límite de autoridad del director. ¿Qué debe ocurrir antes de ejecutarlo?",
     "opciones": [
-      "Un programa",
-      "Una operación",
-      "Un entregable",
-      "Una actividad recurrente"
+      "Implementarlo de inmediato para mantener satisfecho al solicitante.",
+      "Analizar el impacto y elevarlo al órgano autorizado para decidir.",
+      "Rechazarlo automáticamente sin análisis.",
+      "Aprobarlo mediante votación informal del equipo."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Un programa agrupa proyectos relacionados para lograr beneficios que no se obtendrían gestionándolos por separado."
+    "respuestaCorrecta": 1,
+    "explicacion": "La gobernanza define umbrales, derechos de decisión y rutas de escalamiento."
   },
   {
     "id": 4,
     "examen": 1,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Portafolio",
-    "dificultad": "media",
-    "pregunta": "¿Qué representa un portafolio?",
+    "tema": "Riesgo, problema, supuesto y restricción",
+    "dificultad": "intermedia",
+    "pregunta": "En implementación de un sistema de inventarios, el equipo planifica suponiendo que un permiso será aprobado antes del inicio, aunque todavía no existe confirmación. ¿Cómo debe registrarse?",
     "opciones": [
-      "Un conjunto de proyectos, programas y operaciones gestionados para cumplir objetivos estratégicos",
-      "Una lista de tareas diarias del equipo",
-      "Un documento de requisitos técnicos",
-      "Un acta de reunión"
+      "Como un problema actual que ya ocurrió.",
+      "Como una restricción contractual inmodificable.",
+      "Como una lección aprendida del cierre.",
+      "Como un supuesto que debe validarse y vigilarse."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Un portafolio permite seleccionar y gestionar iniciativas alineadas con la estrategia organizacional."
+    "respuestaCorrecta": 3,
+    "explicacion": "Un supuesto se considera verdadero para planificar, pero debe revisarse cuando aparece nueva información."
   },
   {
     "id": 5,
     "examen": 1,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Valor del proyecto",
-    "dificultad": "media",
-    "pregunta": "¿Qué debe buscar principalmente un proyecto?",
+    "tema": "Adaptación e híbrido",
+    "dificultad": "intermedia",
+    "pregunta": "En implementación de un sistema de inventarios, los requisitos regulatorios son estables, pero la experiencia del usuario necesita pruebas frecuentes. ¿Qué enfoque es más apropiado?",
     "opciones": [
-      "Generar valor para la organización o los interesados",
-      "Consumir todo el presupuesto asignado",
-      "Evitar cualquier cambio",
-      "Reducir la comunicación"
+      "Un enfoque híbrido: predictivo para lo regulatorio y adaptativo para lo incierto.",
+      "Predictivo para todo, prohibiendo retroalimentación durante la ejecución.",
+      "Adaptativo para todo, eliminando controles regulatorios.",
+      "Ningún enfoque, porque no se pueden combinar prácticas."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Los proyectos existen para generar valor, resolver necesidades o aprovechar oportunidades."
+    "explicacion": "La forma de trabajo se adapta a incertidumbre, cumplimiento, riesgo y naturaleza de cada componente."
   },
   {
     "id": 6,
     "examen": 1,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Interesados",
-    "dificultad": "media",
-    "pregunta": "¿Por qué es importante identificar a los interesados del proyecto?",
+    "tema": "Acta de constitución y patrocinio",
+    "dificultad": "intermedia",
+    "pregunta": "El director asignado a implementación de un sistema de inventarios necesita comprometer recursos funcionales, pero la iniciativa aún no está autorizada formalmente. ¿Qué debe obtener primero?",
     "opciones": [
-      "Porque todos los interesados tienen la misma influencia",
-      "Porque sus expectativas pueden afectar el éxito del proyecto",
-      "Porque solo participan al cierre del proyecto",
-      "Porque reemplazan al equipo del proyecto"
+      "Una lista detallada de actividades sin aprobación del patrocinador.",
+      "Un informe de cierre de adquisiciones.",
+      "Una retrospectiva del equipo técnico.",
+      "Un acta de constitución aprobada que confirme objetivos y autoridad."
     ],
-    "respuestaCorrecta": 1,
-    "explicacion": "Los interesados pueden influir positiva o negativamente en el proyecto y sus expectativas deben gestionarse."
+    "respuestaCorrecta": 3,
+    "explicacion": "El acta autoriza formalmente el proyecto y otorga autoridad inicial al director."
   },
   {
     "id": 7,
     "examen": 1,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Patrocinador",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es una responsabilidad típica del patrocinador del proyecto?",
+    "dominio": "Predictivo",
+    "tema": "Adquisiciones",
+    "dificultad": "intermedia",
+    "pregunta": "En construcción de un almacén industrial, el alcance está bien definido y el comprador quiere transferir al vendedor el riesgo de sobrecostos. ¿Qué contrato suele ser más apropiado?",
     "opciones": [
-      "Ejecutar cada actividad técnica",
-      "Proporcionar apoyo, recursos y dirección estratégica",
-      "Realizar todas las pruebas de calidad",
-      "Reemplazar al director del proyecto"
+      "Costos reembolsables sin controles.",
+      "Tiempo y materiales sin límite.",
+      "Acuerdo verbal sin criterios de aceptación.",
+      "Precio fijo, con alcance y condiciones claramente definidos."
     ],
-    "respuestaCorrecta": 1,
-    "explicacion": "El patrocinador apoya el proyecto, facilita decisiones, recursos y alineación estratégica."
+    "respuestaCorrecta": 3,
+    "explicacion": "En precio fijo, el vendedor asume mayor riesgo de costo cuando el alcance es claro."
   },
   {
     "id": 8,
     "examen": 1,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Rol del director del proyecto",
-    "dificultad": "media",
-    "pregunta": "El director del proyecto facilita acuerdos, elimina impedimentos y alinea al equipo. ¿Qué rol está ejerciendo?",
+    "dominio": "Predictivo",
+    "tema": "Compresión del cronograma",
+    "dificultad": "intermedia",
+    "pregunta": "Para adelantar construcción de un almacén industrial, se propone agregar una segunda cuadrilla a una actividad crítica. ¿Qué técnica se evalúa?",
     "opciones": [
-      "Auditor financiero",
-      "Líder y facilitador",
-      "Cliente final",
-      "Proveedor externo"
+      "Fast tracking, que consiste en agregar recursos.",
+      "Nivelación de recursos para extender el plazo.",
+      "Aceptación pasiva del riesgo.",
+      "Crashing, que intercambia mayor costo por menor duración."
     ],
-    "respuestaCorrecta": 1,
-    "explicacion": "El director del proyecto debe liderar, facilitar, comunicar y ayudar al equipo a lograr los objetivos."
+    "respuestaCorrecta": 3,
+    "explicacion": "Crashing agrega recursos o costo a actividades críticas para reducir duración."
   },
   {
     "id": 9,
     "examen": 1,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Ciclo de vida del proyecto",
-    "dificultad": "media",
-    "pregunta": "¿Qué describe mejor el ciclo de vida de un proyecto?",
+    "tema": "Factores ambientales y activos",
+    "dificultad": "intermedia",
+    "pregunta": "Una nueva ley modifica requisitos de implementación de un sistema de inventarios. ¿Cómo debe tratarse esta información?",
     "opciones": [
-      "Las etapas por las que pasa el proyecto desde el inicio hasta el cierre",
-      "La lista de compras del proyecto",
-      "Solo el presupuesto aprobado",
-      "El organigrama de la empresa"
+      "Como un factor ambiental externo que obliga a revisar los planes afectados.",
+      "Como una lección aprendida interna.",
+      "Como un paquete de trabajo ya terminado.",
+      "Como una reserva de contingencia."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "El ciclo de vida organiza el proyecto en fases desde su inicio hasta su cierre."
+    "explicacion": "Las leyes y condiciones de mercado son factores externos que influyen en el proyecto."
   },
   {
     "id": 10,
     "examen": 1,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Acta de constitución",
-    "dificultad": "media",
-    "pregunta": "¿Qué documento autoriza formalmente la existencia de un proyecto?",
+    "tema": "Respuesta a riesgos",
+    "dificultad": "intermedia",
+    "pregunta": "En implementación de un sistema de inventarios, una amenaza de alta probabilidad está descrita en el registro, pero no tiene responsable ni respuesta. ¿Qué falta?",
     "opciones": [
-      "Registro de riesgos",
-      "Acta de constitución del proyecto",
-      "Informe de desempeño",
-      "Lista de interesados"
+      "Trasladarla al registro de lecciones aprendidas.",
+      "Asignar un propietario, una respuesta, disparadores y acciones de seguimiento.",
+      "Considerarla resuelta porque ya fue identificada.",
+      "Aumentar el presupuesto sin documentar la causa."
     ],
     "respuestaCorrecta": 1,
-    "explicacion": "El acta de constitución autoriza formalmente el proyecto y otorga autoridad al director del proyecto."
+    "explicacion": "Un riesgo accionable necesita análisis, responsable, respuesta y seguimiento."
   },
   {
     "id": 11,
     "examen": 1,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Supuestos y restricciones",
-    "dificultad": "media",
-    "pregunta": "El equipo planifica considerando que los permisos estarán aprobados antes del inicio, aunque aún no está confirmado. ¿Qué representa esto?",
+    "dominio": "Business Analysis",
+    "tema": "Verificación y validación",
+    "dificultad": "intermedia",
+    "pregunta": "En rediseño del proceso de compras, un requisito está bien escrito y comprobable, pero no resuelve ninguna necesidad real. ¿Qué ocurrió?",
     "opciones": [
-      "Una restricción",
-      "Un supuesto",
-      "Un entregable",
-      "Una línea base"
+      "Fue verificado, pero no validado contra la necesidad de negocio.",
+      "Fue validado, pero no estimado.",
+      "Fue aceptado y por eso no puede cambiar.",
+      "Solo carece de una reserva de contingencia."
     ],
-    "respuestaCorrecta": 1,
-    "explicacion": "Un supuesto es algo que se considera verdadero para fines de planificación, aunque no esté confirmado."
+    "respuestaCorrecta": 0,
+    "explicacion": "Verificar evalúa calidad formal; validar confirma relevancia y capacidad de satisfacer la necesidad."
   },
   {
     "id": 12,
     "examen": 1,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Restricciones",
-    "dificultad": "media",
-    "pregunta": "El cliente indica que el proyecto debe terminar antes de una fecha contractual fija. ¿Qué representa esta condición?",
+    "tema": "Caso de negocio y beneficios",
+    "dificultad": "intermedia",
+    "pregunta": "implementación de un sistema de inventarios entregó el producto previsto, pero la organización no obtiene la reducción de tiempo prometida. ¿Qué conclusión es más adecuada?",
     "opciones": [
-      "Un supuesto",
-      "Una restricción",
-      "Una oportunidad",
-      "Una iteración"
+      "El proyecto no produjo ningún resultado porque un beneficio es el único entregable válido.",
+      "El entregable fue producido, pero el beneficio esperado todavía no se realizó.",
+      "La línea base del alcance reemplaza la medición de beneficios.",
+      "Los beneficios solo pueden evaluarse durante la planificación."
     ],
     "respuestaCorrecta": 1,
-    "explicacion": "Una restricción limita las opciones del proyecto, como plazo, presupuesto, alcance o recursos."
+    "explicacion": "Los entregables habilitan resultados; los beneficios representan el valor obtenido al utilizarlos."
   },
   {
     "id": 13,
     "examen": 1,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Riesgo e issue",
-    "dificultad": "alta",
-    "pregunta": "El proveedor podría retrasar la entrega de un material crítico, pero todavía no ha ocurrido. ¿Cómo debe clasificarse?",
+    "dominio": "Agile",
+    "tema": "Priorización del backlog",
+    "dificultad": "intermedia",
+    "pregunta": "En desarrollo de un portal de clientes, el equipo no puede completar todas las funciones solicitadas. ¿Qué debería guiar el orden del backlog?",
     "opciones": [
-      "Issue",
-      "Restricción",
-      "Riesgo",
-      "Lección aprendida"
+      "El orden de llegada de las solicitudes sin revisión.",
+      "La preferencia del desarrollador más antiguo.",
+      "Valor, riesgo, urgencia, dependencias y aprendizaje esperado.",
+      "El tamaño del texto de cada historia."
     ],
     "respuestaCorrecta": 2,
-    "explicacion": "Un riesgo es un evento incierto que puede afectar los objetivos; si ya ocurrió, sería un issue."
+    "explicacion": "El backlog se ordena para maximizar valor y reducir riesgo considerando dependencias."
   },
   {
     "id": 14,
     "examen": 1,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Lecciones aprendidas",
-    "dificultad": "media",
-    "pregunta": "¿Cuándo deberían registrarse las lecciones aprendidas?",
+    "dominio": "Business Analysis",
+    "tema": "Priorización de requisitos",
+    "dificultad": "intermedia",
+    "pregunta": "En rediseño del proceso de compras, no todos los requisitos caben en la primera versión. ¿Qué criterio debería guiar la prioridad?",
     "opciones": [
-      "Solo al cierre del proyecto",
-      "Durante todo el proyecto",
-      "Solo antes de iniciar",
-      "Nunca, porque no aportan valor"
+      "Valor, riesgo, urgencia, cumplimiento y dependencias mediante criterios acordados.",
+      "La persona que habla más fuerte en la reunión.",
+      "El orden de llegada sin revisión.",
+      "La cantidad de palabras de cada requisito."
     ],
-    "respuestaCorrecta": 1,
-    "explicacion": "Las lecciones aprendidas deben registrarse durante todo el proyecto para mejorar continuamente."
+    "respuestaCorrecta": 0,
+    "explicacion": "La priorización debe ser transparente y relacionarse con valor y restricciones reales."
   },
   {
     "id": 15,
     "examen": 1,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Comunicación",
-    "dificultad": "media",
-    "pregunta": "Un interesado clave se queja de no recibir información oportuna. ¿Qué debería revisar primero el director del proyecto?",
+    "tema": "Reuniones y causa raíz",
+    "dificultad": "intermedia",
+    "pregunta": "Las reuniones de implementación de un sistema de inventarios terminan sin decisiones ni responsables. ¿Qué mejora debería aplicarse primero?",
     "opciones": [
-      "El plan de comunicaciones",
-      "La lista de materiales",
-      "La ruta crítica únicamente",
-      "El contrato del proveedor sin contexto"
+      "Invitar a más personas y ampliar la duración.",
+      "Definir objetivo, agenda, participantes, decisiones esperadas y seguimiento de acciones.",
+      "Eliminar las actas para ahorrar tiempo.",
+      "Tratar todos los temas sin priorización."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El plan de comunicaciones define qué información se entrega, a quién, cuándo y por qué medio."
+    "respuestaCorrecta": 1,
+    "explicacion": "Una reunión efectiva tiene propósito, preparación, facilitación y acciones con responsables y fechas."
   },
   {
     "id": 16,
     "examen": 1,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Gobernanza",
-    "dificultad": "media",
-    "pregunta": "¿Qué proporciona la gobernanza del proyecto?",
+    "tema": "Proyecto y operaciones",
+    "dificultad": "intermedia",
+    "pregunta": "Durante implementación de un sistema de inventarios, el equipo implementará un resultado único y después un área permanente lo administrará mensualmente. ¿Cómo debe clasificarse el trabajo?",
     "opciones": [
-      "Un marco para tomar decisiones, definir roles y controlar el proyecto",
-      "Un reemplazo del equipo técnico",
-      "Una forma de evitar reportes",
-      "Una lista informal de deseos"
+      "Ambos son proyectos porque consumen recursos.",
+      "La implementación es una operación y la administración es un programa.",
+      "La implementación es un proyecto y la administración posterior es una operación.",
+      "Ambos son operaciones porque pertenecen a la misma organización."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La gobernanza define estructuras, autoridad, roles, criterios de decisión y mecanismos de control."
+    "respuestaCorrecta": 2,
+    "explicacion": "Un proyecto es temporal y único; una operación es continua y repetitiva."
   },
   {
     "id": 17,
     "examen": 1,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Ética profesional",
-    "dificultad": "alta",
-    "pregunta": "Un miembro del equipo detecta un error importante en un informe, pero ocultarlo permitiría cumplir la fecha comprometida. ¿Qué debe hacer?",
+    "tema": "Cierre y transición",
+    "dificultad": "intermedia",
+    "pregunta": "El cliente aceptó los entregables de implementación de un sistema de inventarios, pero operaciones no recibió capacitación y quedan contratos abiertos. ¿Puede cerrarse el proyecto?",
     "opciones": [
-      "Ocultar el error",
-      "Informar el problema con transparencia y buscar solución",
-      "Culpar a otro equipo sin evidencia",
-      "Modificar los datos"
+      "No; primero deben completarse transición, cierre contractual y demás actividades de cierre.",
+      "Sí; la aceptación técnica elimina todas las tareas pendientes.",
+      "Sí; los contratos pasan automáticamente a operaciones.",
+      "No; el proyecto debe permanecer abierto mientras exista cualquier beneficio futuro."
     ],
-    "respuestaCorrecta": 1,
-    "explicacion": "La conducta ética exige honestidad, responsabilidad y transparencia."
+    "respuestaCorrecta": 0,
+    "explicacion": "El cierre incluye aceptación, contratos, archivos, transición, liberación de recursos y conocimiento."
   },
   {
     "id": 18,
     "examen": 1,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Triángulo de restricciones",
-    "dificultad": "media",
-    "pregunta": "Si el cliente aumenta el alcance sin ampliar plazo ni presupuesto, ¿qué debe analizarse?",
+    "dominio": "Agile",
+    "tema": "Kanban y WIP",
+    "dificultad": "intermedia",
+    "pregunta": "El tablero de desarrollo de un portal de clientes muestra muchas tareas iniciadas y pocas terminadas. ¿Qué práctica puede mejorar el flujo?",
     "opciones": [
-      "El impacto en tiempo, costo, calidad y riesgos",
-      "Solo el color del entregable",
-      "La eliminación del equipo",
-      "La cancelación automática del proyecto"
+      "Aumentar el número de tareas abiertas por persona.",
+      "Limitar el trabajo en proceso y terminar antes de iniciar más.",
+      "Ocultar las columnas con bloqueos.",
+      "Eliminar las políticas explícitas."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Cambios en alcance suelen impactar cronograma, costo, calidad, recursos y riesgos."
+    "respuestaCorrecta": 1,
+    "explicacion": "Los límites WIP reducen multitarea y hacen visibles los cuellos de botella."
   },
   {
     "id": 19,
     "examen": 1,
-    "dominio": "Predictivo",
-    "tema": "Línea base",
-    "dificultad": "media",
-    "pregunta": "En un proyecto predictivo, ¿para qué sirve una línea base?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Interesados y comunicación",
+    "dificultad": "intermedia",
+    "pregunta": "En implementación de un sistema de inventarios, un interesado de alto poder e interés afirma que recibe información demasiado tarde para decidir. ¿Qué debería revisar primero el director?",
     "opciones": [
-      "Para eliminar todos los riesgos",
-      "Para comparar el desempeño real contra el plan aprobado",
-      "Para reemplazar el cronograma",
-      "Para evitar la participación de interesados"
+      "La WBS, porque define automáticamente la frecuencia de reportes.",
+      "El registro de adquisiciones cerradas.",
+      "Las necesidades de comunicación y la estrategia de involucramiento de ese interesado.",
+      "La velocidad del equipo, sin conversar con el interesado."
     ],
-    "respuestaCorrecta": 1,
-    "explicacion": "La línea base permite medir variaciones frente al plan aprobado."
+    "respuestaCorrecta": 2,
+    "explicacion": "La comunicación debe adaptarse al poder, interés, necesidades y momento de decisión de cada interesado."
   },
   {
     "id": 20,
     "examen": 1,
     "dominio": "Predictivo",
-    "tema": "WBS",
-    "dificultad": "media",
-    "pregunta": "¿Qué representa una EDT o WBS?",
+    "tema": "Control integrado de cambios",
+    "dificultad": "intermedia",
+    "pregunta": "En construcción de un almacén industrial, el cliente solicita un entregable adicional después de aprobarse la línea base. ¿Qué debe hacerse primero?",
     "opciones": [
-      "Una lista de riesgos",
-      "Una descomposición jerárquica del alcance del proyecto",
-      "Un registro de interesados",
-      "Un informe financiero"
+      "Ejecutarla y solicitar aprobación después.",
+      "Rechazarla porque una línea base nunca puede cambiar.",
+      "Modificar solo el presupuesto sin revisar otros objetivos.",
+      "Registrar la solicitud y analizar impactos antes de obtener una decisión formal."
     ],
-    "respuestaCorrecta": 1,
-    "explicacion": "La WBS descompone el alcance en componentes más manejables."
+    "respuestaCorrecta": 3,
+    "explicacion": "El control integrado evalúa impactos y obtiene aprobación antes de modificar líneas base."
   },
   {
     "id": 21,
     "examen": 1,
-    "dominio": "Predictivo",
-    "tema": "Paquete de trabajo",
-    "dificultad": "media",
-    "pregunta": "En una WBS, ¿qué representa un paquete de trabajo?",
+    "dominio": "Agile",
+    "tema": "Liderazgo servicial",
+    "dificultad": "intermedia",
+    "pregunta": "En desarrollo de un portal de clientes, el equipo espera que el Scrum Master asigne cada tarea. ¿Qué debería fomentar?",
     "opciones": [
-      "El nivel más bajo donde se puede estimar y controlar el trabajo",
-      "Una reunión diaria del equipo",
-      "Un riesgo aprobado",
-      "Una fase sin control"
+      "Que el Scrum Master actúe como jefe funcional.",
+      "Que el product owner controle a cada persona.",
+      "Que el equipo se organice y decida cómo alcanzar el objetivo dentro de límites claros.",
+      "Que los interesados asignen trabajo directamente."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El paquete de trabajo es el nivel más bajo de la WBS que se puede estimar, asignar y controlar."
+    "respuestaCorrecta": 2,
+    "explicacion": "El liderazgo servicial facilita autonomía, colaboración y eliminación de impedimentos."
   },
   {
     "id": 22,
     "examen": 1,
-    "dominio": "Predictivo",
-    "tema": "Ruta crítica",
-    "dificultad": "alta",
-    "pregunta": "Una actividad en la ruta crítica se retrasa. ¿Cuál es el impacto más probable?",
+    "dominio": "Business Analysis",
+    "tema": "Funcional y no funcional",
+    "dificultad": "intermedia",
+    "pregunta": "En rediseño del proceso de compras, el requisito dice: “el 95 % de las búsquedas responderá en menos de dos segundos”. ¿Cómo se clasifica?",
     "opciones": [
-      "El proyecto no se ve afectado",
-      "La duración total del proyecto podría retrasarse",
-      "El costo siempre disminuye",
-      "El alcance queda aprobado automáticamente"
+      "Como requisito funcional de registro.",
+      "Como requisito de transición temporal.",
+      "Como requisito no funcional y medible de desempeño.",
+      "Como beneficio de negocio ya realizado."
     ],
-    "respuestaCorrecta": 1,
-    "explicacion": "Las actividades de la ruta crítica afectan directamente la duración total del proyecto."
+    "respuestaCorrecta": 2,
+    "explicacion": "Los no funcionales describen atributos como rendimiento, seguridad, disponibilidad y usabilidad."
   },
   {
     "id": 23,
     "examen": 1,
-    "dominio": "Predictivo",
-    "tema": "Secuenciamiento",
-    "dificultad": "media",
-    "pregunta": "¿Qué muestra un diagrama de red del cronograma?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Roles y responsabilidades",
+    "dificultad": "intermedia",
+    "pregunta": "En implementación de un sistema de inventarios, el patrocinador intenta asignar tareas diarias directamente a cada miembro y genera instrucciones contradictorias. ¿Qué debería hacer el director?",
     "opciones": [
-      "La relación lógica entre actividades",
-      "La matriz de interesados",
-      "La lista de compras",
-      "La evaluación de satisfacción"
+      "Permitir todas las instrucciones porque el patrocinador tiene mayor jerarquía.",
+      "Excluir al patrocinador de toda comunicación futura.",
+      "Aclarar roles y acordar un canal de dirección coherente con la gobernanza.",
+      "Pedir al equipo que elija qué instrucciones seguir sin criterios."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El diagrama de red muestra dependencias y secuencia lógica de actividades."
+    "respuestaCorrecta": 2,
+    "explicacion": "El patrocinador aporta dirección estratégica; el director integra y coordina la ejecución cotidiana."
   },
   {
     "id": 24,
     "examen": 1,
-    "dominio": "Predictivo",
-    "tema": "Control de cambios",
-    "dificultad": "alta",
-    "pregunta": "Un cliente solicita agregar un nuevo entregable en un proyecto predictivo con alcance aprobado. ¿Qué debe hacerse primero?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Recursos y RACI",
+    "dificultad": "intermedia",
+    "pregunta": "En implementación de un sistema de inventarios, una actividad tiene dos personas marcadas como Accountable y las decisiones se retrasan. ¿Qué corrección es más adecuada?",
     "opciones": [
-      "Ejecutarlo de inmediato",
-      "Ignorarlo",
-      "Seguir el proceso formal de control de cambios",
-      "Reducir el presupuesto sin avisar"
+      "Agregar más personas como Accountable para repartir la responsabilidad.",
+      "Eliminar a todos los responsables y dejar solo informados.",
+      "Permitir que cada área apruebe una versión diferente.",
+      "Definir una sola persona que rinda cuentas y aclarar los demás roles."
     ],
-    "respuestaCorrecta": 2,
-    "explicacion": "Los cambios al alcance aprobado deben evaluarse mediante control integrado de cambios."
+    "respuestaCorrecta": 3,
+    "explicacion": "La RACI debe aclarar responsabilidad y normalmente asigna una sola rendición de cuentas por resultado."
   },
   {
     "id": 25,
     "examen": 1,
-    "dominio": "Predictivo",
-    "tema": "Valor ganado",
-    "dificultad": "alta",
-    "pregunta": "Si el valor ganado es menor que el valor planificado, ¿qué indica generalmente?",
+    "dominio": "Agile",
+    "tema": "Sprint planning",
+    "dificultad": "intermedia",
+    "pregunta": "Durante la planificación de desarrollo de un portal de clientes, se propone trabajo para el doble de la capacidad histórica. ¿Qué debería hacer el equipo?",
     "opciones": [
-      "El proyecto está adelantado",
-      "El proyecto está atrasado respecto al plan",
-      "El proyecto terminó",
-      "El costo real es cero"
+      "Comprometer todo para satisfacer al product owner.",
+      "Duplicar la velocidad prevista sin cambiar capacidad.",
+      "Seleccionar una cantidad realista y construir un sprint goal coherente.",
+      "Reducir la Definition of Done para aceptar más trabajo."
     ],
-    "respuestaCorrecta": 1,
-    "explicacion": "Si EV < PV, la variación de cronograma es negativa y refleja atraso frente al plan."
+    "respuestaCorrecta": 2,
+    "explicacion": "El equipo selecciona trabajo según capacidad, objetivo y entendimiento de los elementos."
   },
   {
     "id": 26,
     "examen": 1,
-    "dominio": "Predictivo",
-    "tema": "Calidad",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es la diferencia principal entre control de calidad y aseguramiento de calidad?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Gestión de problemas",
+    "dificultad": "intermedia",
+    "pregunta": "En implementación de un sistema de inventarios, una dependencia externa ya incumplió y bloquea el trabajo. ¿Qué debería hacer primero el equipo?",
     "opciones": [
-      "Control verifica entregables; aseguramiento mejora procesos",
-      "Control evita interesados; aseguramiento elimina pruebas",
-      "Son exactamente lo mismo",
-      "Aseguramiento solo se hace al cierre"
+      "Mantenerlo solo como riesgo porque alguna vez fue incierto.",
+      "Registrar el problema y evaluar su impacto real en los objetivos del proyecto.",
+      "Eliminar la dependencia del cronograma sin modificar el plan.",
+      "Esperar al cierre para documentarlo."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El control de calidad revisa resultados; el aseguramiento se enfoca en que los procesos sean adecuados."
+    "respuestaCorrecta": 1,
+    "explicacion": "Cuando un evento ya ocurrió, se gestiona como problema actual y se analiza su impacto integrado."
   },
   {
     "id": 27,
     "examen": 1,
-    "dominio": "Agile",
-    "tema": "Enfoque adaptativo",
-    "dificultad": "media",
-    "pregunta": "Un proyecto tiene requisitos cambiantes y alta incertidumbre. ¿Qué enfoque sería más adecuado?",
+    "dominio": "Business Analysis",
+    "tema": "Necesidad y solución",
+    "dificultad": "intermedia",
+    "pregunta": "En rediseño del proceso de compras, un área solicita comprar una aplicación, pero no puede explicar qué problema resolverá. ¿Qué debe hacer primero el analista?",
     "opciones": [
-      "Predictivo",
-      "Adaptativo",
-      "Operacional",
-      "Funcional"
+      "Investigar la necesidad, causas y resultados deseados antes de definir la solución.",
+      "Comprar la aplicación para no retrasar el proyecto.",
+      "Crear la WBS de implementación sin más preguntas.",
+      "Elegir el producto con mayor cantidad de funciones."
     ],
-    "respuestaCorrecta": 1,
-    "explicacion": "El enfoque adaptativo es útil cuando existe incertidumbre y cambios frecuentes."
+    "respuestaCorrecta": 0,
+    "explicacion": "El análisis de negocio comienza entendiendo el problema u oportunidad, no una solución preconcebida."
   },
   {
     "id": 28,
     "examen": 1,
-    "dominio": "Agile",
-    "tema": "Iteraciones",
-    "dificultad": "media",
-    "pregunta": "¿Qué caracteriza a una iteración ágil?",
+    "dominio": "Business Analysis",
+    "tema": "Interesados BA",
+    "dificultad": "intermedia",
+    "pregunta": "En rediseño del proceso de compras, un usuario conoce el proceso pero tiene poca autoridad, mientras un director tiene poder pero poco detalle. ¿Cómo debe gestionarse?",
     "opciones": [
-      "Trabajo repetitivo sin entrega de valor",
-      "Un periodo corto donde se desarrolla un incremento del producto",
-      "Un contrato cerrado sin cambios",
-      "Una fase exclusiva de cierre"
+      "Involucrar a ambos según conocimiento, influencia y decisiones requeridas.",
+      "Consultar solo al director por tener mayor poder.",
+      "Consultar solo al usuario y omitir aprobación ejecutiva.",
+      "Aplicar la misma estrategia a todos sin análisis."
     ],
-    "respuestaCorrecta": 1,
-    "explicacion": "Las iteraciones ágiles buscan entregar incrementos de valor en ciclos cortos."
+    "respuestaCorrecta": 0,
+    "explicacion": "El análisis considera poder, conocimiento, impacto, necesidades y rol en decisiones."
   },
   {
     "id": 29,
     "examen": 1,
-    "dominio": "Agile",
-    "tema": "Product backlog",
-    "dificultad": "media",
-    "pregunta": "¿Qué representa el product backlog?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Lecciones aprendidas",
+    "dificultad": "intermedia",
+    "pregunta": "Durante implementación de un sistema de inventarios, el equipo descubre una solución que evitaría retrabajo en las siguientes fases. ¿Cuándo debería registrarla y compartirla?",
     "opciones": [
-      "Una lista priorizada de trabajo pendiente del producto",
-      "Un contrato cerrado",
-      "Un informe exclusivo de costos",
-      "Una línea base rígida"
+      "Solo después del cierre administrativo.",
+      "Únicamente si la solución surgió de un fracaso.",
+      "Ahora, para que pueda aplicarse durante el mismo proyecto.",
+      "Nunca, porque las lecciones son información informal."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El product backlog contiene trabajo pendiente priorizado según valor, necesidad y retroalimentación."
+    "respuestaCorrecta": 2,
+    "explicacion": "Las lecciones se capturan y utilizan durante todo el ciclo de vida, no solo al cierre."
   },
   {
     "id": 30,
     "examen": 1,
-    "dominio": "Agile",
-    "tema": "Priorización",
-    "dificultad": "alta",
-    "pregunta": "El equipo tiene muchas funcionalidades posibles y capacidad limitada. ¿Qué debe priorizarse?",
+    "dominio": "Business Analysis",
+    "tema": "Criterios de aceptación",
+    "dificultad": "intermedia",
+    "pregunta": "En rediseño del proceso de compras, un requisito indica que la pantalla “debe verse bien”. ¿Qué debería hacer el analista?",
     "opciones": [
-      "El trabajo con mayor valor para el cliente",
-      "El trabajo más fácil aunque no aporte valor",
-      "Tareas elegidas al azar",
-      "Actividades que nadie entiende"
+      "Aprobarlo porque todos entienden lo mismo por “bien”.",
+      "Convertirlo en criterios específicos, verificables y acordados.",
+      "Eliminarlo porque la experiencia no puede ser un requisito.",
+      "Dejar que cada desarrollador lo interprete."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La priorización ágil busca maximizar el valor entregado al cliente."
+    "respuestaCorrecta": 1,
+    "explicacion": "Los criterios de aceptación deben permitir una decisión consistente y objetiva."
   },
   {
     "id": 31,
     "examen": 1,
     "dominio": "Agile",
-    "tema": "Daily standup",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es el propósito principal de una daily standup?",
+    "tema": "Definition of Done",
+    "dificultad": "intermedia",
+    "pregunta": "Una historia de desarrollo de un portal de clientes fue desarrollada, pero no probada, y la DoD exige pruebas aprobadas. ¿Puede contarse como terminada?",
     "opciones": [
-      "Coordinar el trabajo e identificar impedimentos",
-      "Aprobar el presupuesto anual",
-      "Reemplazar la retrospectiva",
-      "Cerrar formalmente el proyecto"
+      "Sí; basta con finalizar la codificación.",
+      "No; debe cumplir completamente la Definition of Done.",
+      "Sí; las pruebas pueden realizarse después del proyecto.",
+      "Depende solo de la opinión del desarrollador."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La daily permite sincronizar al equipo, detectar impedimentos y mantener el enfoque."
+    "respuestaCorrecta": 1,
+    "explicacion": "La DoD crea un entendimiento común y verificable de calidad y completitud."
   },
   {
     "id": 32,
     "examen": 1,
-    "dominio": "Agile",
-    "tema": "Retrospectiva",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es el objetivo de una retrospectiva?",
+    "dominio": "Business Analysis",
+    "tema": "Elicitación",
+    "dificultad": "intermedia",
+    "pregunta": "En rediseño del proceso de compras, los usuarios realizan un trabajo complejo que les cuesta explicar y existen muchas excepciones. ¿Qué técnica puede revelar mejor la realidad?",
     "opciones": [
-      "Mejorar la forma de trabajo del equipo",
-      "Eliminar al product owner",
-      "Congelar requisitos",
-      "Aprobar contratos"
+      "Solo una encuesta cerrada a una persona.",
+      "Observación directa complementada con preguntas.",
+      "Un cálculo de valor ganado.",
+      "La ruta crítica del proyecto."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La retrospectiva inspecciona cómo trabaja el equipo y define mejoras."
+    "respuestaCorrecta": 1,
+    "explicacion": "La observación ayuda a descubrir conocimiento tácito y diferencias entre el proceso declarado y el real."
   },
   {
     "id": 33,
     "examen": 1,
-    "dominio": "Agile",
-    "tema": "Product owner",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es una responsabilidad principal del product owner?",
+    "dominio": "Business Analysis",
+    "tema": "Prototipos y modelos",
+    "dificultad": "intermedia",
+    "pregunta": "En rediseño del proceso de compras, los usuarios no logran imaginar la solución a partir de texto. ¿Qué técnica ayudaría primero?",
     "opciones": [
-      "Priorizar el backlog según valor",
-      "Asignar vacaciones en toda la empresa",
-      "Eliminar la colaboración del cliente",
-      "Realizar auditorías financieras externas"
+      "Una estimación paramétrica.",
+      "Un prototipo de baja fidelidad para explorar y validar la interacción.",
+      "Un análisis de ruta crítica.",
+      "Una reserva de gestión."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El product owner maximiza el valor del producto mediante la gestión y priorización del backlog."
+    "respuestaCorrecta": 1,
+    "explicacion": "Los prototipos hacen visible una posible solución y facilitan feedback temprano."
   },
   {
     "id": 34,
     "examen": 1,
-    "dominio": "Agile",
-    "tema": "Scrum Master",
-    "dificultad": "media",
-    "pregunta": "¿Qué hace principalmente un Scrum Master?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Calidad y grado",
+    "dificultad": "intermedia",
+    "pregunta": "En implementación de un sistema de inventarios, el cliente acepta pocas funciones, pero exige que todas cumplan sin defectos los criterios acordados. ¿Qué se ilustra?",
     "opciones": [
-      "Facilita el proceso y ayuda a eliminar impedimentos",
-      "Define unilateralmente todos los requisitos",
-      "Aprueba pagos contractuales",
-      "Reemplaza al usuario final"
+      "El producto puede tener bajo grado, pero debe cumplir la calidad acordada.",
+      "Bajo grado y baja calidad son exactamente lo mismo.",
+      "La calidad depende solo de la cantidad de funciones.",
+      "El grado elimina la necesidad de criterios de aceptación."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "El Scrum Master facilita Scrum, protege el proceso y ayuda a remover impedimentos."
+    "explicacion": "Grado es categoría o cantidad de características; calidad es conformidad y aptitud para uso."
   },
   {
     "id": 35,
     "examen": 1,
-    "dominio": "Agile",
-    "tema": "Incremento",
-    "dificultad": "media",
-    "pregunta": "¿Qué es un incremento en agile?",
+    "dominio": "Predictivo",
+    "tema": "Estimación y reservas",
+    "dificultad": "intermedia",
+    "pregunta": "En construcción de un almacén industrial, se asigna una reserva para el posible costo de un riesgo identificado. ¿Qué tipo de reserva es?",
     "opciones": [
-      "Una versión utilizable del producto creada durante una iteración",
-      "Una lista de riesgos cerrados",
-      "Una fase sin entregables",
-      "Un documento legal"
+      "Reserva de gestión para trabajo no autorizado.",
+      "Reserva de contingencia para riesgos conocidos.",
+      "Valor ganado todavía no facturado.",
+      "Costo hundido que no puede controlarse."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El incremento es el resultado potencialmente entregable producido durante una iteración."
+    "respuestaCorrecta": 1,
+    "explicacion": "La contingencia cubre riesgos identificados y normalmente forma parte de la línea base de costos."
   },
   {
     "id": 36,
     "examen": 1,
-    "dominio": "Agile",
-    "tema": "Kanban",
-    "dificultad": "media",
-    "pregunta": "¿Qué permite visualizar un tablero Kanban?",
+    "dominio": "Predictivo",
+    "tema": "EAC y TCPI",
+    "dificultad": "intermedia",
+    "pregunta": "En construcción de un almacén industrial, BAC=1 000 y CPI=0,80. Si la eficiencia de costo continuará, ¿cuál es el EAC aproximado?",
     "opciones": [
-      "El flujo de trabajo y el estado de las tareas",
-      "Solo el presupuesto",
-      "La estructura jerárquica de la empresa",
-      "Los contratos de proveedores"
+      "800, usando BAC×CPI.",
+      "1 000, porque el BAC nunca puede cambiar.",
+      "1 250, usando EAC=BAC/CPI.",
+      "200, usando BAC−EV."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Kanban ayuda a visualizar el trabajo, limitar trabajo en proceso y mejorar el flujo."
+    "respuestaCorrecta": 2,
+    "explicacion": "Cuando el desempeño de costo continuará, una fórmula común es BAC dividido entre CPI."
   },
   {
     "id": 37,
     "examen": 1,
-    "dominio": "Business Analysis",
-    "tema": "Requisitos",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es una función importante del análisis de negocio en un proyecto?",
+    "dominio": "Predictivo",
+    "tema": "Control de calidad",
+    "dificultad": "intermedia",
+    "pregunta": "En construcción de un almacén industrial, el equipo inspecciona una muestra para comprobar tolerancias del entregable. ¿Qué actividad realiza?",
     "opciones": [
-      "Identificar necesidades y transformarlas en requisitos",
-      "Aprobar todos los pagos",
-      "Reemplazar al director del proyecto",
-      "Eliminar la gestión de interesados"
+      "Control de calidad sobre resultados producidos.",
+      "Gestión de beneficios posteriores al cierre.",
+      "Planificación del portafolio.",
+      "Elicitación de requisitos."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "El análisis de negocio ayuda a identificar necesidades, requisitos y soluciones de valor."
+    "explicacion": "El control de calidad mide e inspecciona resultados para determinar conformidad."
   },
   {
     "id": 38,
     "examen": 1,
-    "dominio": "Business Analysis",
-    "tema": "Necesidad de negocio",
-    "dificultad": "media",
-    "pregunta": "Antes de definir una solución, ¿qué debe comprender primero el análisis de negocio?",
+    "dominio": "Predictivo",
+    "tema": "WBS y alcance",
+    "dificultad": "intermedia",
+    "pregunta": "En construcción de un almacén industrial, existe un cronograma detallado, pero el equipo no puede demostrar que todo el alcance aprobado esté incluido. ¿Qué debe revisar?",
     "opciones": [
-      "La necesidad o problema de negocio",
-      "El color del informe final",
-      "La cantidad de reuniones sociales",
-      "El nombre del software que se usará siempre"
+      "Solo el registro de interesados.",
+      "Únicamente el plan de comunicaciones.",
+      "El informe de costos reales, sin revisar alcance.",
+      "La WBS, su diccionario y la línea base del alcance."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Primero se entiende la necesidad, problema u oportunidad antes de proponer una solución."
+    "respuestaCorrecta": 3,
+    "explicacion": "La línea base del alcance integra enunciado, WBS y diccionario para definir y controlar el trabajo."
   },
   {
     "id": 39,
     "examen": 1,
     "dominio": "Business Analysis",
-    "tema": "Elicitación de requisitos",
-    "dificultad": "media",
-    "pregunta": "¿Cuál técnica puede usarse para obtener requisitos de los interesados?",
+    "tema": "AS-IS y TO-BE",
+    "dificultad": "intermedia",
+    "pregunta": "En rediseño del proceso de compras, el equipo documenta el proceso actual y luego diseña el futuro deseado. ¿Qué debe analizar entre ambos?",
     "opciones": [
-      "Entrevistas y talleres",
-      "Ruta crítica",
-      "Compresión del cronograma",
-      "Cálculo de valor ganado"
+      "Solo el diseño visual de la pantalla.",
+      "Únicamente el costo inicial de la solución.",
+      "Nada, porque el estado futuro reemplaza automáticamente al actual.",
+      "La brecha de capacidades, procesos, tecnología, personas y controles."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Entrevistas, talleres, observación y focus groups son técnicas comunes de elicitation."
+    "respuestaCorrecta": 3,
+    "explicacion": "El análisis de brecha identifica lo necesario para pasar del AS-IS al TO-BE."
   },
   {
     "id": 40,
     "examen": 1,
     "dominio": "Business Analysis",
-    "tema": "Criterios de aceptación",
-    "dificultad": "alta",
-    "pregunta": "¿Para qué sirven los criterios de aceptación?",
+    "tema": "Evaluación de solución",
+    "dificultad": "intermedia",
+    "pregunta": "Después de implementar rediseño del proceso de compras, el indicador principal no mejora. ¿Qué debería hacer el analista?",
     "opciones": [
-      "Definir las condiciones que debe cumplir un entregable para ser aceptado",
-      "Evitar la participación del cliente",
-      "Eliminar las pruebas",
-      "Modificar requisitos sin trazabilidad"
+      "Comparar resultados con metas, investigar causas y recomendar ajustes.",
+      "Declarar éxito porque la solución fue instalada.",
+      "Medir solo la cantidad de funciones entregadas.",
+      "Cerrar toda evaluación al finalizar el proyecto."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Los criterios de aceptación establecen condiciones claras para validar un entregable."
+    "explicacion": "La evaluación determina si la solución obtiene el valor esperado e identifica limitaciones."
   },
   {
     "id": 41,
     "examen": 1,
     "dominio": "Business Analysis",
     "tema": "Trazabilidad",
-    "dificultad": "alta",
-    "pregunta": "¿Para qué sirve la trazabilidad de requisitos?",
+    "dificultad": "intermedia",
+    "pregunta": "En rediseño del proceso de compras, cambia una regla de negocio. ¿Qué herramienta ayuda a identificar diseños, pruebas y entregables afectados?",
     "opciones": [
-      "Relacionar requisitos con objetivos, entregables y validación",
-      "Eliminar la necesidad de pruebas",
-      "Reemplazar al patrocinador",
-      "Reducir el alcance sin aprobación"
+      "El gráfico de burn-down.",
+      "La matriz de trazabilidad de requisitos.",
+      "La reserva de gestión.",
+      "El calendario de recursos."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La trazabilidad permite seguir cada requisito desde su origen hasta su validación."
+    "respuestaCorrecta": 1,
+    "explicacion": "La trazabilidad conecta origen, objetivos, requisitos, diseño, entregables, pruebas y estado."
   },
   {
     "id": 42,
     "examen": 1,
-    "dominio": "Business Analysis",
-    "tema": "Validación de requisitos",
-    "dificultad": "alta",
-    "pregunta": "Un requisito fue implementado, pero el usuario indica que no resuelve la necesidad original. ¿Qué pudo fallar?",
+    "dominio": "Agile",
+    "tema": "Daily e impedimentos",
+    "dificultad": "intermedia",
+    "pregunta": "La daily de desarrollo de un portal de clientes se convirtió en un reporte de 45 minutos al gerente. ¿Qué debería corregirse?",
     "opciones": [
-      "La validación del requisito frente a la necesidad de negocio",
-      "El uso de una WBS",
-      "La numeración del cronograma",
-      "El nombre del proyecto"
+      "Aumentar su duración para responder más preguntas gerenciales.",
+      "Invitar a todos los interesados para aprobar cada tarea.",
+      "Reenfocarla en la coordinación del equipo hacia el sprint goal.",
+      "Eliminar la inspección diaria del progreso."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La validación asegura que los requisitos y la solución respondan a la necesidad real."
+    "respuestaCorrecta": 2,
+    "explicacion": "La daily es un evento breve de coordinación e inspección, no un reporte jerárquico."
   },
   {
     "id": 43,
     "examen": 1,
-    "dominio": "Business Analysis",
-    "tema": "Verificación y validación",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es la diferencia más adecuada entre verificar y validar requisitos?",
+    "dominio": "Agile",
+    "tema": "Estimación y velocidad",
+    "dificultad": "intermedia",
+    "pregunta": "Dos equipos de desarrollo de un portal de clientes tienen velocidades de 30 y 50 puntos. ¿Puede concluirse que el segundo es más productivo?",
     "opciones": [
-      "Verificar revisa conformidad; validar confirma que satisface la necesidad",
-      "Validar elimina interesados; verificar elimina pruebas",
-      "Son lo mismo",
-      "Verificar solo ocurre después del cierre"
+      "Sí; una velocidad mayor siempre demuestra mejor productividad.",
+      "Sí, siempre que tengan el mismo product owner.",
+      "No, porque la velocidad nunca sirve para pronosticar.",
+      "No; los puntos son relativos a cada equipo y no deben compararse directamente."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Verificación revisa si cumple lo especificado; validación confirma si sirve para la necesidad."
+    "respuestaCorrecta": 3,
+    "explicacion": "La velocidad ayuda a un equipo a pronosticar su propio trabajo, no a comparar productividad."
   },
   {
     "id": 44,
     "examen": 1,
     "dominio": "Business Analysis",
-    "tema": "Análisis de interesados",
-    "dificultad": "media",
-    "pregunta": "¿Por qué el analista de negocio debe entender a los interesados?",
+    "tema": "Impacto de cambios",
+    "dificultad": "intermedia",
+    "pregunta": "En rediseño del proceso de compras, se propone modificar un requisito de datos. ¿Qué debería analizarse antes de aprobarlo?",
     "opciones": [
-      "Porque sus necesidades y expectativas influyen en los requisitos",
-      "Porque todos tienen el mismo poder",
-      "Porque solo importan al cierre",
-      "Porque reemplazan al patrocinador"
+      "Solo el texto del requisito modificado.",
+      "Únicamente la preferencia del solicitante.",
+      "Nada, porque los requisitos pueden cambiar sin consecuencias.",
+      "Impactos en procesos, interfaces, reglas, seguridad, pruebas, costo y plazo."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los interesados son fuente clave de necesidades, requisitos, restricciones y criterios de aceptación."
+    "respuestaCorrecta": 3,
+    "explicacion": "La trazabilidad y los modelos permiten identificar efectos directos e indirectos."
   },
   {
     "id": 45,
     "examen": 1,
-    "dominio": "Business Analysis",
-    "tema": "Solución",
-    "dificultad": "media",
-    "pregunta": "¿Qué significa evaluar una solución en análisis de negocio?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Ética profesional",
+    "dificultad": "intermedia",
+    "pregunta": "Durante implementación de un sistema de inventarios, un superior pide mantener un avance inflado para evitar una penalidad. ¿Qué debería hacer el miembro del equipo?",
     "opciones": [
-      "Determinar si la solución entrega valor y satisface la necesidad",
-      "Cerrar el proyecto sin revisión",
-      "Ignorar requisitos",
-      "Cambiar el alcance sin control"
+      "Mantener la cifra porque fue solicitada por una autoridad.",
+      "Modificar otros indicadores para compensar la diferencia.",
+      "Esperar al cierre para registrar el hecho como lección aprendida.",
+      "Reportar los datos reales por los canales apropiados y actuar con transparencia."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Evaluar la solución permite confirmar que resuelve la necesidad y genera valor esperado."
+    "respuestaCorrecta": 3,
+    "explicacion": "La ética profesional exige honestidad, responsabilidad y comunicación oportuna de información relevante."
   },
   {
     "id": 46,
     "examen": 1,
-    "dominio": "Business Analysis",
-    "tema": "Requisitos funcionales",
-    "dificultad": "media",
-    "pregunta": "¿Qué describe mejor un requisito funcional?",
+    "dominio": "Agile",
+    "tema": "Review y retrospectiva",
+    "dificultad": "intermedia",
+    "pregunta": "En desarrollo de un portal de clientes, los interesados inspeccionan el incremento y proponen cambios al producto. ¿En qué evento ocurre principalmente?",
     "opciones": [
-      "Una capacidad o comportamiento que la solución debe realizar",
-      "Una restricción de presupuesto",
-      "Una preferencia de color sin impacto",
-      "Una fecha contractual"
+      "En la retrospectiva, cuyo foco es mejorar el proceso del equipo.",
+      "En la daily, que reemplaza la aceptación del producto.",
+      "En la sprint review, donde se revisa el resultado y se adapta el backlog.",
+      "En la planificación anual del portafolio."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los requisitos funcionales describen funciones, comportamientos o capacidades de la solución."
+    "respuestaCorrecta": 2,
+    "explicacion": "La review se enfoca en producto, valor, feedback y próximos pasos."
   },
   {
     "id": 47,
     "examen": 1,
-    "dominio": "Business Analysis",
-    "tema": "Requisitos no funcionales",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es un ejemplo de requisito no funcional?",
+    "dominio": "Agile",
+    "tema": "MVP y feedback",
+    "dificultad": "intermedia",
+    "pregunta": "En desarrollo de un portal de clientes, se quiere validar una hipótesis antes de construir la solución completa. ¿Qué enfoque es más útil?",
     "opciones": [
-      "El sistema debe responder en menos de dos segundos",
-      "El sistema debe registrar usuarios",
-      "El usuario debe poder crear reportes",
-      "El sistema debe calcular impuestos"
+      "Construir toda la solución y solicitar feedback al final.",
+      "Aumentar la documentación sin probar el comportamiento.",
+      "Crear el experimento o MVP más pequeño que produzca aprendizaje confiable.",
+      "Congelar el producto hasta eliminar toda incertidumbre."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los requisitos no funcionales describen atributos de calidad como desempeño, seguridad o usabilidad."
+    "respuestaCorrecta": 2,
+    "explicacion": "Un MVP reduce desperdicio y permite validar valor o viabilidad mediante aprendizaje temprano."
   },
   {
     "id": 48,
     "examen": 1,
-    "dominio": "Business Analysis",
-    "tema": "Alcance de solución",
-    "dificultad": "media",
-    "pregunta": "¿Qué define el alcance de la solución?",
+    "dominio": "Agile",
+    "tema": "Selección de enfoque",
+    "dificultad": "intermedia",
+    "pregunta": "En desarrollo de un portal de clientes, los usuarios no pueden definir todos los requisitos y necesitan ver versiones frecuentes para aprender. ¿Qué enfoque es más adecuado?",
     "opciones": [
-      "Las capacidades y características que tendrá la solución",
-      "La ruta crítica completa",
-      "El salario del equipo",
-      "La lista de feriados"
+      "Adaptativo, con entregas cortas y retroalimentación continua.",
+      "Predictivo rígido con alcance congelado desde el inicio.",
+      "Operacional sin objetivo de producto.",
+      "Suspender todo trabajo hasta conocer cada requisito."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "El alcance de solución describe lo que la solución debe incluir para satisfacer necesidades."
+    "explicacion": "El enfoque adaptativo es apropiado cuando existe incertidumbre y el aprendizaje frecuente aporta valor."
   },
   {
     "id": 49,
     "examen": 1,
     "dominio": "Business Analysis",
-    "tema": "Matriz de trazabilidad",
-    "dificultad": "alta",
-    "pregunta": "¿Qué permite verificar una matriz de trazabilidad de requisitos?",
+    "tema": "Requisitos de transición",
+    "dificultad": "intermedia",
+    "pregunta": "En rediseño del proceso de compras, es necesario migrar datos históricos una sola vez y capacitar usuarios antes del despliegue. ¿Cómo se clasifica?",
     "opciones": [
-      "Que cada requisito esté vinculado con su origen, entregable, prueba y estado",
-      "Que todo cambio sea automático",
-      "Que no existan interesados",
-      "Que el cronograma no tenga actividades"
+      "Como requisitos de transición para pasar al estado futuro.",
+      "Como funciones permanentes del producto.",
+      "Como beneficios ya realizados.",
+      "Como restricciones del portafolio."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La matriz de trazabilidad conecta requisitos con origen, entregables, pruebas y estado."
+    "explicacion": "Los requisitos de transición habilitan el cambio y pueden dejar de ser necesarios después de implementar."
   },
   {
     "id": 50,
     "examen": 1,
-    "dominio": "Business Analysis",
-    "tema": "Priorización de requisitos",
-    "dificultad": "alta",
-    "pregunta": "Cuando no todos los requisitos pueden entregarse en la primera versión, ¿qué debe hacerse?",
+    "dominio": "Predictivo",
+    "tema": "Valor ganado",
+    "dificultad": "intermedia",
+    "pregunta": "En el corte de construcción de un almacén industrial, EV=80, PV=100 y AC=90. ¿Cuál es la interpretación correcta?",
     "opciones": [
-      "Priorizarlos según valor, urgencia, riesgo y dependencias",
-      "Eliminar todos sin consultar",
-      "Elegirlos al azar",
-      "Aprobarlos automáticamente"
+      "Está adelantado y por debajo del presupuesto.",
+      "El proyecto está atrasado y con sobrecosto: SPI=0,80 y CPI≈0,89.",
+      "Está atrasado, pero con eficiencia de costo favorable.",
+      "Está según plan porque EV y AC son cercanos."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La priorización ayuda a decidir qué requisitos entregar primero según valor y restricciones."
+    "respuestaCorrecta": 1,
+    "explicacion": "SPI=EV/PV y CPI=EV/AC; valores menores que uno son desfavorables."
   },
   {
     "id": 51,
     "examen": 2,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Acta de constitución",
-    "dificultad": "media",
-    "pregunta": "El patrocinador firma el acta de constitución. ¿Qué efecto tiene esto?",
+    "tema": "Roles y responsabilidades",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En construcción de una planta de tratamiento de agua, el patrocinador intenta asignar tareas diarias directamente a cada miembro y genera instrucciones contradictorias. ¿Qué debería hacer el director?",
     "opciones": [
-      "Autoriza formalmente el proyecto y al director del proyecto",
-      "Cierra todos los contratos",
-      "Elimina la planificación",
-      "Aprueba automáticamente todo cambio futuro"
+      "Permitir todas las instrucciones porque el patrocinador tiene mayor jerarquía.",
+      "Aclarar roles y acordar un canal de dirección coherente con la gobernanza.",
+      "Excluir al patrocinador de toda comunicación futura.",
+      "Pedir al equipo que elija qué instrucciones seguir sin criterios."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El acta autoriza formalmente el proyecto y da autoridad al director del proyecto."
+    "respuestaCorrecta": 1,
+    "explicacion": "El patrocinador aporta dirección estratégica; el director integra y coordina la ejecución cotidiana."
   },
   {
     "id": 52,
     "examen": 2,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Beneficios",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es la diferencia entre un entregable y un beneficio?",
+    "dominio": "Agile",
+    "tema": "Estimación y velocidad",
+    "dificultad": "intermedia-alta",
+    "pregunta": "Dos equipos de desarrollo de una aplicación de mantenimiento tienen velocidades de 30 y 50 puntos. ¿Puede concluirse que el segundo es más productivo?",
     "opciones": [
-      "El entregable es un resultado producido; el beneficio es el valor obtenido por usarlo",
-      "Son lo mismo",
-      "El beneficio siempre se entrega antes del proyecto",
-      "El entregable no puede medirse"
+      "Sí; una velocidad mayor siempre demuestra mejor productividad.",
+      "Sí, siempre que tengan el mismo product owner.",
+      "No; los puntos son relativos a cada equipo y no deben compararse directamente.",
+      "No, porque la velocidad nunca sirve para pronosticar."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Un entregable puede permitir beneficios, pero el beneficio es el valor logrado."
+    "respuestaCorrecta": 2,
+    "explicacion": "La velocidad ayuda a un equipo a pronosticar su propio trabajo, no a comparar productividad."
   },
   {
     "id": 53,
     "examen": 2,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Caso de negocio",
-    "dificultad": "media",
-    "pregunta": "¿Para qué sirve principalmente el caso de negocio?",
+    "dominio": "Agile",
+    "tema": "Daily e impedimentos",
+    "dificultad": "intermedia-alta",
+    "pregunta": "La daily de desarrollo de una aplicación de mantenimiento se convirtió en un reporte de 45 minutos al gerente. ¿Qué debería corregirse?",
     "opciones": [
-      "Justificar la inversión y explicar por qué conviene realizar el proyecto",
-      "Reemplazar el cronograma",
-      "Asignar tareas diarias",
-      "Eliminar riesgos"
+      "Aumentar su duración para responder más preguntas gerenciales.",
+      "Invitar a todos los interesados para aprobar cada tarea.",
+      "Reenfocarla en la coordinación del equipo hacia el sprint goal.",
+      "Eliminar la inspección diaria del progreso."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El caso de negocio sustenta la necesidad, beneficios esperados, costos y justificación del proyecto."
+    "respuestaCorrecta": 2,
+    "explicacion": "La daily es un evento breve de coordinación e inspección, no un reporte jerárquico."
   },
   {
     "id": 54,
     "examen": 2,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Factores ambientales",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es un ejemplo de factor ambiental de la empresa?",
+    "dominio": "Business Analysis",
+    "tema": "Requisitos de transición",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En automatización de la gestión de permisos, es necesario migrar datos históricos una sola vez y capacitar usuarios antes del despliegue. ¿Cómo se clasifica?",
     "opciones": [
-      "Cultura organizacional y condiciones del mercado",
-      "Lista de tareas de una iteración",
-      "Registro de defectos del producto",
-      "Una historia de usuario"
+      "Como funciones permanentes del producto.",
+      "Como beneficios ya realizados.",
+      "Como restricciones del portafolio.",
+      "Como requisitos de transición para pasar al estado futuro."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los factores ambientales influyen en el proyecto pero normalmente están fuera del control directo del equipo."
+    "respuestaCorrecta": 3,
+    "explicacion": "Los requisitos de transición habilitan el cambio y pueden dejar de ser necesarios después de implementar."
   },
   {
     "id": 55,
     "examen": 2,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Activos de procesos organizacionales",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es un activo de procesos organizacionales?",
+    "dominio": "Predictivo",
+    "tema": "Estimación y reservas",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En instalación de una línea de conducción, se asigna una reserva para el posible costo de un riesgo identificado. ¿Qué tipo de reserva es?",
     "opciones": [
-      "Plantillas, políticas y lecciones aprendidas históricas",
-      "El clima del mercado externo",
-      "Una ley nueva",
-      "La ubicación geográfica del cliente"
+      "Reserva de gestión para trabajo no autorizado.",
+      "Reserva de contingencia para riesgos conocidos.",
+      "Valor ganado todavía no facturado.",
+      "Costo hundido que no puede controlarse."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los activos de procesos incluyen plantillas, procedimientos, bases históricas y lecciones aprendidas."
+    "respuestaCorrecta": 1,
+    "explicacion": "La contingencia cubre riesgos identificados y normalmente forma parte de la línea base de costos."
   },
   {
     "id": 56,
     "examen": 2,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Interesados poder/interés",
-    "dificultad": "alta",
-    "pregunta": "Un interesado tiene alto poder y alto interés. ¿Qué estrategia general conviene?",
+    "dominio": "Predictivo",
+    "tema": "Valor ganado",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En el corte de instalación de una línea de conducción, EV=80, PV=100 y AC=90. ¿Cuál es la interpretación correcta?",
     "opciones": [
-      "Gestionarlo de cerca",
-      "Ignorarlo",
-      "Informarlo solo al cierre",
-      "Eliminarlo del registro"
+      "El proyecto está atrasado y con sobrecosto: SPI=0,80 y CPI≈0,89.",
+      "Está adelantado y por debajo del presupuesto.",
+      "Está atrasado, pero con eficiencia de costo favorable.",
+      "Está según plan porque EV y AC son cercanos."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Los interesados con alto poder e interés requieren gestión cercana y comunicación adecuada."
+    "explicacion": "SPI=EV/PV y CPI=EV/AC; valores menores que uno son desfavorables."
   },
   {
     "id": 57,
     "examen": 2,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Conflictos",
-    "dificultad": "media",
-    "pregunta": "Dos especialistas discrepan técnicamente sobre una solución. ¿Qué debe promover el director del proyecto?",
+    "dominio": "Business Analysis",
+    "tema": "Verificación y validación",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En automatización de la gestión de permisos, un requisito está bien escrito y comprobable, pero no resuelve ninguna necesidad real. ¿Qué ocurrió?",
     "opciones": [
-      "Colaboración y análisis objetivo para resolver el conflicto",
-      "Evitar que hablen entre ellos",
-      "Decidir sin escuchar",
-      "Ocultar el problema al equipo"
+      "Fue verificado, pero no validado contra la necesidad de negocio.",
+      "Fue validado, pero no estimado.",
+      "Fue aceptado y por eso no puede cambiar.",
+      "Solo carece de una reserva de contingencia."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La colaboración y la solución conjunta suelen producir mejores resultados ante conflictos técnicos."
+    "explicacion": "Verificar evalúa calidad formal; validar confirma relevancia y capacidad de satisfacer la necesidad."
   },
   {
     "id": 58,
     "examen": 2,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Equipo de proyecto",
-    "dificultad": "media",
-    "pregunta": "¿Qué favorece el desarrollo de un equipo de alto desempeño?",
+    "dominio": "Predictivo",
+    "tema": "Control integrado de cambios",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En instalación de una línea de conducción, el cliente solicita un entregable adicional después de aprobarse la línea base. ¿Qué debe hacerse primero?",
     "opciones": [
-      "Confianza, comunicación clara y objetivos compartidos",
-      "Ambigüedad constante de roles",
-      "Falta de retroalimentación",
-      "Competencia destructiva"
+      "Ejecutarla y solicitar aprobación después.",
+      "Rechazarla porque una línea base nunca puede cambiar.",
+      "Modificar solo el presupuesto sin revisar otros objetivos.",
+      "Registrar la solicitud y analizar impactos antes de obtener una decisión formal."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los equipos eficaces requieren confianza, claridad, colaboración y propósito común."
+    "respuestaCorrecta": 3,
+    "explicacion": "El control integrado evalúa impactos y obtiene aprobación antes de modificar líneas base."
   },
   {
     "id": 59,
     "examen": 2,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Comunicación efectiva",
-    "dificultad": "media",
-    "pregunta": "¿Qué elemento mejora la comunicación con interesados?",
+    "dominio": "Agile",
+    "tema": "Selección de enfoque",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En desarrollo de una aplicación de mantenimiento, los usuarios no pueden definir todos los requisitos y necesitan ver versiones frecuentes para aprender. ¿Qué enfoque es más adecuado?",
     "opciones": [
-      "Adaptar el mensaje al receptor y confirmar entendimiento",
-      "Enviar información sin contexto",
-      "Comunicar solo cuando hay problemas",
-      "Usar siempre el mismo canal"
+      "Predictivo rígido con alcance congelado desde el inicio.",
+      "Adaptativo, con entregas cortas y retroalimentación continua.",
+      "Operacional sin objetivo de producto.",
+      "Suspender todo trabajo hasta conocer cada requisito."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La comunicación efectiva considera necesidades del receptor, canal, oportunidad y retroalimentación."
+    "respuestaCorrecta": 1,
+    "explicacion": "El enfoque adaptativo es apropiado cuando existe incertidumbre y el aprendizaje frecuente aporta valor."
   },
   {
     "id": 60,
     "examen": 2,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Adaptación del enfoque",
-    "dificultad": "alta",
-    "pregunta": "Un proyecto tiene parte del alcance muy claro y otra parte incierta. ¿Qué enfoque podría ser conveniente?",
+    "dominio": "Business Analysis",
+    "tema": "Elicitación",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En automatización de la gestión de permisos, los usuarios realizan un trabajo complejo que les cuesta explicar y existen muchas excepciones. ¿Qué técnica puede revelar mejor la realidad?",
     "opciones": [
-      "Híbrido",
-      "Solo operativo",
-      "Sin planificación",
-      "Eliminar la parte incierta"
+      "Solo una encuesta cerrada a una persona.",
+      "Observación directa complementada con preguntas.",
+      "Un cálculo de valor ganado.",
+      "La ruta crítica del proyecto."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Un enfoque híbrido combina prácticas predictivas y adaptativas según las características del trabajo."
+    "respuestaCorrecta": 1,
+    "explicacion": "La observación ayuda a descubrir conocimiento tácito y diferencias entre el proceso declarado y el real."
   },
   {
     "id": 61,
     "examen": 2,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Restricción de costo",
-    "dificultad": "media",
-    "pregunta": "El presupuesto no puede superar un monto aprobado. ¿Qué representa esto?",
+    "dominio": "Business Analysis",
+    "tema": "Impacto de cambios",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En automatización de la gestión de permisos, se propone modificar un requisito de datos. ¿Qué debería analizarse antes de aprobarlo?",
     "opciones": [
-      "Restricción",
-      "Supuesto",
-      "Oportunidad",
-      "Lección aprendida"
+      "Solo el texto del requisito modificado.",
+      "Únicamente la preferencia del solicitante.",
+      "Nada, porque los requisitos pueden cambiar sin consecuencias.",
+      "Impactos en procesos, interfaces, reglas, seguridad, pruebas, costo y plazo."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El presupuesto máximo es una restricción que limita las decisiones del proyecto."
+    "respuestaCorrecta": 3,
+    "explicacion": "La trazabilidad y los modelos permiten identificar efectos directos e indirectos."
   },
   {
     "id": 62,
     "examen": 2,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Issue log",
-    "dificultad": "media",
-    "pregunta": "Un riesgo ya ocurrió y está afectando el trabajo. ¿Dónde debería registrarse para seguimiento?",
+    "dominio": "Business Analysis",
+    "tema": "Priorización de requisitos",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En automatización de la gestión de permisos, no todos los requisitos caben en la primera versión. ¿Qué criterio debería guiar la prioridad?",
     "opciones": [
-      "Registro de incidentes o issue log",
-      "Product backlog únicamente",
-      "Acta de constitución",
-      "Caso de negocio"
+      "La persona que habla más fuerte en la reunión.",
+      "El orden de llegada sin revisión.",
+      "La cantidad de palabras de cada requisito.",
+      "Valor, riesgo, urgencia, cumplimiento y dependencias mediante criterios acordados."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los issues son problemas actuales que requieren seguimiento y resolución."
+    "respuestaCorrecta": 3,
+    "explicacion": "La priorización debe ser transparente y relacionarse con valor y restricciones reales."
   },
   {
     "id": 63,
     "examen": 2,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Gestión del conocimiento",
-    "dificultad": "media",
-    "pregunta": "¿Por qué es importante compartir conocimiento dentro del proyecto?",
+    "tema": "Respuesta a riesgos",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En construcción de una planta de tratamiento de agua, una amenaza de alta probabilidad está descrita en el registro, pero no tiene responsable ni respuesta. ¿Qué falta?",
     "opciones": [
-      "Reduce errores repetidos y mejora la toma de decisiones",
-      "Evita toda documentación",
-      "Reemplaza la gestión de riesgos",
-      "Elimina la necesidad de comunicación"
+      "Asignar un propietario, una respuesta, disparadores y acciones de seguimiento.",
+      "Trasladarla al registro de lecciones aprendidas.",
+      "Considerarla resuelta porque ya fue identificada.",
+      "Aumentar el presupuesto sin documentar la causa."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Gestionar conocimiento permite reutilizar aprendizajes y mejorar resultados."
+    "explicacion": "Un riesgo accionable necesita análisis, responsable, respuesta y seguimiento."
   },
   {
     "id": 64,
     "examen": 2,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Autoridad del PM",
-    "dificultad": "media",
-    "pregunta": "¿De dónde proviene formalmente la autoridad inicial del director del proyecto?",
+    "tema": "Riesgo, problema, supuesto y restricción",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En construcción de una planta de tratamiento de agua, el equipo planifica suponiendo que un permiso será aprobado antes del inicio, aunque todavía no existe confirmación. ¿Cómo debe registrarse?",
     "opciones": [
-      "Del acta de constitución",
-      "Del informe final",
-      "De la retrospectiva",
-      "Del tablero Kanban"
+      "Como un problema actual que ya ocurrió.",
+      "Como una restricción contractual inmodificable.",
+      "Como una lección aprendida del cierre.",
+      "Como un supuesto que debe validarse y vigilarse."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El acta de constitución autoriza al director del proyecto a usar recursos y liderar el proyecto."
+    "respuestaCorrecta": 3,
+    "explicacion": "Un supuesto se considera verdadero para planificar, pero debe revisarse cuando aparece nueva información."
   },
   {
     "id": 65,
     "examen": 2,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Responsabilidad profesional",
-    "dificultad": "alta",
-    "pregunta": "Un proveedor ofrece un beneficio personal al director del proyecto a cambio de favorecerlo. ¿Qué debe hacer?",
+    "dominio": "Business Analysis",
+    "tema": "Evaluación de solución",
+    "dificultad": "intermedia-alta",
+    "pregunta": "Después de implementar automatización de la gestión de permisos, el indicador principal no mejora. ¿Qué debería hacer el analista?",
     "opciones": [
-      "Rechazarlo y seguir las políticas éticas y de adquisiciones",
-      "Aceptarlo si no afecta el cronograma",
-      "Ocultarlo si el proveedor es bueno",
-      "Modificar la evaluación"
+      "Declarar éxito porque la solución fue instalada.",
+      "Medir solo la cantidad de funciones entregadas.",
+      "Comparar resultados con metas, investigar causas y recomendar ajustes.",
+      "Cerrar toda evaluación al finalizar el proyecto."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Aceptar beneficios personales compromete la objetividad y viola principios éticos."
+    "respuestaCorrecta": 2,
+    "explicacion": "La evaluación determina si la solución obtiene el valor esperado e identifica limitaciones."
   },
   {
     "id": 66,
     "examen": 2,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Criterios de éxito",
-    "dificultad": "media",
-    "pregunta": "¿Por qué deben definirse criterios de éxito del proyecto?",
+    "tema": "Reuniones y causa raíz",
+    "dificultad": "intermedia-alta",
+    "pregunta": "Las reuniones de construcción de una planta de tratamiento de agua terminan sin decisiones ni responsables. ¿Qué mejora debería aplicarse primero?",
     "opciones": [
-      "Para saber cómo se evaluará si el proyecto logró sus objetivos",
-      "Para eliminar la calidad",
-      "Para evitar medir resultados",
-      "Para reemplazar al patrocinador"
+      "Definir objetivo, agenda, participantes, decisiones esperadas y seguimiento de acciones.",
+      "Invitar a más personas y ampliar la duración.",
+      "Eliminar las actas para ahorrar tiempo.",
+      "Tratar todos los temas sin priorización."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Los criterios de éxito permiten evaluar objetivamente el logro de objetivos."
+    "explicacion": "Una reunión efectiva tiene propósito, preparación, facilitación y acciones con responsables y fechas."
   },
   {
     "id": 67,
     "examen": 2,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Interdependencias",
-    "dificultad": "media",
-    "pregunta": "Un proyecto depende de que otro proyecto entregue una plataforma primero. ¿Qué debe gestionarse?",
+    "dominio": "Agile",
+    "tema": "MVP y feedback",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En desarrollo de una aplicación de mantenimiento, se quiere validar una hipótesis antes de construir la solución completa. ¿Qué enfoque es más útil?",
     "opciones": [
-      "Dependencias e interfaces entre proyectos",
-      "Solo el presupuesto interno",
-      "La eliminación de interesados",
-      "El cierre inmediato"
+      "Construir toda la solución y solicitar feedback al final.",
+      "Aumentar la documentación sin probar el comportamiento.",
+      "Congelar el producto hasta eliminar toda incertidumbre.",
+      "Crear el experimento o MVP más pequeño que produzca aprendizaje confiable."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Las dependencias externas deben identificarse, monitorearse y coordinarse."
+    "respuestaCorrecta": 3,
+    "explicacion": "Un MVP reduce desperdicio y permite validar valor o viabilidad mediante aprendizaje temprano."
   },
   {
     "id": 68,
     "examen": 2,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Cierre administrativo",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es una acción propia del cierre administrativo?",
+    "tema": "Adaptación e híbrido",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En construcción de una planta de tratamiento de agua, los requisitos regulatorios son estables, pero la experiencia del usuario necesita pruebas frecuentes. ¿Qué enfoque es más apropiado?",
     "opciones": [
-      "Archivar documentos, confirmar aceptación y registrar lecciones aprendidas",
-      "Iniciar cambios no autorizados",
-      "Crear el primer cronograma",
-      "Ignorar entregables"
+      "Predictivo para todo, prohibiendo retroalimentación durante la ejecución.",
+      "Adaptativo para todo, eliminando controles regulatorios.",
+      "Un enfoque híbrido: predictivo para lo regulatorio y adaptativo para lo incierto.",
+      "Ningún enfoque, porque no se pueden combinar prácticas."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El cierre administrativo formaliza el término y conserva la información útil del proyecto."
+    "respuestaCorrecta": 2,
+    "explicacion": "La forma de trabajo se adapta a incertidumbre, cumplimiento, riesgo y naturaleza de cada componente."
   },
   {
     "id": 69,
     "examen": 2,
-    "dominio": "Predictivo",
-    "tema": "Alcance",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es el propósito de definir claramente el alcance en un proyecto predictivo?",
+    "dominio": "Business Analysis",
+    "tema": "AS-IS y TO-BE",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En automatización de la gestión de permisos, el equipo documenta el proceso actual y luego diseña el futuro deseado. ¿Qué debe analizar entre ambos?",
     "opciones": [
-      "Establecer qué se incluye y qué no se incluye en el proyecto",
-      "Eliminar todo control",
-      "Evitar la aprobación del cliente",
-      "Cambiar requisitos diariamente"
+      "Solo el diseño visual de la pantalla.",
+      "Únicamente el costo inicial de la solución.",
+      "La brecha de capacidades, procesos, tecnología, personas y controles.",
+      "Nada, porque el estado futuro reemplaza automáticamente al actual."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La definición del alcance reduce ambigüedad y sirve como base para planificación y control."
+    "respuestaCorrecta": 2,
+    "explicacion": "El análisis de brecha identifica lo necesario para pasar del AS-IS al TO-BE."
   },
   {
     "id": 70,
     "examen": 2,
-    "dominio": "Predictivo",
-    "tema": "Diccionario de la WBS",
-    "dificultad": "media",
-    "pregunta": "¿Para qué sirve el diccionario de la WBS?",
+    "dominio": "Business Analysis",
+    "tema": "Trazabilidad",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En automatización de la gestión de permisos, cambia una regla de negocio. ¿Qué herramienta ayuda a identificar diseños, pruebas y entregables afectados?",
     "opciones": [
-      "Describe los componentes de la WBS con mayor detalle",
-      "Reemplaza el contrato",
-      "Lista solo riesgos positivos",
-      "Define ceremonias ágiles"
+      "El gráfico de burn-down.",
+      "La reserva de gestión.",
+      "La matriz de trazabilidad de requisitos.",
+      "El calendario de recursos."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El diccionario de la WBS detalla paquetes de trabajo, criterios, responsables y otra información relevante."
+    "respuestaCorrecta": 2,
+    "explicacion": "La trazabilidad conecta origen, objetivos, requisitos, diseño, entregables, pruebas y estado."
   },
   {
     "id": 71,
     "examen": 2,
-    "dominio": "Predictivo",
-    "tema": "Estimación análoga",
-    "dificultad": "media",
-    "pregunta": "¿Cuándo se usa la estimación análoga?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Recursos y RACI",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En construcción de una planta de tratamiento de agua, una actividad tiene dos personas marcadas como Accountable y las decisiones se retrasan. ¿Qué corrección es más adecuada?",
     "opciones": [
-      "Cuando se estiman costos o duraciones usando información de proyectos similares",
-      "Cuando se prueban entregables",
-      "Cuando se prioriza el backlog",
-      "Cuando se cierran contratos"
+      "Agregar más personas como Accountable para repartir la responsabilidad.",
+      "Definir una sola persona que rinda cuentas y aclarar los demás roles.",
+      "Eliminar a todos los responsables y dejar solo informados.",
+      "Permitir que cada área apruebe una versión diferente."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La estimación análoga usa datos históricos de proyectos comparables."
+    "respuestaCorrecta": 1,
+    "explicacion": "La RACI debe aclarar responsabilidad y normalmente asigna una sola rendición de cuentas por resultado."
   },
   {
     "id": 72,
     "examen": 2,
-    "dominio": "Predictivo",
-    "tema": "Estimación paramétrica",
-    "dificultad": "alta",
-    "pregunta": "Si se estima el costo multiplicando metros cuadrados por costo unitario histórico, ¿qué técnica se usa?",
+    "dominio": "Agile",
+    "tema": "Definition of Done",
+    "dificultad": "intermedia-alta",
+    "pregunta": "Una historia de desarrollo de una aplicación de mantenimiento fue desarrollada, pero no probada, y la DoD exige pruebas aprobadas. ¿Puede contarse como terminada?",
     "opciones": [
-      "Estimación paramétrica",
-      "Juicio por afinidad",
-      "Retrospectiva",
-      "Control de cambios"
+      "Sí; basta con finalizar la codificación.",
+      "Sí; las pruebas pueden realizarse después del proyecto.",
+      "No; debe cumplir completamente la Definition of Done.",
+      "Depende solo de la opinión del desarrollador."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La estimación paramétrica usa relaciones estadísticas o unitarias para calcular costo o duración."
+    "respuestaCorrecta": 2,
+    "explicacion": "La DoD crea un entendimiento común y verificable de calidad y completitud."
   },
   {
     "id": 73,
     "examen": 2,
-    "dominio": "Predictivo",
-    "tema": "Holgura",
-    "dificultad": "alta",
-    "pregunta": "¿Qué significa que una actividad tenga holgura total positiva?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Gestión de problemas",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En construcción de una planta de tratamiento de agua, una dependencia externa ya incumplió y bloquea el trabajo. ¿Qué debería hacer primero el equipo?",
     "opciones": [
-      "Puede retrasarse cierta cantidad sin retrasar la fecha final del proyecto",
-      "Siempre está en ruta crítica",
-      "Debe eliminarse",
-      "No tiene predecesoras"
+      "Mantenerlo solo como riesgo porque alguna vez fue incierto.",
+      "Eliminar la dependencia del cronograma sin modificar el plan.",
+      "Esperar al cierre para documentarlo.",
+      "Registrar el problema y evaluar su impacto real en los objetivos del proyecto."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La holgura indica cuánto puede retrasarse una actividad sin afectar la fecha final."
+    "respuestaCorrecta": 3,
+    "explicacion": "Cuando un evento ya ocurrió, se gestiona como problema actual y se analiza su impacto integrado."
   },
   {
     "id": 74,
     "examen": 2,
-    "dominio": "Predictivo",
-    "tema": "Compresión del cronograma",
-    "dificultad": "alta",
-    "pregunta": "¿Cuál técnica agrega recursos para reducir la duración del cronograma, usualmente aumentando costo?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Ética profesional",
+    "dificultad": "intermedia-alta",
+    "pregunta": "Durante construcción de una planta de tratamiento de agua, un superior pide mantener un avance inflado para evitar una penalidad. ¿Qué debería hacer el miembro del equipo?",
     "opciones": [
-      "Crashing o intensificación",
-      "Fast tracking",
-      "Retrospectiva",
-      "Elicitación"
+      "Reportar los datos reales por los canales apropiados y actuar con transparencia.",
+      "Mantener la cifra porque fue solicitada por una autoridad.",
+      "Modificar otros indicadores para compensar la diferencia.",
+      "Esperar al cierre para registrar el hecho como lección aprendida."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Crashing reduce duración agregando recursos, con posible aumento de costo."
+    "explicacion": "La ética profesional exige honestidad, responsabilidad y comunicación oportuna de información relevante."
   },
   {
     "id": 75,
     "examen": 2,
     "dominio": "Predictivo",
-    "tema": "Fast tracking",
-    "dificultad": "alta",
-    "pregunta": "¿Qué implica fast tracking?",
+    "tema": "Control de calidad",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En instalación de una línea de conducción, el equipo inspecciona una muestra para comprobar tolerancias del entregable. ¿Qué actividad realiza?",
     "opciones": [
-      "Ejecutar actividades en paralelo que originalmente estaban secuenciadas",
-      "Eliminar el alcance",
-      "Aumentar calidad sin costo",
-      "Rechazar cambios"
+      "Gestión de beneficios posteriores al cierre.",
+      "Planificación del portafolio.",
+      "Control de calidad sobre resultados producidos.",
+      "Elicitación de requisitos."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Fast tracking solapa actividades y puede aumentar riesgos de retrabajo."
+    "respuestaCorrecta": 2,
+    "explicacion": "El control de calidad mide e inspecciona resultados para determinar conformidad."
   },
   {
     "id": 76,
     "examen": 2,
-    "dominio": "Predictivo",
-    "tema": "Control de costos",
-    "dificultad": "alta",
-    "pregunta": "Si EV = 80 y AC = 100, ¿qué indica el CPI?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Cierre y transición",
+    "dificultad": "intermedia-alta",
+    "pregunta": "El cliente aceptó los entregables de construcción de una planta de tratamiento de agua, pero operaciones no recibió capacitación y quedan contratos abiertos. ¿Puede cerrarse el proyecto?",
     "opciones": [
-      "CPI = 0.80, desempeño de costo desfavorable",
-      "CPI = 1.25, ahorro",
-      "CPI = 20, excelente",
-      "No se puede calcular"
+      "No; primero deben completarse transición, cierre contractual y demás actividades de cierre.",
+      "Sí; la aceptación técnica elimina todas las tareas pendientes.",
+      "Sí; los contratos pasan automáticamente a operaciones.",
+      "No; el proyecto debe permanecer abierto mientras exista cualquier beneficio futuro."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "CPI = EV/AC = 80/100 = 0.80; menor que 1 indica sobrecosto."
+    "explicacion": "El cierre incluye aceptación, contratos, archivos, transición, liberación de recursos y conocimiento."
   },
   {
     "id": 77,
     "examen": 2,
-    "dominio": "Agile",
-    "tema": "Manifiesto ágil",
-    "dificultad": "media",
-    "pregunta": "¿Qué valor ágil se refleja cuando el equipo conversa directamente con el cliente para aclarar necesidades?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Acta de constitución y patrocinio",
+    "dificultad": "intermedia-alta",
+    "pregunta": "El director asignado a construcción de una planta de tratamiento de agua necesita comprometer recursos funcionales, pero la iniciativa aún no está autorizada formalmente. ¿Qué debe obtener primero?",
     "opciones": [
-      "Colaboración con el cliente sobre negociación contractual rígida",
-      "Procesos sobre personas",
-      "Documentación extensa sobre producto funcional",
-      "Plan cerrado sobre respuesta al cambio"
+      "Una lista detallada de actividades sin aprobación del patrocinador.",
+      "Un acta de constitución aprobada que confirme objetivos y autoridad.",
+      "Un informe de cierre de adquisiciones.",
+      "Una retrospectiva del equipo técnico."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Agile valora la colaboración con el cliente para entregar soluciones útiles."
+    "respuestaCorrecta": 1,
+    "explicacion": "El acta autoriza formalmente el proyecto y otorga autoridad inicial al director."
   },
   {
     "id": 78,
     "examen": 2,
-    "dominio": "Agile",
-    "tema": "Sprint planning",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es el objetivo de la planificación del sprint?",
+    "dominio": "Business Analysis",
+    "tema": "Funcional y no funcional",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En automatización de la gestión de permisos, el requisito dice: “el 95 % de las búsquedas responderá en menos de dos segundos”. ¿Cómo se clasifica?",
     "opciones": [
-      "Seleccionar trabajo para la iteración y definir cómo abordarlo",
-      "Cerrar el proyecto",
-      "Aprobar el presupuesto anual",
-      "Realizar auditoría final"
+      "Como requisito funcional de registro.",
+      "Como requisito de transición temporal.",
+      "Como requisito no funcional y medible de desempeño.",
+      "Como beneficio de negocio ya realizado."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La planificación del sprint define el objetivo y el trabajo comprometido para la iteración."
+    "respuestaCorrecta": 2,
+    "explicacion": "Los no funcionales describen atributos como rendimiento, seguridad, disponibilidad y usabilidad."
   },
   {
     "id": 79,
     "examen": 2,
     "dominio": "Agile",
-    "tema": "Sprint review",
-    "dificultad": "media",
-    "pregunta": "¿Qué se busca en una revisión de sprint?",
+    "tema": "Liderazgo servicial",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En desarrollo de una aplicación de mantenimiento, el equipo espera que el Scrum Master asigne cada tarea. ¿Qué debería fomentar?",
     "opciones": [
-      "Inspeccionar el incremento y recibir retroalimentación",
-      "Analizar únicamente el desempeño financiero",
-      "Resolver conflictos contractuales",
-      "Ocultar defectos"
+      "Que el equipo se organice y decida cómo alcanzar el objetivo dentro de límites claros.",
+      "Que el Scrum Master actúe como jefe funcional.",
+      "Que el product owner controle a cada persona.",
+      "Que los interesados asignen trabajo directamente."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La review permite mostrar el incremento y adaptar el backlog según feedback."
+    "explicacion": "El liderazgo servicial facilita autonomía, colaboración y eliminación de impedimentos."
   },
   {
     "id": 80,
     "examen": 2,
-    "dominio": "Agile",
-    "tema": "Backlog refinement",
-    "dificultad": "media",
-    "pregunta": "¿Para qué sirve el refinamiento del backlog?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Lecciones aprendidas",
+    "dificultad": "intermedia-alta",
+    "pregunta": "Durante construcción de una planta de tratamiento de agua, el equipo descubre una solución que evitaría retrabajo en las siguientes fases. ¿Cuándo debería registrarla y compartirla?",
     "opciones": [
-      "Aclarar, dividir y preparar elementos futuros del backlog",
-      "Cerrar legalmente el proyecto",
-      "Eliminar retrospectivas",
-      "Cambiar todos los roles"
+      "Solo después del cierre administrativo.",
+      "Únicamente si la solución surgió de un fracaso.",
+      "Nunca, porque las lecciones son información informal.",
+      "Ahora, para que pueda aplicarse durante el mismo proyecto."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Refinar backlog mejora entendimiento, tamaño y prioridad de elementos futuros."
+    "respuestaCorrecta": 3,
+    "explicacion": "Las lecciones se capturan y utilizan durante todo el ciclo de vida, no solo al cierre."
   },
   {
     "id": 81,
     "examen": 2,
-    "dominio": "Agile",
-    "tema": "Definition of Done",
-    "dificultad": "alta",
-    "pregunta": "¿Qué representa la Definition of Done?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Interesados y comunicación",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En construcción de una planta de tratamiento de agua, un interesado de alto poder e interés afirma que recibe información demasiado tarde para decidir. ¿Qué debería revisar primero el director?",
     "opciones": [
-      "Criterios compartidos para considerar terminado un incremento o elemento",
-      "Una fecha fija contractual",
-      "Una lista de interesados",
-      "El presupuesto del proyecto"
+      "La WBS, porque define automáticamente la frecuencia de reportes.",
+      "El registro de adquisiciones cerradas.",
+      "Las necesidades de comunicación y la estrategia de involucramiento de ese interesado.",
+      "La velocidad del equipo, sin conversar con el interesado."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La Definition of Done asegura entendimiento común de calidad y completitud."
+    "respuestaCorrecta": 2,
+    "explicacion": "La comunicación debe adaptarse al poder, interés, necesidades y momento de decisión de cada interesado."
   },
   {
     "id": 82,
     "examen": 2,
-    "dominio": "Agile",
-    "tema": "Impedimentos",
-    "dificultad": "media",
-    "pregunta": "El equipo no puede avanzar por una dependencia externa bloqueada. ¿Qué debe hacer el Scrum Master?",
+    "dominio": "Predictivo",
+    "tema": "Adquisiciones",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En instalación de una línea de conducción, el alcance está bien definido y el comprador quiere transferir al vendedor el riesgo de sobrecostos. ¿Qué contrato suele ser más apropiado?",
     "opciones": [
-      "Ayudar a remover o escalar el impedimento",
-      "Culpar al equipo",
-      "Ignorar el bloqueo",
-      "Cancelar todas las reuniones"
+      "Precio fijo, con alcance y condiciones claramente definidos.",
+      "Costos reembolsables sin controles.",
+      "Tiempo y materiales sin límite.",
+      "Acuerdo verbal sin criterios de aceptación."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "El Scrum Master facilita la remoción de impedimentos que afectan al equipo."
+    "explicacion": "En precio fijo, el vendedor asume mayor riesgo de costo cuando el alcance es claro."
   },
   {
     "id": 83,
     "examen": 2,
     "dominio": "Agile",
-    "tema": "Trabajo en proceso",
-    "dificultad": "media",
-    "pregunta": "¿Por qué Kanban limita el trabajo en proceso?",
+    "tema": "Kanban y WIP",
+    "dificultad": "intermedia-alta",
+    "pregunta": "El tablero de desarrollo de una aplicación de mantenimiento muestra muchas tareas iniciadas y pocas terminadas. ¿Qué práctica puede mejorar el flujo?",
     "opciones": [
-      "Para mejorar el flujo y reducir multitarea excesiva",
-      "Para aumentar tareas abiertas",
-      "Para evitar transparencia",
-      "Para eliminar prioridades"
+      "Aumentar el número de tareas abiertas por persona.",
+      "Ocultar las columnas con bloqueos.",
+      "Limitar el trabajo en proceso y terminar antes de iniciar más.",
+      "Eliminar las políticas explícitas."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Limitar WIP mejora enfoque, flujo y tiempos de entrega."
+    "respuestaCorrecta": 2,
+    "explicacion": "Los límites WIP reducen multitarea y hacen visibles los cuellos de botella."
   },
   {
     "id": 84,
     "examen": 2,
     "dominio": "Agile",
-    "tema": "Velocidad",
-    "dificultad": "media",
-    "pregunta": "¿Qué representa la velocidad de un equipo ágil?",
+    "tema": "Review y retrospectiva",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En desarrollo de una aplicación de mantenimiento, los interesados inspeccionan el incremento y proponen cambios al producto. ¿En qué evento ocurre principalmente?",
     "opciones": [
-      "Cantidad de trabajo completado en una iteración",
-      "Cantidad de personas contratadas",
-      "Presupuesto total",
-      "Número de contratos"
+      "En la retrospectiva, cuyo foco es mejorar el proceso del equipo.",
+      "En la daily, que reemplaza la aceptación del producto.",
+      "En la planificación anual del portafolio.",
+      "En la sprint review, donde se revisa el resultado y se adapta el backlog."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La velocidad mide cuánto trabajo termina el equipo en un periodo y ayuda a pronosticar."
+    "respuestaCorrecta": 3,
+    "explicacion": "La review se enfoca en producto, valor, feedback y próximos pasos."
   },
   {
     "id": 85,
     "examen": 2,
-    "dominio": "Agile",
-    "tema": "Cambio en agile",
-    "dificultad": "media",
-    "pregunta": "¿Cómo se manejan usualmente los cambios en agile?",
+    "dominio": "Business Analysis",
+    "tema": "Interesados BA",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En automatización de la gestión de permisos, un usuario conoce el proceso pero tiene poca autoridad, mientras un director tiene poder pero poco detalle. ¿Cómo debe gestionarse?",
     "opciones": [
-      "Se incorporan mediante priorización continua del backlog",
-      "Se rechazan siempre",
-      "Se aprueban sin revisar valor",
-      "Se ocultan hasta el cierre"
+      "Consultar solo al director por tener mayor poder.",
+      "Involucrar a ambos según conocimiento, influencia y decisiones requeridas.",
+      "Consultar solo al usuario y omitir aprobación ejecutiva.",
+      "Aplicar la misma estrategia a todos sin análisis."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Agile acepta cambios cuando aportan valor y se gestionan por backlog."
+    "respuestaCorrecta": 1,
+    "explicacion": "El análisis considera poder, conocimiento, impacto, necesidades y rol en decisiones."
   },
   {
     "id": 86,
     "examen": 2,
-    "dominio": "Agile",
-    "tema": "Equipo autoorganizado",
-    "dificultad": "media",
-    "pregunta": "¿Qué caracteriza a un equipo autoorganizado?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Proyecto y operaciones",
+    "dificultad": "intermedia-alta",
+    "pregunta": "Durante construcción de una planta de tratamiento de agua, el equipo implementará un resultado único y después un área permanente lo administrará mensualmente. ¿Cómo debe clasificarse el trabajo?",
     "opciones": [
-      "El equipo decide cómo realizar el trabajo dentro de los objetivos acordados",
-      "No tiene responsabilidades",
-      "Evita colaboración",
-      "Trabaja sin transparencia"
+      "Ambos son proyectos porque consumen recursos.",
+      "La implementación es una operación y la administración es un programa.",
+      "La implementación es un proyecto y la administración posterior es una operación.",
+      "Ambos son operaciones porque pertenecen a la misma organización."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los equipos autoorganizados gestionan su forma de trabajo para alcanzar objetivos."
+    "respuestaCorrecta": 2,
+    "explicacion": "Un proyecto es temporal y único; una operación es continua y repetitiva."
   },
   {
     "id": 87,
     "examen": 2,
-    "dominio": "Business Analysis",
-    "tema": "Problema de negocio",
-    "dificultad": "media",
-    "pregunta": "Un área solicita un nuevo sistema, pero no explica el problema que busca resolver. ¿Qué debe hacer primero el analista de negocio?",
+    "dominio": "Predictivo",
+    "tema": "WBS y alcance",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En instalación de una línea de conducción, existe un cronograma detallado, pero el equipo no puede demostrar que todo el alcance aprobado esté incluido. ¿Qué debe revisar?",
     "opciones": [
-      "Investigar la necesidad real antes de definir la solución",
-      "Comprar el sistema de inmediato",
-      "Cerrar el proyecto",
-      "Crear la WBS sin requisitos"
+      "Solo el registro de interesados.",
+      "Únicamente el plan de comunicaciones.",
+      "El informe de costos reales, sin revisar alcance.",
+      "La WBS, su diccionario y la línea base del alcance."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El análisis de negocio empieza comprendiendo el problema u oportunidad de negocio."
+    "respuestaCorrecta": 3,
+    "explicacion": "La línea base del alcance integra enunciado, WBS y diccionario para definir y controlar el trabajo."
   },
   {
     "id": 88,
     "examen": 2,
-    "dominio": "Business Analysis",
-    "tema": "Requisitos ambiguos",
-    "dificultad": "alta",
-    "pregunta": "Un requisito dice: 'el sistema debe ser rápido'. ¿Cuál es el principal problema?",
+    "dominio": "Predictivo",
+    "tema": "Compresión del cronograma",
+    "dificultad": "intermedia-alta",
+    "pregunta": "Para adelantar instalación de una línea de conducción, se propone agregar una segunda cuadrilla a una actividad crítica. ¿Qué técnica se evalúa?",
     "opciones": [
-      "Es ambiguo y no medible",
-      "Es demasiado detallado",
-      "Es una restricción legal",
-      "Es un riesgo cerrado"
+      "Crashing, que intercambia mayor costo por menor duración.",
+      "Fast tracking, que consiste en agregar recursos.",
+      "Nivelación de recursos para extender el plazo.",
+      "Aceptación pasiva del riesgo."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Los requisitos deben ser claros, verificables y medibles."
+    "explicacion": "Crashing agrega recursos o costo a actividades críticas para reducir duración."
   },
   {
     "id": 89,
     "examen": 2,
-    "dominio": "Business Analysis",
-    "tema": "Modelo AS-IS",
-    "dificultad": "media",
-    "pregunta": "¿Para qué sirve analizar el estado AS-IS?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Conflicto e inteligencia emocional",
+    "dificultad": "intermedia-alta",
+    "pregunta": "Dos especialistas de construcción de una planta de tratamiento de agua defienden soluciones distintas y la discusión se vuelve personal. ¿Qué debería hacer primero el director?",
     "opciones": [
-      "Entender la situación actual antes de proponer mejoras",
-      "Definir el cierre contractual",
-      "Eliminar entrevistas",
-      "Asignar recursos de construcción"
+      "Elegir de inmediato a la persona con mayor cargo.",
+      "Escuchar posiciones e intereses y reenfocar la conversación en datos y objetivos.",
+      "Evitar el tema hasta que una parte ceda.",
+      "Escalar sin intentar comprender la fuente del conflicto."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El análisis AS-IS permite comprender procesos y problemas actuales."
+    "respuestaCorrecta": 1,
+    "explicacion": "La resolución colaborativa comienza por comprender la causa y separar a las personas del problema."
   },
   {
     "id": 90,
     "examen": 2,
-    "dominio": "Business Analysis",
-    "tema": "Modelo TO-BE",
-    "dificultad": "media",
-    "pregunta": "¿Qué representa el estado TO-BE?",
+    "dominio": "Agile",
+    "tema": "Priorización del backlog",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En desarrollo de una aplicación de mantenimiento, el equipo no puede completar todas las funciones solicitadas. ¿Qué debería guiar el orden del backlog?",
     "opciones": [
-      "La situación futura deseada después de implementar la solución",
-      "El registro de riesgos",
-      "La línea base de costos",
-      "El cierre administrativo"
+      "El orden de llegada de las solicitudes sin revisión.",
+      "Valor, riesgo, urgencia, dependencias y aprendizaje esperado.",
+      "La preferencia del desarrollador más antiguo.",
+      "El tamaño del texto de cada historia."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El modelo TO-BE describe cómo debería funcionar el proceso o solución futura."
+    "respuestaCorrecta": 1,
+    "explicacion": "El backlog se ordena para maximizar valor y reducir riesgo considerando dependencias."
   },
   {
     "id": 91,
     "examen": 2,
-    "dominio": "Business Analysis",
-    "tema": "Requisitos de transición",
-    "dificultad": "alta",
-    "pregunta": "¿Qué son requisitos de transición?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Calidad y grado",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En construcción de una planta de tratamiento de agua, el cliente acepta pocas funciones, pero exige que todas cumplan sin defectos los criterios acordados. ¿Qué se ilustra?",
     "opciones": [
-      "Capacidades temporales necesarias para pasar del estado actual al futuro",
-      "Requisitos que duran para siempre",
-      "Defectos del producto",
-      "Actividades de ruta crítica"
+      "Bajo grado y baja calidad son exactamente lo mismo.",
+      "El producto puede tener bajo grado, pero debe cumplir la calidad acordada.",
+      "La calidad depende solo de la cantidad de funciones.",
+      "El grado elimina la necesidad de criterios de aceptación."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los requisitos de transición facilitan migración, capacitación, carga de datos o puesta en marcha."
+    "respuestaCorrecta": 1,
+    "explicacion": "Grado es categoría o cantidad de características; calidad es conformidad y aptitud para uso."
   },
   {
     "id": 92,
     "examen": 2,
-    "dominio": "Business Analysis",
-    "tema": "Reglas de negocio",
-    "dificultad": "media",
-    "pregunta": "¿Qué es una regla de negocio?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Gobernanza y autoridad",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En construcción de una planta de tratamiento de agua, un cambio supera el límite de autoridad del director. ¿Qué debe ocurrir antes de ejecutarlo?",
     "opciones": [
-      "Una política o condición que guía decisiones dentro del negocio",
-      "Una actividad de cronograma",
-      "Una reunión diaria",
-      "Un costo indirecto"
+      "Implementarlo de inmediato para mantener satisfecho al solicitante.",
+      "Rechazarlo automáticamente sin análisis.",
+      "Analizar el impacto y elevarlo al órgano autorizado para decidir.",
+      "Aprobarlo mediante votación informal del equipo."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Las reglas de negocio definen restricciones, condiciones o políticas que la solución debe respetar."
+    "respuestaCorrecta": 2,
+    "explicacion": "La gobernanza define umbrales, derechos de decisión y rutas de escalamiento."
   },
   {
     "id": 93,
     "examen": 2,
     "dominio": "Business Analysis",
-    "tema": "Prototipo",
-    "dificultad": "media",
-    "pregunta": "¿Para qué puede usarse un prototipo?",
+    "tema": "Prototipos y modelos",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En automatización de la gestión de permisos, los usuarios no logran imaginar la solución a partir de texto. ¿Qué técnica ayudaría primero?",
     "opciones": [
-      "Para obtener retroalimentación temprana sobre una solución propuesta",
-      "Para cerrar todos los riesgos",
-      "Para reemplazar pruebas finales",
-      "Para aprobar pagos"
+      "Un prototipo de baja fidelidad para explorar y validar la interacción.",
+      "Una estimación paramétrica.",
+      "Un análisis de ruta crítica.",
+      "Una reserva de gestión."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Los prototipos ayudan a validar entendimiento y recibir feedback antes de construir completamente."
+    "explicacion": "Los prototipos hacen visible una posible solución y facilitan feedback temprano."
   },
   {
     "id": 94,
     "examen": 2,
-    "dominio": "Business Analysis",
-    "tema": "Historia de usuario",
-    "dificultad": "media",
-    "pregunta": "¿Qué expresa normalmente una historia de usuario?",
+    "dominio": "Predictivo",
+    "tema": "EAC y TCPI",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En instalación de una línea de conducción, BAC=1 000 y CPI=0,80. Si la eficiencia de costo continuará, ¿cuál es el EAC aproximado?",
     "opciones": [
-      "Quién necesita algo, qué necesita y para qué valor",
-      "Solo el presupuesto",
-      "La ruta crítica",
-      "El contrato principal"
+      "800, usando BAC×CPI.",
+      "1 250, usando EAC=BAC/CPI.",
+      "1 000, porque el BAC nunca puede cambiar.",
+      "200, usando BAC−EV."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Una historia de usuario conecta necesidad del usuario con valor esperado."
+    "respuestaCorrecta": 1,
+    "explicacion": "Cuando el desempeño de costo continuará, una fórmula común es BAC dividido entre CPI."
   },
   {
     "id": 95,
     "examen": 2,
     "dominio": "Business Analysis",
-    "tema": "Criterios SMART",
-    "dificultad": "media",
-    "pregunta": "¿Qué característica debe tener un buen requisito?",
+    "tema": "Criterios de aceptación",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En automatización de la gestión de permisos, un requisito indica que la pantalla “debe verse bien”. ¿Qué debería hacer el analista?",
     "opciones": [
-      "Ser claro, medible y verificable",
-      "Ser confuso para permitir flexibilidad",
-      "No estar documentado",
-      "No relacionarse con objetivos"
+      "Aprobarlo porque todos entienden lo mismo por “bien”.",
+      "Eliminarlo porque la experiencia no puede ser un requisito.",
+      "Dejar que cada desarrollador lo interprete.",
+      "Convertirlo en criterios específicos, verificables y acordados."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los buenos requisitos deben permitir validación objetiva."
+    "respuestaCorrecta": 3,
+    "explicacion": "Los criterios de aceptación deben permitir una decisión consistente y objetiva."
   },
   {
     "id": 96,
     "examen": 2,
-    "dominio": "Business Analysis",
-    "tema": "Control de cambios en requisitos",
-    "dificultad": "alta",
-    "pregunta": "Un interesado solicita cambiar un requisito aprobado en un proyecto predictivo. ¿Qué debe hacerse?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Factores ambientales y activos",
+    "dificultad": "intermedia-alta",
+    "pregunta": "Una nueva ley modifica requisitos de construcción de una planta de tratamiento de agua. ¿Cómo debe tratarse esta información?",
     "opciones": [
-      "Evaluar impacto y seguir el proceso de control de cambios",
-      "Cambiarlo sin registrar",
-      "Eliminarlo sin comunicar",
-      "Ignorar todos los requisitos"
+      "Como un factor ambiental externo que obliga a revisar los planes afectados.",
+      "Como una lección aprendida interna.",
+      "Como un paquete de trabajo ya terminado.",
+      "Como una reserva de contingencia."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Los cambios a requisitos aprobados deben analizar impacto y seguir el proceso definido."
+    "explicacion": "Las leyes y condiciones de mercado son factores externos que influyen en el proyecto."
   },
   {
     "id": 97,
     "examen": 2,
-    "dominio": "Business Analysis",
-    "tema": "Aprobación de requisitos",
-    "dificultad": "media",
-    "pregunta": "¿Por qué es importante obtener aprobación de requisitos?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Caso de negocio y beneficios",
+    "dificultad": "intermedia-alta",
+    "pregunta": "construcción de una planta de tratamiento de agua entregó el producto previsto, pero la organización no obtiene la reducción de tiempo prometida. ¿Qué conclusión es más adecuada?",
     "opciones": [
-      "Porque confirma acuerdo sobre lo que se construirá o entregará",
-      "Porque evita toda comunicación futura",
-      "Porque elimina pruebas",
-      "Porque reemplaza el acta"
+      "El proyecto no produjo ningún resultado porque un beneficio es el único entregable válido.",
+      "La línea base del alcance reemplaza la medición de beneficios.",
+      "Los beneficios solo pueden evaluarse durante la planificación.",
+      "El entregable fue producido, pero el beneficio esperado todavía no se realizó."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La aprobación reduce malentendidos y establece una base para diseño, ejecución y validación."
+    "respuestaCorrecta": 3,
+    "explicacion": "Los entregables habilitan resultados; los beneficios representan el valor obtenido al utilizarlos."
   },
   {
     "id": 98,
     "examen": 2,
-    "dominio": "Business Analysis",
-    "tema": "Validación con usuarios",
-    "dificultad": "media",
-    "pregunta": "¿Quién debe participar en la validación de que la solución satisface la necesidad?",
+    "dominio": "Agile",
+    "tema": "Sprint planning",
+    "dificultad": "intermedia-alta",
+    "pregunta": "Durante la planificación de desarrollo de una aplicación de mantenimiento, se propone trabajo para el doble de la capacidad histórica. ¿Qué debería hacer el equipo?",
     "opciones": [
-      "Usuarios o representantes del negocio",
-      "Solo el área contable",
-      "Nadie externo al equipo",
-      "Únicamente proveedores"
+      "Seleccionar una cantidad realista y construir un sprint goal coherente.",
+      "Comprometer todo para satisfacer al product owner.",
+      "Duplicar la velocidad prevista sin cambiar capacidad.",
+      "Reducir la Definition of Done para aceptar más trabajo."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La validación requiere participación de quienes conocen la necesidad y usarán la solución."
+    "explicacion": "El equipo selecciona trabajo según capacidad, objetivo y entendimiento de los elementos."
   },
   {
     "id": 99,
     "examen": 2,
     "dominio": "Business Analysis",
-    "tema": "Priorización MoSCoW",
-    "dificultad": "media",
-    "pregunta": "En MoSCoW, ¿qué significa 'Must have'?",
+    "tema": "Necesidad y solución",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En automatización de la gestión de permisos, un área solicita comprar una aplicación, pero no puede explicar qué problema resolverá. ¿Qué debe hacer primero el analista?",
     "opciones": [
-      "Requisito esencial para que la solución sea aceptable",
-      "Requisito opcional de bajo valor",
-      "Elemento que nunca se implementará",
-      "Riesgo cerrado"
+      "Comprar la aplicación para no retrasar el proyecto.",
+      "Investigar la necesidad, causas y resultados deseados antes de definir la solución.",
+      "Crear la WBS de implementación sin más preguntas.",
+      "Elegir el producto con mayor cantidad de funciones."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Must have identifica requisitos imprescindibles."
+    "respuestaCorrecta": 1,
+    "explicacion": "El análisis de negocio comienza entendiendo el problema u oportunidad, no una solución preconcebida."
   },
   {
     "id": 100,
     "examen": 2,
-    "dominio": "Business Analysis",
-    "tema": "Aceptación del entregable",
-    "dificultad": "media",
-    "pregunta": "¿Qué debe usarse para decidir si un entregable cumple lo solicitado?",
+    "dominio": "Predictivo",
+    "tema": "Ruta crítica y holgura",
+    "dificultad": "intermedia-alta",
+    "pregunta": "En instalación de una línea de conducción, una actividad crítica sin holgura se retrasa tres días. Si nada más cambia, ¿cuál es el efecto más probable?",
     "opciones": [
-      "Criterios de aceptación previamente acordados",
-      "Opiniones informales sin registro",
-      "Solo la fecha de entrega",
-      "El número de reuniones realizadas"
+      "La actividad obtiene tres días de holgura positiva.",
+      "La fecha final del proyecto se retrasa tres días.",
+      "Solo cambia el costo, nunca el plazo.",
+      "La actividad deja automáticamente de ser crítica."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los criterios de aceptación permiten decidir objetivamente si el entregable es aceptable."
+    "respuestaCorrecta": 1,
+    "explicacion": "Las actividades críticas determinan la duración mínima y su retraso suele mover la fecha final."
   },
   {
     "id": 101,
     "examen": 3,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Adaptación",
+    "dominio": "Predictivo",
+    "tema": "Valor ganado",
     "dificultad": "alta",
-    "pregunta": "Un proyecto tiene alta regulación, entregables físicos y requisitos estables. ¿Qué enfoque suele ser más adecuado?",
+    "pregunta": "En el corte de ampliación de un centro hospitalario, EV=80, PV=100 y AC=90. ¿Cuál es la interpretación correcta?",
     "opciones": [
-      "Predictivo",
-      "Ágil puro",
-      "Sin planificación",
-      "Operación continua"
+      "El proyecto está atrasado y con sobrecosto: SPI=0,80 y CPI≈0,89.",
+      "Está adelantado y por debajo del presupuesto.",
+      "Está atrasado, pero con eficiencia de costo favorable.",
+      "Está según plan porque EV y AC son cercanos."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Cuando el alcance es estable y el trabajo requiere control formal, el enfoque predictivo suele ser adecuado."
+    "explicacion": "SPI=EV/PV y CPI=EV/AC; valores menores que uno son desfavorables."
   },
   {
     "id": 102,
     "examen": 3,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Valor y resultados",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es la relación entre salida, resultado y beneficio?",
+    "dominio": "Agile",
+    "tema": "Estimación y velocidad",
+    "dificultad": "alta",
+    "pregunta": "Dos equipos de desarrollo de una plataforma de citas tienen velocidades de 30 y 50 puntos. ¿Puede concluirse que el segundo es más productivo?",
     "opciones": [
-      "La salida es entregable; el resultado es cambio producido; el beneficio es valor obtenido",
-      "Son palabras idénticas",
-      "El beneficio siempre aparece antes del entregable",
-      "El resultado no se mide"
+      "Sí; una velocidad mayor siempre demuestra mejor productividad.",
+      "Sí, siempre que tengan el mismo product owner.",
+      "No, porque la velocidad nunca sirve para pronosticar.",
+      "No; los puntos son relativos a cada equipo y no deben compararse directamente."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los proyectos entregan salidas que generan resultados y beneficios."
+    "respuestaCorrecta": 3,
+    "explicacion": "La velocidad ayuda a un equipo a pronosticar su propio trabajo, no a comparar productividad."
   },
   {
     "id": 103,
     "examen": 3,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Influencia del interesado",
+    "tema": "Caso de negocio y beneficios",
     "dificultad": "alta",
-    "pregunta": "Un interesado con alta influencia se opone al proyecto por falta de información. ¿Qué acción es mejor?",
+    "pregunta": "modernización de un hospital entregó el producto previsto, pero la organización no obtiene la reducción de tiempo prometida. ¿Qué conclusión es más adecuada?",
     "opciones": [
-      "Analizar sus expectativas y establecer comunicación adecuada",
-      "Ignorarlo",
-      "Excluirlo de reuniones para evitar conflicto",
-      "Esperar al cierre"
+      "El proyecto no produjo ningún resultado porque un beneficio es el único entregable válido.",
+      "La línea base del alcance reemplaza la medición de beneficios.",
+      "El entregable fue producido, pero el beneficio esperado todavía no se realizó.",
+      "Los beneficios solo pueden evaluarse durante la planificación."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La gestión de interesados busca comprender expectativas y lograr involucramiento adecuado."
+    "respuestaCorrecta": 2,
+    "explicacion": "Los entregables habilitan resultados; los beneficios representan el valor obtenido al utilizarlos."
   },
   {
     "id": 104,
     "examen": 3,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Riesgo positivo",
-    "dificultad": "media",
-    "pregunta": "¿Cómo se denomina un riesgo que podría generar un efecto favorable?",
+    "tema": "Conflicto e inteligencia emocional",
+    "dificultad": "alta",
+    "pregunta": "Dos especialistas de modernización de un hospital defienden soluciones distintas y la discusión se vuelve personal. ¿Qué debería hacer primero el director?",
     "opciones": [
-      "Oportunidad",
-      "Issue",
-      "Defecto",
-      "Restricción"
+      "Elegir de inmediato a la persona con mayor cargo.",
+      "Evitar el tema hasta que una parte ceda.",
+      "Escuchar posiciones e intereses y reenfocar la conversación en datos y objetivos.",
+      "Escalar sin intentar comprender la fuente del conflicto."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los riesgos pueden ser amenazas u oportunidades."
+    "respuestaCorrecta": 2,
+    "explicacion": "La resolución colaborativa comienza por comprender la causa y separar a las personas del problema."
   },
   {
     "id": 105,
     "examen": 3,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Tolerancia al riesgo",
-    "dificultad": "media",
-    "pregunta": "¿Qué describe la tolerancia al riesgo de una organización?",
+    "dominio": "Agile",
+    "tema": "Priorización del backlog",
+    "dificultad": "alta",
+    "pregunta": "En desarrollo de una plataforma de citas, el equipo no puede completar todas las funciones solicitadas. ¿Qué debería guiar el orden del backlog?",
     "opciones": [
-      "El nivel de incertidumbre que está dispuesta a aceptar",
-      "La duración de cada actividad",
-      "El número de interesados",
-      "La cantidad de reuniones"
+      "El orden de llegada de las solicitudes sin revisión.",
+      "Valor, riesgo, urgencia, dependencias y aprendizaje esperado.",
+      "La preferencia del desarrollador más antiguo.",
+      "El tamaño del texto de cada historia."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La tolerancia define cuánto riesgo se acepta para alcanzar objetivos."
+    "respuestaCorrecta": 1,
+    "explicacion": "El backlog se ordena para maximizar valor y reducir riesgo considerando dependencias."
   },
   {
     "id": 106,
     "examen": 3,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Cambio organizacional",
-    "dificultad": "media",
-    "pregunta": "¿Por qué un proyecto puede requerir gestión del cambio organizacional?",
+    "dominio": "Business Analysis",
+    "tema": "Necesidad y solución",
+    "dificultad": "alta",
+    "pregunta": "En mejora del proceso de admisión, un área solicita comprar una aplicación, pero no puede explicar qué problema resolverá. ¿Qué debe hacer primero el analista?",
     "opciones": [
-      "Porque la solución puede modificar procesos, roles o comportamientos",
-      "Porque evita todo entrenamiento",
-      "Porque elimina comunicación",
-      "Porque solo aplica a software"
+      "Comprar la aplicación para no retrasar el proyecto.",
+      "Investigar la necesidad, causas y resultados deseados antes de definir la solución.",
+      "Crear la WBS de implementación sin más preguntas.",
+      "Elegir el producto con mayor cantidad de funciones."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los proyectos generan cambios que deben ser adoptados por las personas."
+    "respuestaCorrecta": 1,
+    "explicacion": "El análisis de negocio comienza entendiendo el problema u oportunidad, no una solución preconcebida."
   },
   {
     "id": 107,
     "examen": 3,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Matriz RACI",
-    "dificultad": "media",
-    "pregunta": "¿Para qué sirve una matriz RACI?",
+    "dominio": "Agile",
+    "tema": "Definition of Done",
+    "dificultad": "alta",
+    "pregunta": "Una historia de desarrollo de una plataforma de citas fue desarrollada, pero no probada, y la DoD exige pruebas aprobadas. ¿Puede contarse como terminada?",
     "opciones": [
-      "Clarificar responsables, aprobadores, consultados e informados",
-      "Calcular valor ganado",
-      "Crear historias de usuario",
-      "Secuenciar actividades"
+      "Sí; basta con finalizar la codificación.",
+      "Sí; las pruebas pueden realizarse después del proyecto.",
+      "No; debe cumplir completamente la Definition of Done.",
+      "Depende solo de la opinión del desarrollador."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "RACI ayuda a definir roles y responsabilidades."
+    "respuestaCorrecta": 2,
+    "explicacion": "La DoD crea un entendimiento común y verificable de calidad y completitud."
   },
   {
     "id": 108,
     "examen": 3,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Escalamiento",
+    "tema": "Reuniones y causa raíz",
     "dificultad": "alta",
-    "pregunta": "Un problema supera la autoridad del director del proyecto. ¿Qué debe hacer?",
+    "pregunta": "Las reuniones de modernización de un hospital terminan sin decisiones ni responsables. ¿Qué mejora debería aplicarse primero?",
     "opciones": [
-      "Escalarlo según la gobernanza definida",
-      "Ocultarlo",
-      "Tomar una decisión fuera de su autoridad",
-      "Cerrar el proyecto"
+      "Invitar a más personas y ampliar la duración.",
+      "Eliminar las actas para ahorrar tiempo.",
+      "Tratar todos los temas sin priorización.",
+      "Definir objetivo, agenda, participantes, decisiones esperadas y seguimiento de acciones."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los temas fuera de autoridad deben escalarse por los canales definidos."
+    "respuestaCorrecta": 3,
+    "explicacion": "Una reunión efectiva tiene propósito, preparación, facilitación y acciones con responsables y fechas."
   },
   {
     "id": 109,
     "examen": 3,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Integración",
-    "dificultad": "media",
-    "pregunta": "¿Qué implica la gestión de integración?",
+    "tema": "Recursos y RACI",
+    "dificultad": "alta",
+    "pregunta": "En modernización de un hospital, una actividad tiene dos personas marcadas como Accountable y las decisiones se retrasan. ¿Qué corrección es más adecuada?",
     "opciones": [
-      "Coordinar elementos del proyecto para que funcionen como un todo",
-      "Gestionar solo adquisiciones",
-      "Eliminar cambios",
-      "Trabajar sin coordinación"
+      "Agregar más personas como Accountable para repartir la responsabilidad.",
+      "Eliminar a todos los responsables y dejar solo informados.",
+      "Definir una sola persona que rinda cuentas y aclarar los demás roles.",
+      "Permitir que cada área apruebe una versión diferente."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Integración asegura coherencia entre planes, ejecución, cambios y objetivos."
+    "respuestaCorrecta": 2,
+    "explicacion": "La RACI debe aclarar responsabilidad y normalmente asigna una sola rendición de cuentas por resultado."
   },
   {
     "id": 110,
     "examen": 3,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Beneficios posteriores",
-    "dificultad": "media",
-    "pregunta": "¿Quién suele asegurar que los beneficios se mantengan después del cierre del proyecto?",
+    "dominio": "Agile",
+    "tema": "Sprint planning",
+    "dificultad": "alta",
+    "pregunta": "Durante la planificación de desarrollo de una plataforma de citas, se propone trabajo para el doble de la capacidad histórica. ¿Qué debería hacer el equipo?",
     "opciones": [
-      "La organización operativa o dueño del beneficio",
-      "Solo el equipo temporal del proyecto",
-      "El proveedor sin contrato",
-      "Ningún responsable"
+      "Comprometer todo para satisfacer al product owner.",
+      "Duplicar la velocidad prevista sin cambiar capacidad.",
+      "Reducir la Definition of Done para aceptar más trabajo.",
+      "Seleccionar una cantidad realista y construir un sprint goal coherente."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los beneficios suelen realizarse y sostenerse en la operación después del proyecto."
+    "respuestaCorrecta": 3,
+    "explicacion": "El equipo selecciona trabajo según capacidad, objetivo y entendimiento de los elementos."
   },
   {
     "id": 111,
     "examen": 3,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Contexto del proyecto",
-    "dificultad": "media",
-    "pregunta": "¿Por qué debe entenderse el contexto antes de planificar?",
+    "dominio": "Agile",
+    "tema": "Kanban y WIP",
+    "dificultad": "alta",
+    "pregunta": "El tablero de desarrollo de una plataforma de citas muestra muchas tareas iniciadas y pocas terminadas. ¿Qué práctica puede mejorar el flujo?",
     "opciones": [
-      "Porque afecta restricciones, interesados, riesgos y enfoque",
-      "Porque reemplaza la planificación",
-      "Porque elimina calidad",
-      "Porque impide definir alcance"
+      "Aumentar el número de tareas abiertas por persona.",
+      "Limitar el trabajo en proceso y terminar antes de iniciar más.",
+      "Ocultar las columnas con bloqueos.",
+      "Eliminar las políticas explícitas."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El contexto condiciona decisiones y estrategias de gestión."
+    "respuestaCorrecta": 1,
+    "explicacion": "Los límites WIP reducen multitarea y hacen visibles los cuellos de botella."
   },
   {
     "id": 112,
     "examen": 3,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Comunicaciones push",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es un ejemplo de comunicación push?",
+    "dominio": "Predictivo",
+    "tema": "WBS y alcance",
+    "dificultad": "alta",
+    "pregunta": "En ampliación de un centro hospitalario, existe un cronograma detallado, pero el equipo no puede demostrar que todo el alcance aprobado esté incluido. ¿Qué debe revisar?",
     "opciones": [
-      "Enviar un correo con el reporte de avance",
-      "Publicar información para que otros la busquen",
-      "Reunión interactiva de negociación",
-      "Taller de requisitos"
+      "Solo el registro de interesados.",
+      "Únicamente el plan de comunicaciones.",
+      "El informe de costos reales, sin revisar alcance.",
+      "La WBS, su diccionario y la línea base del alcance."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La comunicación push se envía a receptores específicos."
+    "respuestaCorrecta": 3,
+    "explicacion": "La línea base del alcance integra enunciado, WBS y diccionario para definir y controlar el trabajo."
   },
   {
     "id": 113,
     "examen": 3,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Comunicación interactiva",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es un ejemplo de comunicación interactiva?",
+    "tema": "Calidad y grado",
+    "dificultad": "alta",
+    "pregunta": "En modernización de un hospital, el cliente acepta pocas funciones, pero exige que todas cumplan sin defectos los criterios acordados. ¿Qué se ilustra?",
     "opciones": [
-      "Reunión de coordinación con intercambio de ideas",
-      "Boletín enviado por correo",
-      "Repositorio documental",
-      "Dashboard publicado"
+      "Bajo grado y baja calidad son exactamente lo mismo.",
+      "La calidad depende solo de la cantidad de funciones.",
+      "El producto puede tener bajo grado, pero debe cumplir la calidad acordada.",
+      "El grado elimina la necesidad de criterios de aceptación."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La comunicación interactiva permite intercambio multidireccional en tiempo real."
+    "respuestaCorrecta": 2,
+    "explicacion": "Grado es categoría o cantidad de características; calidad es conformidad y aptitud para uso."
   },
   {
     "id": 114,
     "examen": 3,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Calidad vs grado",
-    "dificultad": "media",
-    "pregunta": "¿Cuál afirmación es correcta sobre calidad y grado?",
+    "dominio": "Business Analysis",
+    "tema": "Priorización de requisitos",
+    "dificultad": "alta",
+    "pregunta": "En mejora del proceso de admisión, no todos los requisitos caben en la primera versión. ¿Qué criterio debería guiar la prioridad?",
     "opciones": [
-      "Bajo grado no siempre es problema; baja calidad sí lo es",
-      "Son exactamente iguales",
-      "Alto grado siempre significa alta calidad",
-      "La calidad no se planifica"
+      "La persona que habla más fuerte en la reunión.",
+      "Valor, riesgo, urgencia, cumplimiento y dependencias mediante criterios acordados.",
+      "El orden de llegada sin revisión.",
+      "La cantidad de palabras de cada requisito."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Calidad es cumplimiento de requisitos; grado es categoría o nivel de características."
+    "respuestaCorrecta": 1,
+    "explicacion": "La priorización debe ser transparente y relacionarse con valor y restricciones reales."
   },
   {
     "id": 115,
     "examen": 3,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Liderazgo situacional",
+    "dominio": "Agile",
+    "tema": "Selección de enfoque",
     "dificultad": "alta",
-    "pregunta": "Un equipo nuevo necesita mucha orientación. ¿Qué estilo inicial puede ser más adecuado?",
+    "pregunta": "En desarrollo de una plataforma de citas, los usuarios no pueden definir todos los requisitos y necesitan ver versiones frecuentes para aprender. ¿Qué enfoque es más adecuado?",
     "opciones": [
-      "Dirección y guía clara",
-      "Delegación total sin contexto",
-      "Ausencia de comunicación",
-      "Evitar feedback"
+      "Predictivo rígido con alcance congelado desde el inicio.",
+      "Operacional sin objetivo de producto.",
+      "Adaptativo, con entregas cortas y retroalimentación continua.",
+      "Suspender todo trabajo hasta conocer cada requisito."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Equipos nuevos suelen requerir más dirección hasta ganar competencia y autonomía."
+    "respuestaCorrecta": 2,
+    "explicacion": "El enfoque adaptativo es apropiado cuando existe incertidumbre y el aprendizaje frecuente aporta valor."
   },
   {
     "id": 116,
     "examen": 3,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Negociación",
-    "dificultad": "media",
-    "pregunta": "¿Por qué el director del proyecto negocia?",
+    "tema": "Respuesta a riesgos",
+    "dificultad": "alta",
+    "pregunta": "En modernización de un hospital, una amenaza de alta probabilidad está descrita en el registro, pero no tiene responsable ni respuesta. ¿Qué falta?",
     "opciones": [
-      "Para equilibrar recursos, prioridades y expectativas",
-      "Para evitar acuerdos",
-      "Para reemplazar contratos",
-      "Para eliminar interesados"
+      "Trasladarla al registro de lecciones aprendidas.",
+      "Asignar un propietario, una respuesta, disparadores y acciones de seguimiento.",
+      "Considerarla resuelta porque ya fue identificada.",
+      "Aumentar el presupuesto sin documentar la causa."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La negociación ayuda a resolver diferencias y alinear intereses."
+    "respuestaCorrecta": 1,
+    "explicacion": "Un riesgo accionable necesita análisis, responsable, respuesta y seguimiento."
   },
   {
     "id": 117,
     "examen": 3,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Cultura organizacional",
-    "dificultad": "media",
-    "pregunta": "¿Cómo puede afectar la cultura organizacional a un proyecto?",
+    "dominio": "Agile",
+    "tema": "Daily e impedimentos",
+    "dificultad": "alta",
+    "pregunta": "La daily de desarrollo de una plataforma de citas se convirtió en un reporte de 45 minutos al gerente. ¿Qué debería corregirse?",
     "opciones": [
-      "Influye en comunicación, toma de decisiones y aceptación del cambio",
-      "No afecta nunca",
-      "Solo afecta el color del logo",
-      "Reemplaza la gestión de riesgos"
+      "Aumentar su duración para responder más preguntas gerenciales.",
+      "Invitar a todos los interesados para aprobar cada tarea.",
+      "Reenfocarla en la coordinación del equipo hacia el sprint goal.",
+      "Eliminar la inspección diaria del progreso."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La cultura influye en comportamiento, colaboración y decisiones."
+    "respuestaCorrecta": 2,
+    "explicacion": "La daily es un evento breve de coordinación e inspección, no un reporte jerárquico."
   },
   {
     "id": 118,
     "examen": 3,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Cierre por cancelación",
+    "tema": "Acta de constitución y patrocinio",
     "dificultad": "alta",
-    "pregunta": "Si un proyecto se cancela antes de completar todo el alcance, ¿qué debería hacerse?",
+    "pregunta": "El director asignado a modernización de un hospital necesita comprometer recursos funcionales, pero la iniciativa aún no está autorizada formalmente. ¿Qué debe obtener primero?",
     "opciones": [
-      "Realizar cierre ordenado, documentar estado y lecciones aprendidas",
-      "Borrar toda la información",
-      "Ignorar contratos",
-      "No informar a interesados"
+      "Un acta de constitución aprobada que confirme objetivos y autoridad.",
+      "Una lista detallada de actividades sin aprobación del patrocinador.",
+      "Un informe de cierre de adquisiciones.",
+      "Una retrospectiva del equipo técnico."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Incluso si se cancela, se debe cerrar formalmente y conservar información relevante."
+    "explicacion": "El acta autoriza formalmente el proyecto y otorga autoridad inicial al director."
   },
   {
     "id": 119,
     "examen": 3,
-    "dominio": "Predictivo",
-    "tema": "Dependencias",
-    "dificultad": "media",
-    "pregunta": "Una actividad no puede iniciar hasta que termine otra. ¿Qué tipo de relación es más común?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Cierre y transición",
+    "dificultad": "alta",
+    "pregunta": "El cliente aceptó los entregables de modernización de un hospital, pero operaciones no recibió capacitación y quedan contratos abiertos. ¿Puede cerrarse el proyecto?",
     "opciones": [
-      "Fin a inicio",
-      "Inicio a inicio siempre",
-      "Fin a fin siempre",
-      "Sin dependencia"
+      "Sí; la aceptación técnica elimina todas las tareas pendientes.",
+      "No; primero deben completarse transición, cierre contractual y demás actividades de cierre.",
+      "Sí; los contratos pasan automáticamente a operaciones.",
+      "No; el proyecto debe permanecer abierto mientras exista cualquier beneficio futuro."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Fin a inicio significa que la sucesora empieza cuando termina la predecesora."
+    "respuestaCorrecta": 1,
+    "explicacion": "El cierre incluye aceptación, contratos, archivos, transición, liberación de recursos y conocimiento."
   },
   {
     "id": 120,
     "examen": 3,
-    "dominio": "Predictivo",
-    "tema": "Línea base de alcance",
-    "dificultad": "media",
-    "pregunta": "¿Qué integra normalmente la línea base del alcance?",
+    "dominio": "Agile",
+    "tema": "MVP y feedback",
+    "dificultad": "alta",
+    "pregunta": "En desarrollo de una plataforma de citas, se quiere validar una hipótesis antes de construir la solución completa. ¿Qué enfoque es más útil?",
     "opciones": [
-      "Enunciado del alcance, WBS y diccionario de la WBS",
-      "Solo lista de riesgos",
-      "Solo presupuesto",
-      "Solo acta de cierre"
+      "Crear el experimento o MVP más pequeño que produzca aprendizaje confiable.",
+      "Construir toda la solución y solicitar feedback al final.",
+      "Aumentar la documentación sin probar el comportamiento.",
+      "Congelar el producto hasta eliminar toda incertidumbre."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La línea base de alcance incluye documentos aprobados para controlar el alcance."
+    "explicacion": "Un MVP reduce desperdicio y permite validar valor o viabilidad mediante aprendizaje temprano."
   },
   {
     "id": 121,
     "examen": 3,
-    "dominio": "Predictivo",
-    "tema": "Reserva de contingencia",
+    "dominio": "Business Analysis",
+    "tema": "Interesados BA",
     "dificultad": "alta",
-    "pregunta": "¿Para qué sirve una reserva de contingencia?",
+    "pregunta": "En mejora del proceso de admisión, un usuario conoce el proceso pero tiene poca autoridad, mientras un director tiene poder pero poco detalle. ¿Cómo debe gestionarse?",
     "opciones": [
-      "Para riesgos identificados y aceptados en la planificación",
-      "Para gastos personales",
-      "Para cambios no aprobados",
-      "Para eliminar controles"
+      "Involucrar a ambos según conocimiento, influencia y decisiones requeridas.",
+      "Consultar solo al director por tener mayor poder.",
+      "Consultar solo al usuario y omitir aprobación ejecutiva.",
+      "Aplicar la misma estrategia a todos sin análisis."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La contingencia cubre riesgos conocidos que podrían materializarse."
+    "explicacion": "El análisis considera poder, conocimiento, impacto, necesidades y rol en decisiones."
   },
   {
     "id": 122,
     "examen": 3,
-    "dominio": "Predictivo",
-    "tema": "Reserva de gestión",
+    "dominio": "Business Analysis",
+    "tema": "Criterios de aceptación",
     "dificultad": "alta",
-    "pregunta": "¿Qué diferencia a la reserva de gestión?",
+    "pregunta": "En mejora del proceso de admisión, un requisito indica que la pantalla “debe verse bien”. ¿Qué debería hacer el analista?",
     "opciones": [
-      "Cubre trabajo imprevisto dentro del alcance y requiere autorización",
-      "Se usa para tareas diarias",
-      "Es igual al presupuesto de cada actividad",
-      "No requiere control"
+      "Convertirlo en criterios específicos, verificables y acordados.",
+      "Aprobarlo porque todos entienden lo mismo por “bien”.",
+      "Eliminarlo porque la experiencia no puede ser un requisito.",
+      "Dejar que cada desarrollador lo interprete."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La reserva de gestión responde a incertidumbre no prevista y suele requerir aprobación."
+    "explicacion": "Los criterios de aceptación deben permitir una decisión consistente y objetiva."
   },
   {
     "id": 123,
     "examen": 3,
-    "dominio": "Predictivo",
-    "tema": "Estimación tres puntos",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Gestión de problemas",
     "dificultad": "alta",
-    "pregunta": "¿Qué usa la estimación de tres puntos?",
+    "pregunta": "En modernización de un hospital, una dependencia externa ya incumplió y bloquea el trabajo. ¿Qué debería hacer primero el equipo?",
     "opciones": [
-      "Escenarios optimista, más probable y pesimista",
-      "Solo una opinión",
-      "Solo costos reales",
-      "Solo fecha de cierre"
+      "Mantenerlo solo como riesgo porque alguna vez fue incierto.",
+      "Eliminar la dependencia del cronograma sin modificar el plan.",
+      "Esperar al cierre para documentarlo.",
+      "Registrar el problema y evaluar su impacto real en los objetivos del proyecto."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La estimación de tres puntos considera incertidumbre mediante tres escenarios."
+    "respuestaCorrecta": 3,
+    "explicacion": "Cuando un evento ya ocurrió, se gestiona como problema actual y se analiza su impacto integrado."
   },
   {
     "id": 124,
     "examen": 3,
-    "dominio": "Predictivo",
-    "tema": "SPI",
+    "dominio": "Business Analysis",
+    "tema": "Evaluación de solución",
     "dificultad": "alta",
-    "pregunta": "Si SPI es menor que 1, ¿qué indica?",
+    "pregunta": "Después de implementar mejora del proceso de admisión, el indicador principal no mejora. ¿Qué debería hacer el analista?",
     "opciones": [
-      "Desempeño de cronograma desfavorable",
-      "Proyecto adelantado",
-      "Costo menor al esperado",
-      "Calidad superior"
+      "Declarar éxito porque la solución fue instalada.",
+      "Medir solo la cantidad de funciones entregadas.",
+      "Cerrar toda evaluación al finalizar el proyecto.",
+      "Comparar resultados con metas, investigar causas y recomendar ajustes."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "SPI < 1 indica que se avanza menos de lo planificado."
+    "respuestaCorrecta": 3,
+    "explicacion": "La evaluación determina si la solución obtiene el valor esperado e identifica limitaciones."
   },
   {
     "id": 125,
     "examen": 3,
-    "dominio": "Predictivo",
-    "tema": "CPI",
+    "dominio": "Business Analysis",
+    "tema": "Elicitación",
     "dificultad": "alta",
-    "pregunta": "Si CPI es mayor que 1, ¿qué indica?",
+    "pregunta": "En mejora del proceso de admisión, los usuarios realizan un trabajo complejo que les cuesta explicar y existen muchas excepciones. ¿Qué técnica puede revelar mejor la realidad?",
     "opciones": [
-      "Desempeño de costo favorable",
-      "Sobrecosto",
-      "Retraso obligatorio",
-      "Alcance incompleto"
+      "Observación directa complementada con preguntas.",
+      "Solo una encuesta cerrada a una persona.",
+      "Un cálculo de valor ganado.",
+      "La ruta crítica del proyecto."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "CPI > 1 indica que se obtiene más valor por cada unidad de costo."
+    "explicacion": "La observación ayuda a descubrir conocimiento tácito y diferencias entre el proceso declarado y el real."
   },
   {
     "id": 126,
     "examen": 3,
     "dominio": "Predictivo",
-    "tema": "Validación del alcance",
-    "dificultad": "media",
-    "pregunta": "¿Qué ocurre en la validación del alcance?",
+    "tema": "Control de calidad",
+    "dificultad": "alta",
+    "pregunta": "En ampliación de un centro hospitalario, el equipo inspecciona una muestra para comprobar tolerancias del entregable. ¿Qué actividad realiza?",
     "opciones": [
-      "El cliente o patrocinador acepta formalmente entregables completados",
-      "Se inspeccionan solo procesos internos",
-      "Se reemplaza la WBS",
-      "Se cancela el cronograma"
+      "Gestión de beneficios posteriores al cierre.",
+      "Control de calidad sobre resultados producidos.",
+      "Planificación del portafolio.",
+      "Elicitación de requisitos."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Validar alcance implica obtener aceptación formal de entregables."
+    "respuestaCorrecta": 1,
+    "explicacion": "El control de calidad mide e inspecciona resultados para determinar conformidad."
   },
   {
     "id": 127,
     "examen": 3,
     "dominio": "Agile",
-    "tema": "Mindset ágil",
-    "dificultad": "media",
-    "pregunta": "¿Qué principio ágil favorece entregar valor temprano?",
+    "tema": "Review y retrospectiva",
+    "dificultad": "alta",
+    "pregunta": "En desarrollo de una plataforma de citas, los interesados inspeccionan el incremento y proponen cambios al producto. ¿En qué evento ocurre principalmente?",
     "opciones": [
-      "Entregar incrementos funcionales con frecuencia",
-      "Esperar hasta el final para mostrar todo",
-      "Evitar al cliente",
-      "Congelar todo aprendizaje"
+      "En la retrospectiva, cuyo foco es mejorar el proceso del equipo.",
+      "En la daily, que reemplaza la aceptación del producto.",
+      "En la planificación anual del portafolio.",
+      "En la sprint review, donde se revisa el resultado y se adapta el backlog."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Agile busca entregas frecuentes para obtener feedback y generar valor temprano."
+    "respuestaCorrecta": 3,
+    "explicacion": "La review se enfoca en producto, valor, feedback y próximos pasos."
   },
   {
     "id": 128,
     "examen": 3,
-    "dominio": "Agile",
-    "tema": "Timebox",
-    "dificultad": "media",
-    "pregunta": "¿Qué significa timebox?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Factores ambientales y activos",
+    "dificultad": "alta",
+    "pregunta": "Una nueva ley modifica requisitos de modernización de un hospital. ¿Cómo debe tratarse esta información?",
     "opciones": [
-      "Periodo fijo para realizar una actividad o evento",
-      "Presupuesto ilimitado",
-      "Lista de riesgos",
-      "Contrato de precio fijo"
+      "Como una lección aprendida interna.",
+      "Como un paquete de trabajo ya terminado.",
+      "Como un factor ambiental externo que obliga a revisar los planes afectados.",
+      "Como una reserva de contingencia."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Un timebox limita el tiempo para enfocar el trabajo y fomentar decisiones oportunas."
+    "respuestaCorrecta": 2,
+    "explicacion": "Las leyes y condiciones de mercado son factores externos que influyen en el proyecto."
   },
   {
     "id": 129,
     "examen": 3,
-    "dominio": "Agile",
-    "tema": "MVP",
-    "dificultad": "media",
-    "pregunta": "¿Para qué sirve un producto mínimo viable?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Proyecto y operaciones",
+    "dificultad": "alta",
+    "pregunta": "Durante modernización de un hospital, el equipo implementará un resultado único y después un área permanente lo administrará mensualmente. ¿Cómo debe clasificarse el trabajo?",
     "opciones": [
-      "Aprender con una versión básica que entrega valor suficiente",
-      "Entregar todos los requisitos de golpe",
-      "Evitar feedback",
-      "Cerrar contratos"
+      "Ambos son proyectos porque consumen recursos.",
+      "La implementación es una operación y la administración es un programa.",
+      "La implementación es un proyecto y la administración posterior es una operación.",
+      "Ambos son operaciones porque pertenecen a la misma organización."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El MVP permite validar hipótesis y obtener aprendizaje temprano."
+    "respuestaCorrecta": 2,
+    "explicacion": "Un proyecto es temporal y único; una operación es continua y repetitiva."
   },
   {
     "id": 130,
     "examen": 3,
-    "dominio": "Agile",
-    "tema": "Burn-down chart",
-    "dificultad": "media",
-    "pregunta": "¿Qué muestra un burn-down chart?",
+    "dominio": "Predictivo",
+    "tema": "Control integrado de cambios",
+    "dificultad": "alta",
+    "pregunta": "En ampliación de un centro hospitalario, el cliente solicita un entregable adicional después de aprobarse la línea base. ¿Qué debe hacerse primero?",
     "opciones": [
-      "Trabajo restante a lo largo del tiempo",
-      "Costo total de proveedores",
-      "Registro de interesados",
-      "Acta de constitución"
+      "Ejecutarla y solicitar aprobación después.",
+      "Registrar la solicitud y analizar impactos antes de obtener una decisión formal.",
+      "Rechazarla porque una línea base nunca puede cambiar.",
+      "Modificar solo el presupuesto sin revisar otros objetivos."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El burn-down muestra cuánto trabajo queda durante una iteración o release."
+    "respuestaCorrecta": 1,
+    "explicacion": "El control integrado evalúa impactos y obtiene aprobación antes de modificar líneas base."
   },
   {
     "id": 131,
     "examen": 3,
-    "dominio": "Agile",
-    "tema": "Release planning",
-    "dificultad": "media",
-    "pregunta": "¿Qué busca la planificación de releases?",
+    "dominio": "Business Analysis",
+    "tema": "Funcional y no funcional",
+    "dificultad": "alta",
+    "pregunta": "En mejora del proceso de admisión, el requisito dice: “el 95 % de las búsquedas responderá en menos de dos segundos”. ¿Cómo se clasifica?",
     "opciones": [
-      "Organizar entregas de valor en el tiempo",
-      "Aprobar facturas",
-      "Cerrar incidentes legales",
-      "Eliminar backlog"
+      "Como requisito funcional de registro.",
+      "Como requisito de transición temporal.",
+      "Como beneficio de negocio ya realizado.",
+      "Como requisito no funcional y medible de desempeño."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La planificación de release ayuda a proyectar cuándo se entregarán funcionalidades."
+    "respuestaCorrecta": 3,
+    "explicacion": "Los no funcionales describen atributos como rendimiento, seguridad, disponibilidad y usabilidad."
   },
   {
     "id": 132,
     "examen": 3,
-    "dominio": "Agile",
-    "tema": "Deuda técnica",
+    "dominio": "Predictivo",
+    "tema": "Estimación y reservas",
     "dificultad": "alta",
-    "pregunta": "¿Qué es deuda técnica?",
+    "pregunta": "En ampliación de un centro hospitalario, se asigna una reserva para el posible costo de un riesgo identificado. ¿Qué tipo de reserva es?",
     "opciones": [
-      "Compromisos técnicos que pueden acelerar hoy pero generar costo futuro",
-      "Un préstamo financiero",
-      "Un requisito de usuario",
-      "Un contrato vencido"
+      "Reserva de contingencia para riesgos conocidos.",
+      "Reserva de gestión para trabajo no autorizado.",
+      "Valor ganado todavía no facturado.",
+      "Costo hundido que no puede controlarse."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La deuda técnica aparece cuando decisiones técnicas generan retrabajo o mantenimiento futuro."
+    "explicacion": "La contingencia cubre riesgos identificados y normalmente forma parte de la línea base de costos."
   },
   {
     "id": 133,
     "examen": 3,
-    "dominio": "Agile",
-    "tema": "Equipo multifuncional",
-    "dificultad": "media",
-    "pregunta": "¿Qué ventaja tiene un equipo multifuncional?",
+    "dominio": "Business Analysis",
+    "tema": "Verificación y validación",
+    "dificultad": "alta",
+    "pregunta": "En mejora del proceso de admisión, un requisito está bien escrito y comprobable, pero no resuelve ninguna necesidad real. ¿Qué ocurrió?",
     "opciones": [
-      "Cuenta con habilidades necesarias para entregar incrementos completos",
-      "Depende siempre de aprobaciones externas",
-      "Evita colaboración",
-      "Solo documenta"
+      "Fue validado, pero no estimado.",
+      "Fue verificado, pero no validado contra la necesidad de negocio.",
+      "Fue aceptado y por eso no puede cambiar.",
+      "Solo carece de una reserva de contingencia."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Un equipo multifuncional puede completar trabajo de extremo a extremo."
+    "respuestaCorrecta": 1,
+    "explicacion": "Verificar evalúa calidad formal; validar confirma relevancia y capacidad de satisfacer la necesidad."
   },
   {
     "id": 134,
     "examen": 3,
-    "dominio": "Agile",
-    "tema": "Transparencia",
-    "dificultad": "media",
-    "pregunta": "¿Por qué es importante la transparencia en agile?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Ética profesional",
+    "dificultad": "alta",
+    "pregunta": "Durante modernización de un hospital, un superior pide mantener un avance inflado para evitar una penalidad. ¿Qué debería hacer el miembro del equipo?",
     "opciones": [
-      "Permite inspección, adaptación y decisiones informadas",
-      "Oculta problemas",
-      "Evita feedback",
-      "Reemplaza calidad"
+      "Mantener la cifra porque fue solicitada por una autoridad.",
+      "Modificar otros indicadores para compensar la diferencia.",
+      "Esperar al cierre para registrar el hecho como lección aprendida.",
+      "Reportar los datos reales por los canales apropiados y actuar con transparencia."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Sin transparencia no hay inspección ni adaptación efectiva."
+    "respuestaCorrecta": 3,
+    "explicacion": "La ética profesional exige honestidad, responsabilidad y comunicación oportuna de información relevante."
   },
   {
     "id": 135,
     "examen": 3,
-    "dominio": "Agile",
-    "tema": "Adaptación",
-    "dificultad": "media",
-    "pregunta": "Después de recibir feedback del cliente, el equipo ajusta el backlog. ¿Qué principio se aplica?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Adaptación e híbrido",
+    "dificultad": "alta",
+    "pregunta": "En modernización de un hospital, los requisitos regulatorios son estables, pero la experiencia del usuario necesita pruebas frecuentes. ¿Qué enfoque es más apropiado?",
     "opciones": [
-      "Adaptación al cambio",
-      "Control rígido del alcance",
-      "Cierre contractual",
-      "Estimación análoga"
+      "Un enfoque híbrido: predictivo para lo regulatorio y adaptativo para lo incierto.",
+      "Predictivo para todo, prohibiendo retroalimentación durante la ejecución.",
+      "Adaptativo para todo, eliminando controles regulatorios.",
+      "Ningún enfoque, porque no se pueden combinar prácticas."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Agile incorpora aprendizaje y adapta prioridades."
+    "explicacion": "La forma de trabajo se adapta a incertidumbre, cumplimiento, riesgo y naturaleza de cada componente."
   },
   {
     "id": 136,
     "examen": 3,
-    "dominio": "Agile",
-    "tema": "Retrospectiva efectiva",
+    "dominio": "Predictivo",
+    "tema": "Compresión del cronograma",
     "dificultad": "alta",
-    "pregunta": "Una retrospectiva genera muchas ideas, pero ninguna acción. ¿Qué falta?",
+    "pregunta": "Para adelantar ampliación de un centro hospitalario, se propone agregar una segunda cuadrilla a una actividad crítica. ¿Qué técnica se evalúa?",
     "opciones": [
-      "Definir acciones concretas de mejora y responsables",
-      "Cancelar futuras retrospectivas",
-      "Evitar hablar de problemas",
-      "Cambiar al cliente"
+      "Fast tracking, que consiste en agregar recursos.",
+      "Nivelación de recursos para extender el plazo.",
+      "Aceptación pasiva del riesgo.",
+      "Crashing, que intercambia mayor costo por menor duración."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La retrospectiva debe terminar con mejoras accionables."
+    "respuestaCorrecta": 3,
+    "explicacion": "Crashing agrega recursos o costo a actividades críticas para reducir duración."
   },
   {
     "id": 137,
     "examen": 3,
     "dominio": "Business Analysis",
-    "tema": "Contexto de negocio",
-    "dificultad": "media",
-    "pregunta": "¿Por qué se analiza el contexto de negocio?",
+    "tema": "AS-IS y TO-BE",
+    "dificultad": "alta",
+    "pregunta": "En mejora del proceso de admisión, el equipo documenta el proceso actual y luego diseña el futuro deseado. ¿Qué debe analizar entre ambos?",
     "opciones": [
-      "Para entender fuerzas internas y externas que afectan la necesidad",
-      "Para reemplazar pruebas",
-      "Para evitar entrevistas",
-      "Para cerrar el proyecto"
+      "La brecha de capacidades, procesos, tecnología, personas y controles.",
+      "Solo el diseño visual de la pantalla.",
+      "Únicamente el costo inicial de la solución.",
+      "Nada, porque el estado futuro reemplaza automáticamente al actual."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "El contexto ayuda a comprender restricciones, oportunidades y motivadores."
+    "explicacion": "El análisis de brecha identifica lo necesario para pasar del AS-IS al TO-BE."
   },
   {
     "id": 138,
     "examen": 3,
     "dominio": "Business Analysis",
-    "tema": "Stakeholder analysis BA",
-    "dificultad": "media",
-    "pregunta": "¿Qué busca el análisis de interesados en BA?",
+    "tema": "Trazabilidad",
+    "dificultad": "alta",
+    "pregunta": "En mejora del proceso de admisión, cambia una regla de negocio. ¿Qué herramienta ayuda a identificar diseños, pruebas y entregables afectados?",
     "opciones": [
-      "Identificar quién aporta necesidades, decisiones o aceptación",
-      "Calcular CPI",
-      "Secuenciar actividades",
-      "Cerrar contratos"
+      "El gráfico de burn-down.",
+      "La reserva de gestión.",
+      "El calendario de recursos.",
+      "La matriz de trazabilidad de requisitos."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los interesados aportan información, validan necesidades y aceptan soluciones."
+    "respuestaCorrecta": 3,
+    "explicacion": "La trazabilidad conecta origen, objetivos, requisitos, diseño, entregables, pruebas y estado."
   },
   {
     "id": 139,
     "examen": 3,
-    "dominio": "Business Analysis",
-    "tema": "Elicitación colaborativa",
-    "dificultad": "media",
-    "pregunta": "¿Qué técnica es útil cuando se requiere consenso entre varios interesados?",
+    "dominio": "Agile",
+    "tema": "Liderazgo servicial",
+    "dificultad": "alta",
+    "pregunta": "En desarrollo de una plataforma de citas, el equipo espera que el Scrum Master asigne cada tarea. ¿Qué debería fomentar?",
     "opciones": [
-      "Taller facilitado",
-      "Estimación paramétrica",
-      "Fast tracking",
-      "Auditoría financiera"
+      "Que el Scrum Master actúe como jefe funcional.",
+      "Que el product owner controle a cada persona.",
+      "Que los interesados asignen trabajo directamente.",
+      "Que el equipo se organice y decida cómo alcanzar el objetivo dentro de límites claros."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los talleres facilitan discusión, acuerdos y aclaración de requisitos."
+    "respuestaCorrecta": 3,
+    "explicacion": "El liderazgo servicial facilita autonomía, colaboración y eliminación de impedimentos."
   },
   {
     "id": 140,
     "examen": 3,
-    "dominio": "Business Analysis",
-    "tema": "Observación",
-    "dificultad": "media",
-    "pregunta": "¿Cuándo es útil observar al usuario en su trabajo?",
+    "dominio": "Predictivo",
+    "tema": "Ruta crítica y holgura",
+    "dificultad": "alta",
+    "pregunta": "En ampliación de un centro hospitalario, una actividad crítica sin holgura se retrasa tres días. Si nada más cambia, ¿cuál es el efecto más probable?",
     "opciones": [
-      "Cuando los usuarios no describen fácilmente lo que realmente hacen",
-      "Cuando ya no existen procesos",
-      "Solo al cierre",
-      "Para eliminar requisitos"
+      "La fecha final del proyecto se retrasa tres días.",
+      "La actividad obtiene tres días de holgura positiva.",
+      "Solo cambia el costo, nunca el plazo.",
+      "La actividad deja automáticamente de ser crítica."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La observación revela necesidades implícitas y prácticas reales."
+    "explicacion": "Las actividades críticas determinan la duración mínima y su retraso suele mover la fecha final."
   },
   {
     "id": 141,
     "examen": 3,
-    "dominio": "Business Analysis",
-    "tema": "Documento de requisitos",
-    "dificultad": "media",
-    "pregunta": "¿Qué debe contener un requisito bien documentado?",
+    "dominio": "Predictivo",
+    "tema": "EAC y TCPI",
+    "dificultad": "alta",
+    "pregunta": "En ampliación de un centro hospitalario, BAC=1 000 y CPI=0,80. Si la eficiencia de costo continuará, ¿cuál es el EAC aproximado?",
     "opciones": [
-      "Descripción clara, origen, prioridad y criterios de aceptación cuando aplique",
-      "Solo opiniones generales",
-      "Datos sin validar",
-      "Aprobaciones verbales no registradas"
+      "800, usando BAC×CPI.",
+      "1 000, porque el BAC nunca puede cambiar.",
+      "1 250, usando EAC=BAC/CPI.",
+      "200, usando BAC−EV."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Documentar requisitos facilita trazabilidad, acuerdo y validación."
+    "respuestaCorrecta": 2,
+    "explicacion": "Cuando el desempeño de costo continuará, una fórmula común es BAC dividido entre CPI."
   },
   {
     "id": 142,
     "examen": 3,
     "dominio": "Business Analysis",
-    "tema": "Conflicto de requisitos",
+    "tema": "Regulación, datos e interfaces",
     "dificultad": "alta",
-    "pregunta": "Dos áreas solicitan requisitos incompatibles. ¿Qué debe hacer el analista de negocio?",
+    "pregunta": "En mejora del proceso de admisión, dos sistemas usan definiciones distintas para el mismo dato crítico. ¿Qué debe resolverse antes de integrar?",
     "opciones": [
-      "Facilitar análisis, criterios de decisión y acuerdo con interesados",
-      "Elegir al azar",
-      "Ignorar a ambas áreas",
-      "Implementar ambos sin analizar"
+      "Solo la velocidad de transferencia.",
+      "La semántica, reglas, formato, validación y propietario de los datos.",
+      "La estructura de la WBS.",
+      "El número de reuniones del equipo."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los conflictos requieren análisis de valor, restricciones, impacto y decisión transparente."
+    "respuestaCorrecta": 1,
+    "explicacion": "Las interfaces requieren acuerdos claros sobre significado, formato, frecuencia y manejo de errores."
   },
   {
     "id": 143,
     "examen": 3,
     "dominio": "Business Analysis",
-    "tema": "Requisitos verificables",
-    "dificultad": "media",
-    "pregunta": "¿Cuál requisito es más verificable?",
+    "tema": "Impacto de cambios",
+    "dificultad": "alta",
+    "pregunta": "En mejora del proceso de admisión, se propone modificar un requisito de datos. ¿Qué debería analizarse antes de aprobarlo?",
     "opciones": [
-      "El reporte debe generarse en menos de 10 segundos",
-      "El sistema debe ser bonito",
-      "La interfaz debe gustar",
-      "La solución debe ser moderna"
+      "Solo el texto del requisito modificado.",
+      "Únicamente la preferencia del solicitante.",
+      "Impactos en procesos, interfaces, reglas, seguridad, pruebas, costo y plazo.",
+      "Nada, porque los requisitos pueden cambiar sin consecuencias."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Un requisito verificable puede comprobarse objetivamente."
+    "respuestaCorrecta": 2,
+    "explicacion": "La trazabilidad y los modelos permiten identificar efectos directos e indirectos."
   },
   {
     "id": 144,
     "examen": 3,
     "dominio": "Business Analysis",
-    "tema": "Línea base de requisitos",
-    "dificultad": "media",
-    "pregunta": "¿Qué representa una línea base de requisitos?",
+    "tema": "Prototipos y modelos",
+    "dificultad": "alta",
+    "pregunta": "En mejora del proceso de admisión, los usuarios no logran imaginar la solución a partir de texto. ¿Qué técnica ayudaría primero?",
     "opciones": [
-      "Conjunto de requisitos aprobados usado para controlar cambios",
-      "Ideas sin revisar",
-      "Lista de defectos cerrados",
-      "Presupuesto de proveedores"
+      "Una estimación paramétrica.",
+      "Un prototipo de baja fidelidad para explorar y validar la interacción.",
+      "Un análisis de ruta crítica.",
+      "Una reserva de gestión."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La línea base permite controlar cambios y evitar ambigüedad."
+    "respuestaCorrecta": 1,
+    "explicacion": "Los prototipos hacen visible una posible solución y facilitan feedback temprano."
   },
   {
     "id": 145,
     "examen": 3,
-    "dominio": "Business Analysis",
-    "tema": "Análisis de brecha",
-    "dificultad": "media",
-    "pregunta": "¿Qué compara un análisis de brecha?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Gobernanza y autoridad",
+    "dificultad": "alta",
+    "pregunta": "En modernización de un hospital, un cambio supera el límite de autoridad del director. ¿Qué debe ocurrir antes de ejecutarlo?",
     "opciones": [
-      "Estado actual y estado deseado",
-      "Costo real y costo hundido",
-      "Historias y defectos",
-      "Riesgos positivos y negativos"
+      "Implementarlo de inmediato para mantener satisfecho al solicitante.",
+      "Rechazarlo automáticamente sin análisis.",
+      "Analizar el impacto y elevarlo al órgano autorizado para decidir.",
+      "Aprobarlo mediante votación informal del equipo."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El análisis de brecha identifica diferencias entre AS-IS y TO-BE."
+    "respuestaCorrecta": 2,
+    "explicacion": "La gobernanza define umbrales, derechos de decisión y rutas de escalamiento."
   },
   {
     "id": 146,
     "examen": 3,
-    "dominio": "Business Analysis",
-    "tema": "Beneficios de la solución",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Interesados y comunicación",
     "dificultad": "alta",
-    "pregunta": "¿Por qué se definen métricas de beneficio?",
+    "pregunta": "En modernización de un hospital, un interesado de alto poder e interés afirma que recibe información demasiado tarde para decidir. ¿Qué debería revisar primero el director?",
     "opciones": [
-      "Para comprobar si la solución entrega el valor esperado",
-      "Para eliminar usuarios",
-      "Para evitar seguimiento",
-      "Para reemplazar requisitos"
+      "La WBS, porque define automáticamente la frecuencia de reportes.",
+      "El registro de adquisiciones cerradas.",
+      "La velocidad del equipo, sin conversar con el interesado.",
+      "Las necesidades de comunicación y la estrategia de involucramiento de ese interesado."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Las métricas permiten evaluar si la solución generó resultados y beneficios."
+    "respuestaCorrecta": 3,
+    "explicacion": "La comunicación debe adaptarse al poder, interés, necesidades y momento de decisión de cada interesado."
   },
   {
     "id": 147,
     "examen": 3,
-    "dominio": "Business Analysis",
-    "tema": "Aceptación de usuario",
-    "dificultad": "media",
-    "pregunta": "¿Qué prueba se enfoca en confirmar que la solución sirve al usuario o negocio?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Lecciones aprendidas",
+    "dificultad": "alta",
+    "pregunta": "Durante modernización de un hospital, el equipo descubre una solución que evitaría retrabajo en las siguientes fases. ¿Cuándo debería registrarla y compartirla?",
     "opciones": [
-      "Prueba de aceptación de usuario",
-      "Estimación análoga",
-      "Compresión del cronograma",
-      "Auditoría de adquisiciones"
+      "Ahora, para que pueda aplicarse durante el mismo proyecto.",
+      "Solo después del cierre administrativo.",
+      "Únicamente si la solución surgió de un fracaso.",
+      "Nunca, porque las lecciones son información informal."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La aceptación de usuario valida la solución desde la perspectiva del negocio."
+    "explicacion": "Las lecciones se capturan y utilizan durante todo el ciclo de vida, no solo al cierre."
   },
   {
     "id": 148,
     "examen": 3,
-    "dominio": "Business Analysis",
-    "tema": "Cambio de requisitos ágil",
-    "dificultad": "media",
-    "pregunta": "En agile, un nuevo requisito valioso aparece. ¿Qué debería hacerse?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Roles y responsabilidades",
+    "dificultad": "alta",
+    "pregunta": "En modernización de un hospital, el patrocinador intenta asignar tareas diarias directamente a cada miembro y genera instrucciones contradictorias. ¿Qué debería hacer el director?",
     "opciones": [
-      "Incluirlo y priorizarlo en el backlog",
-      "Implementarlo sin evaluar",
-      "Rechazarlo siempre",
-      "Ocultarlo hasta el cierre"
+      "Permitir todas las instrucciones porque el patrocinador tiene mayor jerarquía.",
+      "Excluir al patrocinador de toda comunicación futura.",
+      "Aclarar roles y acordar un canal de dirección coherente con la gobernanza.",
+      "Pedir al equipo que elija qué instrucciones seguir sin criterios."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los nuevos requisitos se gestionan mediante el backlog y priorización."
+    "respuestaCorrecta": 2,
+    "explicacion": "El patrocinador aporta dirección estratégica; el director integra y coordina la ejecución cotidiana."
   },
   {
     "id": 149,
     "examen": 3,
-    "dominio": "Business Analysis",
-    "tema": "Requisito fuera de alcance",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Riesgo, problema, supuesto y restricción",
     "dificultad": "alta",
-    "pregunta": "Un interesado pide una función que no se alinea con la necesidad aprobada. ¿Qué debe hacerse?",
+    "pregunta": "En modernización de un hospital, el equipo planifica suponiendo que un permiso será aprobado antes del inicio, aunque todavía no existe confirmación. ¿Cómo debe registrarse?",
     "opciones": [
-      "Evaluar alineación, impacto y decisión de cambio",
-      "Agregarla siempre",
-      "Borrar requisitos aprobados",
-      "Ignorar sin registrar"
+      "Como un supuesto que debe validarse y vigilarse.",
+      "Como un problema actual que ya ocurrió.",
+      "Como una restricción contractual inmodificable.",
+      "Como una lección aprendida del cierre."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "No todo pedido es requisito aceptado; debe evaluarse contra valor, alcance e impacto."
+    "explicacion": "Un supuesto se considera verdadero para planificar, pero debe revisarse cuando aparece nueva información."
   },
   {
     "id": 150,
     "examen": 3,
     "dominio": "Business Analysis",
-    "tema": "Trazabilidad hacia pruebas",
-    "dificultad": "media",
-    "pregunta": "¿Por qué se vinculan requisitos con pruebas?",
+    "tema": "Requisitos de transición",
+    "dificultad": "alta",
+    "pregunta": "En mejora del proceso de admisión, es necesario migrar datos históricos una sola vez y capacitar usuarios antes del despliegue. ¿Cómo se clasifica?",
     "opciones": [
-      "Para confirmar que cada requisito tenga forma de verificación",
-      "Para duplicar trabajo",
-      "Para evitar validación",
-      "Para eliminar usuarios"
+      "Como funciones permanentes del producto.",
+      "Como requisitos de transición para pasar al estado futuro.",
+      "Como beneficios ya realizados.",
+      "Como restricciones del portafolio."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La trazabilidad hacia pruebas ayuda a verificar que los requisitos fueron cumplidos."
+    "respuestaCorrecta": 1,
+    "explicacion": "Los requisitos de transición habilitan el cambio y pueden dejar de ser necesarios después de implementar."
   },
   {
     "id": 151,
     "examen": 4,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Decisión basada en valor",
-    "dificultad": "alta",
-    "pregunta": "El equipo puede entregar una mejora de bajo costo y alto impacto o una función costosa de bajo uso. ¿Qué debería priorizarse?",
+    "dominio": "Predictivo",
+    "tema": "Control de calidad",
+    "dificultad": "alta situacional",
+    "pregunta": "En construcción de un terminal de transporte, el equipo inspecciona una muestra para comprobar tolerancias del entregable. ¿Qué actividad realiza?",
     "opciones": [
-      "La mejora de mayor valor para los interesados",
-      "La función más costosa",
-      "La tarea más visible aunque no aporte",
-      "La opción elegida sin datos"
+      "Gestión de beneficios posteriores al cierre.",
+      "Control de calidad sobre resultados producidos.",
+      "Planificación del portafolio.",
+      "Elicitación de requisitos."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Las decisiones del proyecto deben orientarse a maximizar valor."
+    "respuestaCorrecta": 1,
+    "explicacion": "El control de calidad mide e inspecciona resultados para determinar conformidad."
   },
   {
     "id": 152,
     "examen": 4,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Conflicto de prioridades",
-    "dificultad": "alta",
-    "pregunta": "Dos interesados clave tienen prioridades opuestas. ¿Qué debe hacer el director del proyecto?",
+    "dominio": "Predictivo",
+    "tema": "Estimación y reservas",
+    "dificultad": "alta situacional",
+    "pregunta": "En construcción de un terminal de transporte, se asigna una reserva para el posible costo de un riesgo identificado. ¿Qué tipo de reserva es?",
     "opciones": [
-      "Facilitar una decisión basada en objetivos, valor y criterios acordados",
-      "Aceptar ambas sin analizar",
-      "Ignorar al de menor jerarquía siempre",
-      "Cerrar el proyecto"
+      "Reserva de contingencia para riesgos conocidos.",
+      "Reserva de gestión para trabajo no autorizado.",
+      "Valor ganado todavía no facturado.",
+      "Costo hundido que no puede controlarse."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La gestión profesional busca alinear decisiones con objetivos y valor."
+    "explicacion": "La contingencia cubre riesgos identificados y normalmente forma parte de la línea base de costos."
   },
   {
     "id": 153,
     "examen": 4,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Riesgo secundario",
-    "dificultad": "alta",
-    "pregunta": "Una respuesta a un riesgo genera un nuevo riesgo. ¿Cómo se llama este nuevo riesgo?",
+    "dominio": "Business Analysis",
+    "tema": "Prototipos y modelos",
+    "dificultad": "alta situacional",
+    "pregunta": "En simplificación de trámites públicos, los usuarios no logran imaginar la solución a partir de texto. ¿Qué técnica ayudaría primero?",
     "opciones": [
-      "Riesgo secundario",
-      "Issue cerrado",
-      "Supuesto",
-      "Hito"
+      "Una estimación paramétrica.",
+      "Un prototipo de baja fidelidad para explorar y validar la interacción.",
+      "Un análisis de ruta crítica.",
+      "Una reserva de gestión."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los riesgos secundarios surgen como consecuencia de implementar respuestas a riesgos."
+    "respuestaCorrecta": 1,
+    "explicacion": "Los prototipos hacen visible una posible solución y facilitan feedback temprano."
   },
   {
     "id": 154,
     "examen": 4,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Riesgo residual",
-    "dificultad": "alta",
-    "pregunta": "Después de aplicar una respuesta, queda cierta exposición al riesgo. ¿Cómo se denomina?",
+    "dominio": "Business Analysis",
+    "tema": "Verificación y validación",
+    "dificultad": "alta situacional",
+    "pregunta": "En simplificación de trámites públicos, un requisito está bien escrito y comprobable, pero no resuelve ninguna necesidad real. ¿Qué ocurrió?",
     "opciones": [
-      "Riesgo residual",
-      "Restricción",
-      "Beneficio",
-      "Dependencia"
+      "Fue verificado, pero no validado contra la necesidad de negocio.",
+      "Fue validado, pero no estimado.",
+      "Fue aceptado y por eso no puede cambiar.",
+      "Solo carece de una reserva de contingencia."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "El riesgo residual es el riesgo que permanece después de responder."
+    "explicacion": "Verificar evalúa calidad formal; validar confirma relevancia y capacidad de satisfacer la necesidad."
   },
   {
     "id": 155,
     "examen": 4,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Escucha activa",
-    "dificultad": "media",
-    "pregunta": "¿Qué conducta demuestra escucha activa?",
+    "tema": "Adaptación e híbrido",
+    "dificultad": "alta situacional",
+    "pregunta": "En implementación de una plataforma de atención ciudadana, los requisitos regulatorios son estables, pero la experiencia del usuario necesita pruebas frecuentes. ¿Qué enfoque es más apropiado?",
     "opciones": [
-      "Parafrasear y confirmar entendimiento antes de responder",
-      "Interrumpir constantemente",
-      "Cambiar de tema",
-      "Enviar mensajes sin leer respuestas"
+      "Un enfoque híbrido: predictivo para lo regulatorio y adaptativo para lo incierto.",
+      "Predictivo para todo, prohibiendo retroalimentación durante la ejecución.",
+      "Adaptativo para todo, eliminando controles regulatorios.",
+      "Ningún enfoque, porque no se pueden combinar prácticas."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La escucha activa mejora entendimiento y reduce conflictos."
+    "explicacion": "La forma de trabajo se adapta a incertidumbre, cumplimiento, riesgo y naturaleza de cada componente."
   },
   {
     "id": 156,
     "examen": 4,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Complejidad",
-    "dificultad": "alta",
-    "pregunta": "¿Qué debería hacer un director de proyecto ante alta complejidad e incertidumbre?",
+    "dominio": "Business Analysis",
+    "tema": "AS-IS y TO-BE",
+    "dificultad": "alta situacional",
+    "pregunta": "En simplificación de trámites públicos, el equipo documenta el proceso actual y luego diseña el futuro deseado. ¿Qué debe analizar entre ambos?",
     "opciones": [
-      "Dividir, experimentar, aprender y adaptar el enfoque",
-      "Forzar un plan rígido sin revisión",
-      "Ignorar riesgos",
-      "Eliminar comunicaciones"
+      "La brecha de capacidades, procesos, tecnología, personas y controles.",
+      "Solo el diseño visual de la pantalla.",
+      "Únicamente el costo inicial de la solución.",
+      "Nada, porque el estado futuro reemplaza automáticamente al actual."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La complejidad requiere adaptación, aprendizaje progresivo y toma de decisiones informada."
+    "explicacion": "El análisis de brecha identifica lo necesario para pasar del AS-IS al TO-BE."
   },
   {
     "id": 157,
     "examen": 4,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Sistema de entrega de valor",
-    "dificultad": "media",
-    "pregunta": "¿Cómo contribuyen los proyectos al sistema de entrega de valor?",
+    "tema": "Lecciones aprendidas",
+    "dificultad": "alta situacional",
+    "pregunta": "Durante implementación de una plataforma de atención ciudadana, el equipo descubre una solución que evitaría retrabajo en las siguientes fases. ¿Cuándo debería registrarla y compartirla?",
     "opciones": [
-      "Convierten ideas e inversiones en resultados y beneficios",
-      "Solo consumen recursos",
-      "Evitan cambios organizacionales",
-      "Reemplazan operaciones"
+      "Solo después del cierre administrativo.",
+      "Únicamente si la solución surgió de un fracaso.",
+      "Ahora, para que pueda aplicarse durante el mismo proyecto.",
+      "Nunca, porque las lecciones son información informal."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los proyectos son medios para crear resultados que aportan valor."
+    "respuestaCorrecta": 2,
+    "explicacion": "Las lecciones se capturan y utilizan durante todo el ciclo de vida, no solo al cierre."
   },
   {
     "id": 158,
     "examen": 4,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Gestión de beneficios",
-    "dificultad": "alta",
-    "pregunta": "Un entregable se completó, pero los usuarios no lo usan. ¿Qué riesgo existe?",
+    "dominio": "Agile",
+    "tema": "Sprint planning",
+    "dificultad": "alta situacional",
+    "pregunta": "Durante la planificación de desarrollo de una aplicación municipal, se propone trabajo para el doble de la capacidad histórica. ¿Qué debería hacer el equipo?",
     "opciones": [
-      "Que no se materialicen los beneficios esperados",
-      "Que el presupuesto aumente automáticamente",
-      "Que el alcance siempre mejore",
-      "Que el proyecto sea ágil"
+      "Comprometer todo para satisfacer al product owner.",
+      "Duplicar la velocidad prevista sin cambiar capacidad.",
+      "Seleccionar una cantidad realista y construir un sprint goal coherente.",
+      "Reducir la Definition of Done para aceptar más trabajo."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Sin adopción, el entregable puede no generar valor real."
+    "respuestaCorrecta": 2,
+    "explicacion": "El equipo selecciona trabajo según capacidad, objetivo y entendimiento de los elementos."
   },
   {
     "id": 159,
     "examen": 4,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Transparencia de desempeño",
-    "dificultad": "media",
-    "pregunta": "¿Por qué reportar información real aunque sea desfavorable?",
+    "tema": "Respuesta a riesgos",
+    "dificultad": "alta situacional",
+    "pregunta": "En implementación de una plataforma de atención ciudadana, una amenaza de alta probabilidad está descrita en el registro, pero no tiene responsable ni respuesta. ¿Qué falta?",
     "opciones": [
-      "Permite tomar acciones correctivas a tiempo",
-      "Mejora artificialmente indicadores",
-      "Evita decisiones",
-      "Oculta problemas"
+      "Trasladarla al registro de lecciones aprendidas.",
+      "Considerarla resuelta porque ya fue identificada.",
+      "Asignar un propietario, una respuesta, disparadores y acciones de seguimiento.",
+      "Aumentar el presupuesto sin documentar la causa."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La transparencia ayuda a tomar decisiones oportunas y éticas."
+    "respuestaCorrecta": 2,
+    "explicacion": "Un riesgo accionable necesita análisis, responsable, respuesta y seguimiento."
   },
   {
     "id": 160,
     "examen": 4,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Criterios de priorización",
-    "dificultad": "media",
-    "pregunta": "¿Qué criterio es más adecuado para priorizar trabajo?",
+    "dominio": "Business Analysis",
+    "tema": "Elicitación",
+    "dificultad": "alta situacional",
+    "pregunta": "En simplificación de trámites públicos, los usuarios realizan un trabajo complejo que les cuesta explicar y existen muchas excepciones. ¿Qué técnica puede revelar mejor la realidad?",
     "opciones": [
-      "Valor, urgencia, riesgo y dependencias",
-      "Orden alfabético",
-      "Preferencia sin análisis",
-      "Color del documento"
+      "Solo una encuesta cerrada a una persona.",
+      "Un cálculo de valor ganado.",
+      "Observación directa complementada con preguntas.",
+      "La ruta crítica del proyecto."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La priorización debe basarse en criterios objetivos."
+    "respuestaCorrecta": 2,
+    "explicacion": "La observación ayuda a descubrir conocimiento tácito y diferencias entre el proceso declarado y el real."
   },
   {
     "id": 161,
     "examen": 4,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Responsabilidad del equipo",
-    "dificultad": "media",
-    "pregunta": "¿Qué comportamiento fortalece la responsabilidad compartida?",
+    "dominio": "Agile",
+    "tema": "Selección de enfoque",
+    "dificultad": "alta situacional",
+    "pregunta": "En desarrollo de una aplicación municipal, los usuarios no pueden definir todos los requisitos y necesitan ver versiones frecuentes para aprender. ¿Qué enfoque es más adecuado?",
     "opciones": [
-      "Cumplir compromisos, comunicar bloqueos y apoyar al equipo",
-      "Ocultar retrasos",
-      "Trabajar aislado",
-      "Evitar retroalimentación"
+      "Predictivo rígido con alcance congelado desde el inicio.",
+      "Operacional sin objetivo de producto.",
+      "Suspender todo trabajo hasta conocer cada requisito.",
+      "Adaptativo, con entregas cortas y retroalimentación continua."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La responsabilidad compartida mejora confiabilidad y desempeño."
+    "respuestaCorrecta": 3,
+    "explicacion": "El enfoque adaptativo es apropiado cuando existe incertidumbre y el aprendizaje frecuente aporta valor."
   },
   {
     "id": 162,
     "examen": 4,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Gestión de expectativas",
-    "dificultad": "alta",
-    "pregunta": "Un interesado espera una funcionalidad que nunca fue aprobada. ¿Qué debe hacer el PM?",
+    "tema": "Recursos y RACI",
+    "dificultad": "alta situacional",
+    "pregunta": "En implementación de una plataforma de atención ciudadana, una actividad tiene dos personas marcadas como Accountable y las decisiones se retrasan. ¿Qué corrección es más adecuada?",
     "opciones": [
-      "Revisar alcance aprobado, aclarar expectativas y gestionar cambio si aplica",
-      "Prometerla de inmediato",
-      "Culpar al equipo",
-      "Ignorar al interesado"
+      "Agregar más personas como Accountable para repartir la responsabilidad.",
+      "Eliminar a todos los responsables y dejar solo informados.",
+      "Definir una sola persona que rinda cuentas y aclarar los demás roles.",
+      "Permitir que cada área apruebe una versión diferente."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Se debe aclarar la base aprobada y gestionar formalmente cualquier cambio."
+    "respuestaCorrecta": 2,
+    "explicacion": "La RACI debe aclarar responsabilidad y normalmente asigna una sola rendición de cuentas por resultado."
   },
   {
     "id": 163,
     "examen": 4,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Lecciones aprendidas aplicadas",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es el mayor valor de las lecciones aprendidas?",
+    "dominio": "Predictivo",
+    "tema": "EAC y TCPI",
+    "dificultad": "alta situacional",
+    "pregunta": "En construcción de un terminal de transporte, BAC=1 000 y CPI=0,80. Si la eficiencia de costo continuará, ¿cuál es el EAC aproximado?",
     "opciones": [
-      "Aplicarlas para mejorar decisiones presentes y futuras",
-      "Archivarlas sin revisión",
-      "Usarlas solo para culpar",
-      "Evitarlas en proyectos ágiles"
+      "800, usando BAC×CPI.",
+      "1 250, usando EAC=BAC/CPI.",
+      "1 000, porque el BAC nunca puede cambiar.",
+      "200, usando BAC−EV."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Las lecciones tienen valor cuando se usan para mejorar."
+    "respuestaCorrecta": 1,
+    "explicacion": "Cuando el desempeño de costo continuará, una fórmula común es BAC dividido entre CPI."
   },
   {
     "id": 164,
     "examen": 4,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Gobernanza de cambios",
-    "dificultad": "alta",
-    "pregunta": "¿Por qué es importante una gobernanza clara para cambios?",
+    "tema": "Proyecto y operaciones",
+    "dificultad": "alta situacional",
+    "pregunta": "Durante implementación de una plataforma de atención ciudadana, el equipo implementará un resultado único y después un área permanente lo administrará mensualmente. ¿Cómo debe clasificarse el trabajo?",
     "opciones": [
-      "Evita decisiones arbitrarias y permite evaluar impactos",
-      "Permite cambiar todo sin análisis",
-      "Reemplaza requisitos",
-      "Reduce comunicación"
+      "La implementación es un proyecto y la administración posterior es una operación.",
+      "Ambos son proyectos porque consumen recursos.",
+      "La implementación es una operación y la administración es un programa.",
+      "Ambos son operaciones porque pertenecen a la misma organización."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La gobernanza define cómo se aprueban o rechazan cambios."
+    "explicacion": "Un proyecto es temporal y único; una operación es continua y repetitiva."
   },
   {
     "id": 165,
     "examen": 4,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "PMO",
-    "dificultad": "media",
-    "pregunta": "¿Qué puede aportar una PMO al proyecto?",
+    "tema": "Ética profesional",
+    "dificultad": "alta situacional",
+    "pregunta": "Durante implementación de una plataforma de atención ciudadana, un superior pide mantener un avance inflado para evitar una penalidad. ¿Qué debería hacer el miembro del equipo?",
     "opciones": [
-      "Estándares, soporte, capacitación y seguimiento",
-      "Solo ejecución técnica",
-      "Eliminación de patrocinador",
-      "Aprobación automática de pagos"
+      "Reportar los datos reales por los canales apropiados y actuar con transparencia.",
+      "Mantener la cifra porque fue solicitada por una autoridad.",
+      "Modificar otros indicadores para compensar la diferencia.",
+      "Esperar al cierre para registrar el hecho como lección aprendida."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Una PMO puede proporcionar metodologías, soporte y control."
+    "explicacion": "La ética profesional exige honestidad, responsabilidad y comunicación oportuna de información relevante."
   },
   {
     "id": 166,
     "examen": 4,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Cierre contractual",
-    "dificultad": "media",
-    "pregunta": "¿Qué debe confirmarse en el cierre contractual?",
+    "dominio": "Agile",
+    "tema": "Definition of Done",
+    "dificultad": "alta situacional",
+    "pregunta": "Una historia de desarrollo de una aplicación municipal fue desarrollada, pero no probada, y la DoD exige pruebas aprobadas. ¿Puede contarse como terminada?",
     "opciones": [
-      "Que obligaciones, entregables y pagos contractuales estén resueltos",
-      "Que no existan documentos",
-      "Que se elimine el registro de riesgos",
-      "Que no participe el proveedor"
+      "Sí; basta con finalizar la codificación.",
+      "Sí; las pruebas pueden realizarse después del proyecto.",
+      "No; debe cumplir completamente la Definition of Done.",
+      "Depende solo de la opinión del desarrollador."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El cierre contractual verifica cumplimiento y cierre de obligaciones."
+    "respuestaCorrecta": 2,
+    "explicacion": "La DoD crea un entendimiento común y verificable de calidad y completitud."
   },
   {
     "id": 167,
     "examen": 4,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Negociación de recursos",
-    "dificultad": "alta",
-    "pregunta": "El equipo no cuenta con un especialista crítico. ¿Qué debe hacer el PM?",
+    "dominio": "Agile",
+    "tema": "Daily e impedimentos",
+    "dificultad": "alta situacional",
+    "pregunta": "La daily de desarrollo de una aplicación municipal se convirtió en un reporte de 45 minutos al gerente. ¿Qué debería corregirse?",
     "opciones": [
-      "Negociar recursos o alternativas con responsables funcionales",
-      "Asignar trabajo sin capacidad",
-      "Ignorar el problema",
-      "Reducir calidad sin aviso"
+      "Aumentar su duración para responder más preguntas gerenciales.",
+      "Invitar a todos los interesados para aprobar cada tarea.",
+      "Eliminar la inspección diaria del progreso.",
+      "Reenfocarla en la coordinación del equipo hacia el sprint goal."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El PM debe gestionar disponibilidad de recursos y alternativas."
+    "respuestaCorrecta": 3,
+    "explicacion": "La daily es un evento breve de coordinación e inspección, no un reporte jerárquico."
   },
   {
     "id": 168,
     "examen": 4,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Toma de decisiones",
-    "dificultad": "media",
-    "pregunta": "¿Qué mejora la toma de decisiones en el proyecto?",
+    "dominio": "Predictivo",
+    "tema": "Valor ganado",
+    "dificultad": "alta situacional",
+    "pregunta": "En el corte de construcción de un terminal de transporte, EV=80, PV=100 y AC=90. ¿Cuál es la interpretación correcta?",
     "opciones": [
-      "Datos confiables, criterios claros y participación adecuada",
-      "Suposiciones no verificadas",
-      "Presión sin análisis",
-      "Ocultar información"
+      "Está adelantado y por debajo del presupuesto.",
+      "El proyecto está atrasado y con sobrecosto: SPI=0,80 y CPI≈0,89.",
+      "Está atrasado, pero con eficiencia de costo favorable.",
+      "Está según plan porque EV y AC son cercanos."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Las decisiones sólidas requieren información confiable y criterios acordados."
+    "respuestaCorrecta": 1,
+    "explicacion": "SPI=EV/PV y CPI=EV/AC; valores menores que uno son desfavorables."
   },
   {
     "id": 169,
     "examen": 4,
-    "dominio": "Predictivo",
-    "tema": "Control integrado",
-    "dificultad": "alta",
-    "pregunta": "Se aprueba un cambio de alcance. ¿Qué documentos podrían requerir actualización?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Acta de constitución y patrocinio",
+    "dificultad": "alta situacional",
+    "pregunta": "El director asignado a implementación de una plataforma de atención ciudadana necesita comprometer recursos funcionales, pero la iniciativa aún no está autorizada formalmente. ¿Qué debe obtener primero?",
     "opciones": [
-      "Líneas base, cronograma, costo y documentos relacionados",
-      "Solo el logotipo",
-      "Nada, porque ya fue aprobado",
-      "Solo el acta inicial"
+      "Una lista detallada de actividades sin aprobación del patrocinador.",
+      "Un informe de cierre de adquisiciones.",
+      "Una retrospectiva del equipo técnico.",
+      "Un acta de constitución aprobada que confirme objetivos y autoridad."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Un cambio aprobado puede afectar planes, líneas base y documentos del proyecto."
+    "respuestaCorrecta": 3,
+    "explicacion": "El acta autoriza formalmente el proyecto y otorga autoridad inicial al director."
   },
   {
     "id": 170,
     "examen": 4,
     "dominio": "Predictivo",
-    "tema": "Crashing vs fast tracking",
-    "dificultad": "alta",
-    "pregunta": "¿Cuál es un riesgo típico del fast tracking?",
+    "tema": "Control integrado de cambios",
+    "dificultad": "alta situacional",
+    "pregunta": "En construcción de un terminal de transporte, el cliente solicita un entregable adicional después de aprobarse la línea base. ¿Qué debe hacerse primero?",
     "opciones": [
-      "Retrabajo por ejecutar actividades en paralelo",
-      "Aumento automático de calidad",
-      "Eliminación de dependencias reales",
-      "Reducción garantizada del costo"
+      "Ejecutarla y solicitar aprobación después.",
+      "Rechazarla porque una línea base nunca puede cambiar.",
+      "Registrar la solicitud y analizar impactos antes de obtener una decisión formal.",
+      "Modificar solo el presupuesto sin revisar otros objetivos."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Fast tracking solapa actividades y puede generar retrabajo."
+    "respuestaCorrecta": 2,
+    "explicacion": "El control integrado evalúa impactos y obtiene aprobación antes de modificar líneas base."
   },
   {
     "id": 171,
     "examen": 4,
-    "dominio": "Predictivo",
-    "tema": "Curva S",
-    "dificultad": "media",
-    "pregunta": "¿Para qué puede usarse una curva S?",
+    "dominio": "Agile",
+    "tema": "Review y retrospectiva",
+    "dificultad": "alta situacional",
+    "pregunta": "En desarrollo de una aplicación municipal, los interesados inspeccionan el incremento y proponen cambios al producto. ¿En qué evento ocurre principalmente?",
     "opciones": [
-      "Comparar avance o costo acumulado planificado y real",
-      "Definir historias de usuario",
-      "Eliminar pruebas",
-      "Identificar patrocinador"
+      "En la retrospectiva, cuyo foco es mejorar el proceso del equipo.",
+      "En la daily, que reemplaza la aceptación del producto.",
+      "En la planificación anual del portafolio.",
+      "En la sprint review, donde se revisa el resultado y se adapta el backlog."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La curva S ayuda a visualizar acumulados y comparar desempeño."
+    "respuestaCorrecta": 3,
+    "explicacion": "La review se enfoca en producto, valor, feedback y próximos pasos."
   },
   {
     "id": 172,
     "examen": 4,
-    "dominio": "Predictivo",
-    "tema": "EAC",
-    "dificultad": "alta",
-    "pregunta": "¿Qué estima el EAC en valor ganado?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Reuniones y causa raíz",
+    "dificultad": "alta situacional",
+    "pregunta": "Las reuniones de implementación de una plataforma de atención ciudadana terminan sin decisiones ni responsables. ¿Qué mejora debería aplicarse primero?",
     "opciones": [
-      "Costo total esperado al terminar el proyecto",
-      "Valor planificado del día",
-      "Presupuesto de una sola tarea",
-      "Número de interesados"
+      "Invitar a más personas y ampliar la duración.",
+      "Eliminar las actas para ahorrar tiempo.",
+      "Tratar todos los temas sin priorización.",
+      "Definir objetivo, agenda, participantes, decisiones esperadas y seguimiento de acciones."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "EAC proyecta el costo final estimado del proyecto."
+    "respuestaCorrecta": 3,
+    "explicacion": "Una reunión efectiva tiene propósito, preparación, facilitación y acciones con responsables y fechas."
   },
   {
     "id": 173,
     "examen": 4,
-    "dominio": "Predictivo",
-    "tema": "BAC",
-    "dificultad": "media",
-    "pregunta": "¿Qué representa el BAC?",
+    "dominio": "Agile",
+    "tema": "Estimación y velocidad",
+    "dificultad": "alta situacional",
+    "pregunta": "Dos equipos de desarrollo de una aplicación municipal tienen velocidades de 30 y 50 puntos. ¿Puede concluirse que el segundo es más productivo?",
     "opciones": [
-      "Presupuesto total aprobado al finalizar",
-      "Costo real acumulado",
-      "Valor ganado diario",
-      "Reserva no autorizada"
+      "No; los puntos son relativos a cada equipo y no deben compararse directamente.",
+      "Sí; una velocidad mayor siempre demuestra mejor productividad.",
+      "Sí, siempre que tengan el mismo product owner.",
+      "No, porque la velocidad nunca sirve para pronosticar."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "BAC es el presupuesto total autorizado para el proyecto."
+    "explicacion": "La velocidad ayuda a un equipo a pronosticar su propio trabajo, no a comparar productividad."
   },
   {
     "id": 174,
     "examen": 4,
     "dominio": "Predictivo",
-    "tema": "Control de alcance",
-    "dificultad": "alta",
-    "pregunta": "¿Qué busca evitar el control del alcance?",
+    "tema": "WBS y alcance",
+    "dificultad": "alta situacional",
+    "pregunta": "En construcción de un terminal de transporte, existe un cronograma detallado, pero el equipo no puede demostrar que todo el alcance aprobado esté incluido. ¿Qué debe revisar?",
     "opciones": [
-      "Scope creep o crecimiento no controlado del alcance",
-      "Toda comunicación",
-      "La aceptación formal",
-      "La calidad"
+      "Solo el registro de interesados.",
+      "Únicamente el plan de comunicaciones.",
+      "La WBS, su diccionario y la línea base del alcance.",
+      "El informe de costos reales, sin revisar alcance."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El control del alcance evita cambios no autorizados."
+    "respuestaCorrecta": 2,
+    "explicacion": "La línea base del alcance integra enunciado, WBS y diccionario para definir y controlar el trabajo."
   },
   {
     "id": 175,
     "examen": 4,
-    "dominio": "Predictivo",
-    "tema": "Plan de gestión del cronograma",
-    "dificultad": "media",
-    "pregunta": "¿Qué define este plan?",
+    "dominio": "Business Analysis",
+    "tema": "Necesidad y solución",
+    "dificultad": "alta situacional",
+    "pregunta": "En simplificación de trámites públicos, un área solicita comprar una aplicación, pero no puede explicar qué problema resolverá. ¿Qué debe hacer primero el analista?",
     "opciones": [
-      "Cómo se desarrollará, gestionará y controlará el cronograma",
-      "La estrategia comercial del cliente",
-      "Los colores del dashboard",
-      "La lista de vacaciones"
+      "Comprar la aplicación para no retrasar el proyecto.",
+      "Crear la WBS de implementación sin más preguntas.",
+      "Elegir el producto con mayor cantidad de funciones.",
+      "Investigar la necesidad, causas y resultados deseados antes de definir la solución."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El plan de cronograma establece reglas, herramientas y criterios de control."
+    "respuestaCorrecta": 3,
+    "explicacion": "El análisis de negocio comienza entendiendo el problema u oportunidad, no una solución preconcebida."
   },
   {
     "id": 176,
     "examen": 4,
-    "dominio": "Predictivo",
-    "tema": "Métricas de calidad",
-    "dificultad": "media",
-    "pregunta": "¿Para qué sirven las métricas de calidad?",
+    "dominio": "Business Analysis",
+    "tema": "Funcional y no funcional",
+    "dificultad": "alta situacional",
+    "pregunta": "En simplificación de trámites públicos, el requisito dice: “el 95 % de las búsquedas responderá en menos de dos segundos”. ¿Cómo se clasifica?",
     "opciones": [
-      "Medir objetivamente si el producto o proceso cumple requisitos",
-      "Elegir proveedores al azar",
-      "Reemplazar las pruebas",
-      "Evitar inspecciones"
+      "Como requisito funcional de registro.",
+      "Como requisito no funcional y medible de desempeño.",
+      "Como requisito de transición temporal.",
+      "Como beneficio de negocio ya realizado."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Las métricas permiten evaluar calidad con criterios objetivos."
+    "respuestaCorrecta": 1,
+    "explicacion": "Los no funcionales describen atributos como rendimiento, seguridad, disponibilidad y usabilidad."
   },
   {
     "id": 177,
     "examen": 4,
-    "dominio": "Agile",
-    "tema": "Cliente disponible",
-    "dificultad": "alta",
-    "pregunta": "En agile, el cliente no participa en revisiones ni priorización. ¿Cuál es el riesgo?",
+    "dominio": "Business Analysis",
+    "tema": "Requisitos de transición",
+    "dificultad": "alta situacional",
+    "pregunta": "En simplificación de trámites públicos, es necesario migrar datos históricos una sola vez y capacitar usuarios antes del despliegue. ¿Cómo se clasifica?",
     "opciones": [
-      "Construir algo que no entregue valor esperado",
-      "Mejorar automáticamente la calidad",
-      "Reducir toda incertidumbre",
-      "Eliminar deuda técnica"
+      "Como funciones permanentes del producto.",
+      "Como requisitos de transición para pasar al estado futuro.",
+      "Como beneficios ya realizados.",
+      "Como restricciones del portafolio."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La falta de feedback reduce la capacidad de adaptar el producto al valor real."
+    "respuestaCorrecta": 1,
+    "explicacion": "Los requisitos de transición habilitan el cambio y pueden dejar de ser necesarios después de implementar."
   },
   {
     "id": 178,
     "examen": 4,
-    "dominio": "Agile",
-    "tema": "Sprint goal",
-    "dificultad": "media",
-    "pregunta": "¿Para qué sirve el objetivo del sprint?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Factores ambientales y activos",
+    "dificultad": "alta situacional",
+    "pregunta": "Una nueva ley modifica requisitos de implementación de una plataforma de atención ciudadana. ¿Cómo debe tratarse esta información?",
     "opciones": [
-      "Dar dirección y foco al trabajo de la iteración",
-      "Reemplazar todos los requisitos",
-      "Cerrar contratos",
-      "Eliminar reuniones"
+      "Como una lección aprendida interna.",
+      "Como un paquete de trabajo ya terminado.",
+      "Como una reserva de contingencia.",
+      "Como un factor ambiental externo que obliga a revisar los planes afectados."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El sprint goal alinea al equipo sobre el propósito de la iteración."
+    "respuestaCorrecta": 3,
+    "explicacion": "Las leyes y condiciones de mercado son factores externos que influyen en el proyecto."
   },
   {
     "id": 179,
     "examen": 4,
-    "dominio": "Agile",
-    "tema": "Historias grandes",
-    "dificultad": "media",
-    "pregunta": "Una historia es demasiado grande para completarse en una iteración. ¿Qué conviene hacer?",
+    "dominio": "Business Analysis",
+    "tema": "Regulación, datos e interfaces",
+    "dificultad": "alta situacional",
+    "pregunta": "En simplificación de trámites públicos, dos sistemas usan definiciones distintas para el mismo dato crítico. ¿Qué debe resolverse antes de integrar?",
     "opciones": [
-      "Dividirla en historias más pequeñas y valiosas",
-      "Eliminarla sin consultar",
-      "Moverla completa sin analizar",
-      "Cerrar el producto"
+      "Solo la velocidad de transferencia.",
+      "La estructura de la WBS.",
+      "El número de reuniones del equipo.",
+      "La semántica, reglas, formato, validación y propietario de los datos."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Dividir historias permite entregar valor incremental y reducir riesgo."
+    "respuestaCorrecta": 3,
+    "explicacion": "Las interfaces requieren acuerdos claros sobre significado, formato, frecuencia y manejo de errores."
   },
   {
     "id": 180,
     "examen": 4,
-    "dominio": "Agile",
-    "tema": "Priorización por riesgo",
-    "dificultad": "alta",
-    "pregunta": "¿Por qué podría priorizarse primero un elemento riesgoso del backlog?",
+    "dominio": "Business Analysis",
+    "tema": "Trazabilidad",
+    "dificultad": "alta situacional",
+    "pregunta": "En simplificación de trámites públicos, cambia una regla de negocio. ¿Qué herramienta ayuda a identificar diseños, pruebas y entregables afectados?",
     "opciones": [
-      "Para aprender temprano y reducir incertidumbre",
-      "Para ocultar problemas",
-      "Para aumentar deuda técnica",
-      "Para evitar feedback"
+      "El gráfico de burn-down.",
+      "La reserva de gestión.",
+      "El calendario de recursos.",
+      "La matriz de trazabilidad de requisitos."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Trabajar temprano elementos riesgosos permite validar supuestos críticos."
+    "respuestaCorrecta": 3,
+    "explicacion": "La trazabilidad conecta origen, objetivos, requisitos, diseño, entregables, pruebas y estado."
   },
   {
     "id": 181,
     "examen": 4,
-    "dominio": "Agile",
-    "tema": "Lead time",
-    "dificultad": "media",
-    "pregunta": "¿Qué mide lead time en Kanban?",
+    "dominio": "Business Analysis",
+    "tema": "Interesados BA",
+    "dificultad": "alta situacional",
+    "pregunta": "En simplificación de trámites públicos, un usuario conoce el proceso pero tiene poca autoridad, mientras un director tiene poder pero poco detalle. ¿Cómo debe gestionarse?",
     "opciones": [
-      "Tiempo desde que se solicita un trabajo hasta que se entrega",
-      "Solo tiempo de reunión",
-      "Cantidad de defectos",
-      "Costo total"
+      "Consultar solo al director por tener mayor poder.",
+      "Consultar solo al usuario y omitir aprobación ejecutiva.",
+      "Involucrar a ambos según conocimiento, influencia y decisiones requeridas.",
+      "Aplicar la misma estrategia a todos sin análisis."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Lead time mide el tiempo total de entrega desde solicitud hasta finalización."
+    "respuestaCorrecta": 2,
+    "explicacion": "El análisis considera poder, conocimiento, impacto, necesidades y rol en decisiones."
   },
   {
     "id": 182,
     "examen": 4,
     "dominio": "Agile",
-    "tema": "Cycle time",
-    "dificultad": "media",
-    "pregunta": "¿Qué mide cycle time?",
+    "tema": "Liderazgo servicial",
+    "dificultad": "alta situacional",
+    "pregunta": "En desarrollo de una aplicación municipal, el equipo espera que el Scrum Master asigne cada tarea. ¿Qué debería fomentar?",
     "opciones": [
-      "Tiempo desde que el equipo empieza un trabajo hasta que lo termina",
-      "Tiempo desde idea hasta solicitud",
-      "Presupuesto total",
-      "Número de interesados"
+      "Que el Scrum Master actúe como jefe funcional.",
+      "Que el equipo se organice y decida cómo alcanzar el objetivo dentro de límites claros.",
+      "Que el product owner controle a cada persona.",
+      "Que los interesados asignen trabajo directamente."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Cycle time mide tiempo activo de ejecución."
+    "respuestaCorrecta": 1,
+    "explicacion": "El liderazgo servicial facilita autonomía, colaboración y eliminación de impedimentos."
   },
   {
     "id": 183,
     "examen": 4,
-    "dominio": "Agile",
-    "tema": "Adaptar el proceso",
-    "dificultad": "alta",
-    "pregunta": "El equipo detecta que sus reuniones no aportan valor. ¿Qué evento ayuda a ajustar el proceso?",
+    "dominio": "Business Analysis",
+    "tema": "Impacto de cambios",
+    "dificultad": "alta situacional",
+    "pregunta": "En simplificación de trámites públicos, se propone modificar un requisito de datos. ¿Qué debería analizarse antes de aprobarlo?",
     "opciones": [
-      "Retrospectiva",
-      "Sprint review únicamente",
-      "Acta de constitución",
-      "Cierre contractual"
+      "Solo el texto del requisito modificado.",
+      "Impactos en procesos, interfaces, reglas, seguridad, pruebas, costo y plazo.",
+      "Únicamente la preferencia del solicitante.",
+      "Nada, porque los requisitos pueden cambiar sin consecuencias."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La retrospectiva permite mejorar la forma de trabajo."
+    "respuestaCorrecta": 1,
+    "explicacion": "La trazabilidad y los modelos permiten identificar efectos directos e indirectos."
   },
   {
     "id": 184,
     "examen": 4,
-    "dominio": "Agile",
-    "tema": "Colaboración",
-    "dificultad": "media",
-    "pregunta": "¿Qué práctica ágil fomenta comprensión compartida de requisitos?",
+    "dominio": "Predictivo",
+    "tema": "Ruta crítica y holgura",
+    "dificultad": "alta situacional",
+    "pregunta": "En construcción de un terminal de transporte, una actividad crítica sin holgura se retrasa tres días. Si nada más cambia, ¿cuál es el efecto más probable?",
     "opciones": [
-      "Conversaciones frecuentes entre equipo y product owner",
-      "Documentos extensos sin interacción",
-      "Aislar al cliente",
-      "Cambiar requisitos sin avisar"
+      "La fecha final del proyecto se retrasa tres días.",
+      "La actividad obtiene tres días de holgura positiva.",
+      "Solo cambia el costo, nunca el plazo.",
+      "La actividad deja automáticamente de ser crítica."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La colaboración reduce malentendidos y mejora valor entregado."
+    "explicacion": "Las actividades críticas determinan la duración mínima y su retraso suele mover la fecha final."
   },
   {
     "id": 185,
     "examen": 4,
-    "dominio": "Agile",
-    "tema": "Pruebas continuas",
-    "dificultad": "media",
-    "pregunta": "¿Por qué son importantes las pruebas frecuentes en agile?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Cierre y transición",
+    "dificultad": "alta situacional",
+    "pregunta": "El cliente aceptó los entregables de implementación de una plataforma de atención ciudadana, pero operaciones no recibió capacitación y quedan contratos abiertos. ¿Puede cerrarse el proyecto?",
     "opciones": [
-      "Detectan defectos temprano y reducen retrabajo",
-      "Eliminan necesidad de calidad",
-      "Aumentan incertidumbre",
-      "Reemplazan al cliente"
+      "Sí; la aceptación técnica elimina todas las tareas pendientes.",
+      "Sí; los contratos pasan automáticamente a operaciones.",
+      "No; el proyecto debe permanecer abierto mientras exista cualquier beneficio futuro.",
+      "No; primero deben completarse transición, cierre contractual y demás actividades de cierre."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Las pruebas tempranas reducen costo de corrección y mejoran calidad."
+    "respuestaCorrecta": 3,
+    "explicacion": "El cierre incluye aceptación, contratos, archivos, transición, liberación de recursos y conocimiento."
   },
   {
     "id": 186,
     "examen": 4,
     "dominio": "Agile",
-    "tema": "Cadencia",
-    "dificultad": "media",
-    "pregunta": "¿Qué aporta una cadencia regular de iteraciones?",
+    "tema": "Priorización del backlog",
+    "dificultad": "alta situacional",
+    "pregunta": "En desarrollo de una aplicación municipal, el equipo no puede completar todas las funciones solicitadas. ¿Qué debería guiar el orden del backlog?",
     "opciones": [
-      "Ritmo predecible para planificación, feedback y mejora",
-      "Improvisación total",
-      "Ausencia de medición",
-      "Eliminación de entregables"
+      "El orden de llegada de las solicitudes sin revisión.",
+      "Valor, riesgo, urgencia, dependencias y aprendizaje esperado.",
+      "La preferencia del desarrollador más antiguo.",
+      "El tamaño del texto de cada historia."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La cadencia mejora previsibilidad y aprendizaje."
+    "respuestaCorrecta": 1,
+    "explicacion": "El backlog se ordena para maximizar valor y reducir riesgo considerando dependencias."
   },
   {
     "id": 187,
     "examen": 4,
-    "dominio": "Business Analysis",
-    "tema": "Solución no alineada",
-    "dificultad": "alta",
-    "pregunta": "La solución propuesta es técnicamente atractiva, pero no resuelve el problema principal. ¿Qué debe revisarse?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Interesados y comunicación",
+    "dificultad": "alta situacional",
+    "pregunta": "En implementación de una plataforma de atención ciudadana, un interesado de alto poder e interés afirma que recibe información demasiado tarde para decidir. ¿Qué debería revisar primero el director?",
     "opciones": [
-      "La alineación con la necesidad de negocio",
-      "El color de la interfaz",
-      "La cantidad de reuniones",
-      "El nombre del proyecto"
+      "La WBS, porque define automáticamente la frecuencia de reportes.",
+      "Las necesidades de comunicación y la estrategia de involucramiento de ese interesado.",
+      "El registro de adquisiciones cerradas.",
+      "La velocidad del equipo, sin conversar con el interesado."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La solución debe alinearse con la necesidad y el valor esperado."
+    "respuestaCorrecta": 1,
+    "explicacion": "La comunicación debe adaptarse al poder, interés, necesidades y momento de decisión de cada interesado."
   },
   {
     "id": 188,
     "examen": 4,
-    "dominio": "Business Analysis",
-    "tema": "Elicitación incompleta",
-    "dificultad": "alta",
-    "pregunta": "Después de construir, aparecen requisitos importantes de un grupo no consultado. ¿Qué falló probablemente?",
+    "dominio": "Agile",
+    "tema": "Kanban y WIP",
+    "dificultad": "alta situacional",
+    "pregunta": "El tablero de desarrollo de una aplicación municipal muestra muchas tareas iniciadas y pocas terminadas. ¿Qué práctica puede mejorar el flujo?",
     "opciones": [
-      "Identificación y participación de interesados",
-      "Cálculo de CPI",
-      "Crashing",
-      "Cierre contractual"
+      "Aumentar el número de tareas abiertas por persona.",
+      "Ocultar las columnas con bloqueos.",
+      "Eliminar las políticas explícitas.",
+      "Limitar el trabajo en proceso y terminar antes de iniciar más."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "No involucrar interesados relevantes puede generar requisitos omitidos."
+    "respuestaCorrecta": 3,
+    "explicacion": "Los límites WIP reducen multitarea y hacen visibles los cuellos de botella."
   },
   {
     "id": 189,
     "examen": 4,
     "dominio": "Business Analysis",
-    "tema": "Priorización por valor",
-    "dificultad": "media",
-    "pregunta": "¿Qué pregunta ayuda más a priorizar requisitos?",
+    "tema": "Evaluación de solución",
+    "dificultad": "alta situacional",
+    "pregunta": "Después de implementar simplificación de trámites públicos, el indicador principal no mejora. ¿Qué debería hacer el analista?",
     "opciones": [
-      "¿Qué requisito aporta mayor valor o reduce mayor riesgo?",
-      "¿Cuál tiene el nombre más corto?",
-      "¿Cuál se pidió último?",
-      "¿Cuál es más decorativo?"
+      "Comparar resultados con metas, investigar causas y recomendar ajustes.",
+      "Declarar éxito porque la solución fue instalada.",
+      "Medir solo la cantidad de funciones entregadas.",
+      "Cerrar toda evaluación al finalizar el proyecto."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La priorización debe considerar valor, riesgo y urgencia."
+    "explicacion": "La evaluación determina si la solución obtiene el valor esperado e identifica limitaciones."
   },
   {
     "id": 190,
     "examen": 4,
-    "dominio": "Business Analysis",
-    "tema": "Requisito no funcional seguridad",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es un requisito no funcional de seguridad?",
+    "dominio": "Agile",
+    "tema": "MVP y feedback",
+    "dificultad": "alta situacional",
+    "pregunta": "En desarrollo de una aplicación municipal, se quiere validar una hipótesis antes de construir la solución completa. ¿Qué enfoque es más útil?",
     "opciones": [
-      "Solo usuarios autorizados podrán acceder a información sensible",
-      "El usuario registra una solicitud",
-      "El sistema emite un reporte",
-      "El sistema calcula totales"
+      "Crear el experimento o MVP más pequeño que produzca aprendizaje confiable.",
+      "Construir toda la solución y solicitar feedback al final.",
+      "Aumentar la documentación sin probar el comportamiento.",
+      "Congelar el producto hasta eliminar toda incertidumbre."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Seguridad es un atributo de calidad, por tanto no funcional."
+    "explicacion": "Un MVP reduce desperdicio y permite validar valor o viabilidad mediante aprendizaje temprano."
   },
   {
     "id": 191,
     "examen": 4,
-    "dominio": "Business Analysis",
-    "tema": "Técnica de encuesta",
-    "dificultad": "media",
-    "pregunta": "¿Cuándo conviene usar encuestas?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Conflicto e inteligencia emocional",
+    "dificultad": "alta situacional",
+    "pregunta": "Dos especialistas de implementación de una plataforma de atención ciudadana defienden soluciones distintas y la discusión se vuelve personal. ¿Qué debería hacer primero el director?",
     "opciones": [
-      "Cuando se necesita información de muchos interesados",
-      "Cuando se requiere debate profundo únicamente",
-      "Cuando no hay usuarios",
-      "Cuando se evita documentación"
+      "Escuchar posiciones e intereses y reenfocar la conversación en datos y objetivos.",
+      "Elegir de inmediato a la persona con mayor cargo.",
+      "Evitar el tema hasta que una parte ceda.",
+      "Escalar sin intentar comprender la fuente del conflicto."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Las encuestas permiten recopilar información de grupos amplios."
+    "explicacion": "La resolución colaborativa comienza por comprender la causa y separar a las personas del problema."
   },
   {
     "id": 192,
     "examen": 4,
-    "dominio": "Business Analysis",
-    "tema": "Prototipo descartable",
-    "dificultad": "media",
-    "pregunta": "¿Qué es un prototipo descartable?",
+    "dominio": "Predictivo",
+    "tema": "Compresión del cronograma",
+    "dificultad": "alta situacional",
+    "pregunta": "Para adelantar construcción de un terminal de transporte, se propone agregar una segunda cuadrilla a una actividad crítica. ¿Qué técnica se evalúa?",
     "opciones": [
-      "Modelo temporal para aprender y luego reemplazarlo",
-      "Producto final obligatorio",
-      "Contrato con proveedor",
-      "Registro de riesgos"
+      "Fast tracking, que consiste en agregar recursos.",
+      "Nivelación de recursos para extender el plazo.",
+      "Crashing, que intercambia mayor costo por menor duración.",
+      "Aceptación pasiva del riesgo."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El prototipo descartable sirve para explorar y validar ideas."
+    "respuestaCorrecta": 2,
+    "explicacion": "Crashing agrega recursos o costo a actividades críticas para reducir duración."
   },
   {
     "id": 193,
     "examen": 4,
-    "dominio": "Business Analysis",
-    "tema": "Análisis de impacto",
-    "dificultad": "alta",
-    "pregunta": "Antes de aprobar un cambio de requisito, ¿qué debe analizarse?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Caso de negocio y beneficios",
+    "dificultad": "alta situacional",
+    "pregunta": "implementación de una plataforma de atención ciudadana entregó el producto previsto, pero la organización no obtiene la reducción de tiempo prometida. ¿Qué conclusión es más adecuada?",
     "opciones": [
-      "Impacto en alcance, tiempo, costo, calidad, riesgos y valor",
-      "Solo quién lo pidió",
-      "Solo la fecha actual",
-      "Nada si el interesado insiste"
+      "El entregable fue producido, pero el beneficio esperado todavía no se realizó.",
+      "El proyecto no produjo ningún resultado porque un beneficio es el único entregable válido.",
+      "La línea base del alcance reemplaza la medición de beneficios.",
+      "Los beneficios solo pueden evaluarse durante la planificación."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Los cambios deben evaluarse integralmente."
+    "explicacion": "Los entregables habilitan resultados; los beneficios representan el valor obtenido al utilizarlos."
   },
   {
     "id": 194,
     "examen": 4,
-    "dominio": "Business Analysis",
-    "tema": "Requisitos regulatorios",
-    "dificultad": "media",
-    "pregunta": "¿Cómo deben tratarse requisitos legales o regulatorios?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Gobernanza y autoridad",
+    "dificultad": "alta situacional",
+    "pregunta": "En implementación de una plataforma de atención ciudadana, un cambio supera el límite de autoridad del director. ¿Qué debe ocurrir antes de ejecutarlo?",
     "opciones": [
-      "Como restricciones obligatorias que deben cumplirse",
-      "Como opcionales siempre",
-      "Como ideas de mejora",
-      "Como riesgos cerrados"
+      "Implementarlo de inmediato para mantener satisfecho al solicitante.",
+      "Analizar el impacto y elevarlo al órgano autorizado para decidir.",
+      "Rechazarlo automáticamente sin análisis.",
+      "Aprobarlo mediante votación informal del equipo."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los requisitos regulatorios suelen ser obligatorios y condicionan la solución."
+    "respuestaCorrecta": 1,
+    "explicacion": "La gobernanza define umbrales, derechos de decisión y rutas de escalamiento."
   },
   {
     "id": 195,
     "examen": 4,
     "dominio": "Business Analysis",
-    "tema": "Validación temprana",
-    "dificultad": "alta",
-    "pregunta": "¿Qué beneficio tiene validar requisitos temprano?",
+    "tema": "Priorización de requisitos",
+    "dificultad": "alta situacional",
+    "pregunta": "En simplificación de trámites públicos, no todos los requisitos caben en la primera versión. ¿Qué criterio debería guiar la prioridad?",
     "opciones": [
-      "Reduce retrabajo y confirma entendimiento antes de construir",
-      "Aumenta defectos",
-      "Evita la participación del usuario",
-      "Elimina pruebas finales"
+      "La persona que habla más fuerte en la reunión.",
+      "Valor, riesgo, urgencia, cumplimiento y dependencias mediante criterios acordados.",
+      "El orden de llegada sin revisión.",
+      "La cantidad de palabras de cada requisito."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Validar temprano reduce errores costosos y mejora alineación."
+    "respuestaCorrecta": 1,
+    "explicacion": "La priorización debe ser transparente y relacionarse con valor y restricciones reales."
   },
   {
     "id": 196,
     "examen": 4,
     "dominio": "Business Analysis",
-    "tema": "Criterio de aceptación ambiguo",
-    "dificultad": "media",
-    "pregunta": "¿Cuál criterio de aceptación es mejor?",
+    "tema": "Criterios de aceptación",
+    "dificultad": "alta situacional",
+    "pregunta": "En simplificación de trámites públicos, un requisito indica que la pantalla “debe verse bien”. ¿Qué debería hacer el analista?",
     "opciones": [
-      "El usuario puede exportar el reporte en PDF en menos de 5 segundos",
-      "El reporte debe ser bueno",
-      "La pantalla debe verse moderna",
-      "El sistema debe funcionar bien"
+      "Aprobarlo porque todos entienden lo mismo por “bien”.",
+      "Eliminarlo porque la experiencia no puede ser un requisito.",
+      "Convertirlo en criterios específicos, verificables y acordados.",
+      "Dejar que cada desarrollador lo interprete."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Un criterio aceptable debe ser específico y verificable."
+    "respuestaCorrecta": 2,
+    "explicacion": "Los criterios de aceptación deben permitir una decisión consistente y objetiva."
   },
   {
     "id": 197,
     "examen": 4,
-    "dominio": "Business Analysis",
-    "tema": "Requisito duplicado",
-    "dificultad": "media",
-    "pregunta": "¿Qué debe hacerse si se identifican requisitos duplicados?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Gestión de problemas",
+    "dificultad": "alta situacional",
+    "pregunta": "En implementación de una plataforma de atención ciudadana, una dependencia externa ya incumplió y bloquea el trabajo. ¿Qué debería hacer primero el equipo?",
     "opciones": [
-      "Consolidarlos para evitar inconsistencias",
-      "Implementarlos dos veces",
-      "Ignorarlos sin revisar",
-      "Eliminar ambos siempre"
+      "Registrar el problema y evaluar su impacto real en los objetivos del proyecto.",
+      "Mantenerlo solo como riesgo porque alguna vez fue incierto.",
+      "Eliminar la dependencia del cronograma sin modificar el plan.",
+      "Esperar al cierre para documentarlo."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Consolidar duplicados mejora claridad y reduce retrabajo."
+    "explicacion": "Cuando un evento ya ocurrió, se gestiona como problema actual y se analiza su impacto integrado."
   },
   {
     "id": 198,
     "examen": 4,
-    "dominio": "Business Analysis",
-    "tema": "Trazabilidad y cambio",
-    "dificultad": "alta",
-    "pregunta": "¿Cómo ayuda la trazabilidad ante un cambio de requisito?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Calidad y grado",
+    "dificultad": "alta situacional",
+    "pregunta": "En implementación de una plataforma de atención ciudadana, el cliente acepta pocas funciones, pero exige que todas cumplan sin defectos los criterios acordados. ¿Qué se ilustra?",
     "opciones": [
-      "Permite identificar entregables, pruebas y objetivos afectados",
-      "Evita toda aprobación",
-      "Elimina impacto",
-      "Reemplaza al sponsor"
+      "Bajo grado y baja calidad son exactamente lo mismo.",
+      "La calidad depende solo de la cantidad de funciones.",
+      "El grado elimina la necesidad de criterios de aceptación.",
+      "El producto puede tener bajo grado, pero debe cumplir la calidad acordada."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La trazabilidad facilita análisis de impacto."
+    "respuestaCorrecta": 3,
+    "explicacion": "Grado es categoría o cantidad de características; calidad es conformidad y aptitud para uso."
   },
   {
     "id": 199,
     "examen": 4,
-    "dominio": "Business Analysis",
-    "tema": "Aceptación formal",
-    "dificultad": "media",
-    "pregunta": "¿Por qué documentar la aceptación de requisitos o entregables?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Riesgo, problema, supuesto y restricción",
+    "dificultad": "alta situacional",
+    "pregunta": "En implementación de una plataforma de atención ciudadana, el equipo planifica suponiendo que un permiso será aprobado antes del inicio, aunque todavía no existe confirmación. ¿Cómo debe registrarse?",
     "opciones": [
-      "Para dejar evidencia del acuerdo y reducir disputas",
-      "Para evitar transparencia",
-      "Para impedir feedback",
-      "Para omitir validación"
+      "Como un problema actual que ya ocurrió.",
+      "Como una restricción contractual inmodificable.",
+      "Como un supuesto que debe validarse y vigilarse.",
+      "Como una lección aprendida del cierre."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La aceptación formal deja constancia del cumplimiento acordado."
+    "respuestaCorrecta": 2,
+    "explicacion": "Un supuesto se considera verdadero para planificar, pero debe revisarse cuando aparece nueva información."
   },
   {
     "id": 200,
     "examen": 4,
-    "dominio": "Business Analysis",
-    "tema": "Valor de negocio",
-    "dificultad": "alta",
-    "pregunta": "Un requisito consume mucho esfuerzo y aporta poco valor. ¿Qué podría recomendarse?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Roles y responsabilidades",
+    "dificultad": "alta situacional",
+    "pregunta": "En implementación de una plataforma de atención ciudadana, el patrocinador intenta asignar tareas diarias directamente a cada miembro y genera instrucciones contradictorias. ¿Qué debería hacer el director?",
     "opciones": [
-      "Postergarlo, reducirlo o descartarlo según decisión de interesados",
-      "Implementarlo primero siempre",
-      "Ocultarlo",
-      "Aprobarlo sin análisis"
+      "Permitir todas las instrucciones porque el patrocinador tiene mayor jerarquía.",
+      "Excluir al patrocinador de toda comunicación futura.",
+      "Pedir al equipo que elija qué instrucciones seguir sin criterios.",
+      "Aclarar roles y acordar un canal de dirección coherente con la gobernanza."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La gestión de requisitos debe optimizar valor frente a esfuerzo y restricciones."
+    "respuestaCorrecta": 3,
+    "explicacion": "El patrocinador aporta dirección estratégica; el director integra y coordina la ejecución cotidiana."
   },
   {
     "id": 201,
     "examen": 5,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Proyecto en crisis",
-    "dificultad": "alta",
-    "pregunta": "El proyecto está retrasado y el cliente exige explicaciones. ¿Qué debe hacer primero el director del proyecto?",
+    "tema": "Respuesta a riesgos",
+    "dificultad": "alta situacional",
+    "pregunta": "En ampliación de una planta de producción, una amenaza de alta probabilidad está descrita en el registro, pero no tiene responsable ni respuesta. ¿Qué falta?",
     "opciones": [
-      "Analizar datos reales, impactos y opciones antes de comunicar un plan",
-      "Prometer recuperar todo sin análisis",
-      "Ocultar el retraso",
-      "Culpar al equipo"
+      "Asignar un propietario, una respuesta, disparadores y acciones de seguimiento.",
+      "Trasladarla al registro de lecciones aprendidas.",
+      "Considerarla resuelta porque ya fue identificada.",
+      "Aumentar el presupuesto sin documentar la causa."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La respuesta profesional se basa en datos, análisis de impacto y comunicación transparente."
+    "explicacion": "Un riesgo accionable necesita análisis, responsable, respuesta y seguimiento."
   },
   {
     "id": 202,
     "examen": 5,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Cambio estratégico",
-    "dificultad": "alta",
-    "pregunta": "La organización cambia su estrategia y el proyecto ya no aporta valor. ¿Qué debería revisarse?",
+    "dominio": "Predictivo",
+    "tema": "Valor ganado",
+    "dificultad": "alta situacional",
+    "pregunta": "En el corte de montaje de una nueva línea industrial, EV=80, PV=100 y AC=90. ¿Cuál es la interpretación correcta?",
     "opciones": [
-      "La justificación del negocio y posible continuación, cambio o cancelación",
-      "Solo el cronograma",
-      "El color del reporte",
-      "La daily"
+      "Está adelantado y por debajo del presupuesto.",
+      "Está atrasado, pero con eficiencia de costo favorable.",
+      "El proyecto está atrasado y con sobrecosto: SPI=0,80 y CPI≈0,89.",
+      "Está según plan porque EV y AC son cercanos."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Si el valor estratégico cambia, debe revisarse la viabilidad y justificación del proyecto."
+    "respuestaCorrecta": 2,
+    "explicacion": "SPI=EV/PV y CPI=EV/AC; valores menores que uno son desfavorables."
   },
   {
     "id": 203,
     "examen": 5,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Priorización del portafolio",
-    "dificultad": "media",
-    "pregunta": "¿Qué criterio es clave para seleccionar proyectos en un portafolio?",
+    "dominio": "Predictivo",
+    "tema": "Estimación y reservas",
+    "dificultad": "alta situacional",
+    "pregunta": "En montaje de una nueva línea industrial, se asigna una reserva para el posible costo de un riesgo identificado. ¿Qué tipo de reserva es?",
     "opciones": [
-      "Alineación estratégica y valor esperado",
-      "Orden de llegada únicamente",
-      "Preferencia personal",
-      "Cantidad de páginas del expediente"
+      "Reserva de gestión para trabajo no autorizado.",
+      "Reserva de contingencia para riesgos conocidos.",
+      "Valor ganado todavía no facturado.",
+      "Costo hundido que no puede controlarse."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los portafolios priorizan iniciativas según estrategia y valor."
+    "respuestaCorrecta": 1,
+    "explicacion": "La contingencia cubre riesgos identificados y normalmente forma parte de la línea base de costos."
   },
   {
     "id": 204,
     "examen": 5,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Gobernanza y autoridad",
-    "dificultad": "alta",
-    "pregunta": "Un director funcional exige un cambio que contradice la línea base. ¿Qué debe hacer el PM?",
+    "dominio": "Predictivo",
+    "tema": "EAC y TCPI",
+    "dificultad": "alta situacional",
+    "pregunta": "En montaje de una nueva línea industrial, BAC=1 000 y CPI=0,80. Si la eficiencia de costo continuará, ¿cuál es el EAC aproximado?",
     "opciones": [
-      "Aplicar el proceso de control de cambios y la gobernanza",
-      "Aceptar sin registro",
-      "Cambiar el plan en secreto",
-      "Ignorar todo"
+      "1 250, usando EAC=BAC/CPI.",
+      "800, usando BAC×CPI.",
+      "1 000, porque el BAC nunca puede cambiar.",
+      "200, usando BAC−EV."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La gobernanza evita cambios no autorizados y decisiones fuera de proceso."
+    "explicacion": "Cuando el desempeño de costo continuará, una fórmula común es BAC dividido entre CPI."
   },
   {
     "id": 205,
     "examen": 5,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Ética y datos",
-    "dificultad": "alta",
-    "pregunta": "El avance real es menor al reportado por presión del patrocinador. ¿Qué debe hacer el PM?",
+    "tema": "Riesgo, problema, supuesto y restricción",
+    "dificultad": "alta situacional",
+    "pregunta": "En ampliación de una planta de producción, el equipo planifica suponiendo que un permiso será aprobado antes del inicio, aunque todavía no existe confirmación. ¿Cómo debe registrarse?",
     "opciones": [
-      "Reportar información veraz y explicar impactos",
-      "Mantener datos falsos",
-      "Eliminar evidencias",
-      "Cambiar la fórmula"
+      "Como un problema actual que ya ocurrió.",
+      "Como una restricción contractual inmodificable.",
+      "Como una lección aprendida del cierre.",
+      "Como un supuesto que debe validarse y vigilarse."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La ética exige honestidad y transparencia en reportes."
+    "respuestaCorrecta": 3,
+    "explicacion": "Un supuesto se considera verdadero para planificar, pero debe revisarse cuando aparece nueva información."
   },
   {
     "id": 206,
     "examen": 5,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Equipo distribuido",
-    "dificultad": "media",
-    "pregunta": "¿Qué práctica ayuda a un equipo virtual?",
+    "tema": "Cierre y transición",
+    "dificultad": "alta situacional",
+    "pregunta": "El cliente aceptó los entregables de ampliación de una planta de producción, pero operaciones no recibió capacitación y quedan contratos abiertos. ¿Puede cerrarse el proyecto?",
     "opciones": [
-      "Canales claros, acuerdos de comunicación y reuniones efectivas",
-      "Comunicación improvisada",
-      "No documentar decisiones",
-      "Evitar tecnología"
+      "Sí; la aceptación técnica elimina todas las tareas pendientes.",
+      "Sí; los contratos pasan automáticamente a operaciones.",
+      "No; primero deben completarse transición, cierre contractual y demás actividades de cierre.",
+      "No; el proyecto debe permanecer abierto mientras exista cualquier beneficio futuro."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los equipos distribuidos requieren acuerdos claros de comunicación y colaboración."
+    "respuestaCorrecta": 2,
+    "explicacion": "El cierre incluye aceptación, contratos, archivos, transición, liberación de recursos y conocimiento."
   },
   {
     "id": 207,
     "examen": 5,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Stakeholder resistente",
-    "dificultad": "alta",
-    "pregunta": "Un usuario clave se resiste a adoptar la nueva solución. ¿Qué acción es mejor?",
+    "dominio": "Predictivo",
+    "tema": "Control de calidad",
+    "dificultad": "alta situacional",
+    "pregunta": "En montaje de una nueva línea industrial, el equipo inspecciona una muestra para comprobar tolerancias del entregable. ¿Qué actividad realiza?",
     "opciones": [
-      "Entender sus preocupaciones, comunicar beneficios e involucrarlo",
-      "Ignorarlo hasta el cierre",
-      "Obligarlo sin soporte",
-      "Eliminar capacitación"
+      "Gestión de beneficios posteriores al cierre.",
+      "Planificación del portafolio.",
+      "Control de calidad sobre resultados producidos.",
+      "Elicitación de requisitos."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La adopción requiere gestionar resistencia e involucrar usuarios."
+    "respuestaCorrecta": 2,
+    "explicacion": "El control de calidad mide e inspecciona resultados para determinar conformidad."
   },
   {
     "id": 208,
     "examen": 5,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Riesgo crítico",
-    "dificultad": "alta",
-    "pregunta": "Se identifica un riesgo de alto impacto y alta probabilidad. ¿Qué debe hacerse?",
+    "tema": "Caso de negocio y beneficios",
+    "dificultad": "alta situacional",
+    "pregunta": "ampliación de una planta de producción entregó el producto previsto, pero la organización no obtiene la reducción de tiempo prometida. ¿Qué conclusión es más adecuada?",
     "opciones": [
-      "Planificar una respuesta prioritaria y asignar responsable",
-      "Ignorarlo si aún no ocurre",
-      "Esperar al cierre",
-      "Eliminarlo del registro"
+      "El proyecto no produjo ningún resultado porque un beneficio es el único entregable válido.",
+      "El entregable fue producido, pero el beneficio esperado todavía no se realizó.",
+      "La línea base del alcance reemplaza la medición de beneficios.",
+      "Los beneficios solo pueden evaluarse durante la planificación."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los riesgos significativos requieren respuestas, responsables y seguimiento."
+    "respuestaCorrecta": 1,
+    "explicacion": "Los entregables habilitan resultados; los beneficios representan el valor obtenido al utilizarlos."
   },
   {
     "id": 209,
     "examen": 5,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Comunicación ejecutiva",
-    "dificultad": "media",
-    "pregunta": "¿Qué debe contener un reporte ejecutivo efectivo?",
+    "dominio": "Predictivo",
+    "tema": "Ruta crítica y holgura",
+    "dificultad": "alta situacional",
+    "pregunta": "En montaje de una nueva línea industrial, una actividad crítica sin holgura se retrasa tres días. Si nada más cambia, ¿cuál es el efecto más probable?",
     "opciones": [
-      "Estado, riesgos clave, decisiones requeridas y próximos hitos",
-      "Todos los detalles técnicos sin resumen",
-      "Solo opiniones",
-      "Información incompleta"
+      "La fecha final del proyecto se retrasa tres días.",
+      "La actividad obtiene tres días de holgura positiva.",
+      "Solo cambia el costo, nunca el plazo.",
+      "La actividad deja automáticamente de ser crítica."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Los ejecutivos necesitan información clara para tomar decisiones."
+    "explicacion": "Las actividades críticas determinan la duración mínima y su retraso suele mover la fecha final."
   },
   {
     "id": 210,
     "examen": 5,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Gestión de conflictos",
-    "dificultad": "alta",
-    "pregunta": "Un conflicto técnico se vuelve personal. ¿Qué debe hacer el PM?",
+    "dominio": "Business Analysis",
+    "tema": "Trazabilidad",
+    "dificultad": "alta situacional",
+    "pregunta": "En optimización del proceso de despacho, cambia una regla de negocio. ¿Qué herramienta ayuda a identificar diseños, pruebas y entregables afectados?",
     "opciones": [
-      "Reenfocar la conversación en hechos, objetivos y solución colaborativa",
-      "Permitir ataques personales",
-      "Ignorarlo indefinidamente",
-      "Expulsar sin analizar"
+      "La matriz de trazabilidad de requisitos.",
+      "El gráfico de burn-down.",
+      "La reserva de gestión.",
+      "El calendario de recursos."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "El PM debe facilitar resolución profesional y centrada en objetivos."
+    "explicacion": "La trazabilidad conecta origen, objetivos, requisitos, diseño, entregables, pruebas y estado."
   },
   {
     "id": 211,
     "examen": 5,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Aceptación del producto",
-    "dificultad": "media",
-    "pregunta": "¿Qué confirma la aceptación formal del producto?",
+    "tema": "Recursos y RACI",
+    "dificultad": "alta situacional",
+    "pregunta": "En ampliación de una planta de producción, una actividad tiene dos personas marcadas como Accountable y las decisiones se retrasan. ¿Qué corrección es más adecuada?",
     "opciones": [
-      "Que el entregable cumple criterios acordados y es aceptado por quien corresponde",
-      "Que no hubo riesgos",
-      "Que el presupuesto fue cero",
-      "Que no se requiere cierre"
+      "Definir una sola persona que rinda cuentas y aclarar los demás roles.",
+      "Agregar más personas como Accountable para repartir la responsabilidad.",
+      "Eliminar a todos los responsables y dejar solo informados.",
+      "Permitir que cada área apruebe una versión diferente."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La aceptación formal confirma cumplimiento de criterios y responsabilidades."
+    "explicacion": "La RACI debe aclarar responsabilidad y normalmente asigna una sola rendición de cuentas por resultado."
   },
   {
     "id": 212,
     "examen": 5,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Transición a operaciones",
-    "dificultad": "media",
-    "pregunta": "¿Qué debe cuidarse al transferir el producto a operaciones?",
+    "dominio": "Agile",
+    "tema": "Review y retrospectiva",
+    "dificultad": "alta situacional",
+    "pregunta": "En desarrollo de una plataforma de analítica, los interesados inspeccionan el incremento y proponen cambios al producto. ¿En qué evento ocurre principalmente?",
     "opciones": [
-      "Capacitación, documentación, soporte y responsables",
-      "Eliminar manuales",
-      "Cerrar sin usuarios",
-      "Evitar soporte"
+      "En la retrospectiva, cuyo foco es mejorar el proceso del equipo.",
+      "En la sprint review, donde se revisa el resultado y se adapta el backlog.",
+      "En la daily, que reemplaza la aceptación del producto.",
+      "En la planificación anual del portafolio."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Una buena transición favorece adopción y continuidad."
+    "respuestaCorrecta": 1,
+    "explicacion": "La review se enfoca en producto, valor, feedback y próximos pasos."
   },
   {
     "id": 213,
     "examen": 5,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Sostenibilidad",
-    "dificultad": "media",
-    "pregunta": "¿Cómo puede considerarse sostenibilidad en proyectos?",
+    "dominio": "Agile",
+    "tema": "Kanban y WIP",
+    "dificultad": "alta situacional",
+    "pregunta": "El tablero de desarrollo de una plataforma de analítica muestra muchas tareas iniciadas y pocas terminadas. ¿Qué práctica puede mejorar el flujo?",
     "opciones": [
-      "Evaluando impactos ambientales, sociales y económicos cuando aplique",
-      "Ignorando impactos externos",
-      "Solo reduciendo documentación",
-      "Eliminando interesados"
+      "Aumentar el número de tareas abiertas por persona.",
+      "Limitar el trabajo en proceso y terminar antes de iniciar más.",
+      "Ocultar las columnas con bloqueos.",
+      "Eliminar las políticas explícitas."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La sostenibilidad considera impactos más amplios del proyecto."
+    "respuestaCorrecta": 1,
+    "explicacion": "Los límites WIP reducen multitarea y hacen visibles los cuellos de botella."
   },
   {
     "id": 214,
     "examen": 5,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Cumplimiento",
-    "dificultad": "alta",
-    "pregunta": "Un requisito legal parece costoso y retrasa el cronograma. ¿Qué debe hacerse?",
+    "dominio": "Business Analysis",
+    "tema": "Impacto de cambios",
+    "dificultad": "alta situacional",
+    "pregunta": "En optimización del proceso de despacho, se propone modificar un requisito de datos. ¿Qué debería analizarse antes de aprobarlo?",
     "opciones": [
-      "Cumplirlo o gestionar formalmente alternativas permitidas",
-      "Ignorarlo por costo",
-      "Ocultarlo al cliente",
-      "Eliminarlo del alcance sin aprobación"
+      "Solo el texto del requisito modificado.",
+      "Únicamente la preferencia del solicitante.",
+      "Nada, porque los requisitos pueden cambiar sin consecuencias.",
+      "Impactos en procesos, interfaces, reglas, seguridad, pruebas, costo y plazo."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los requisitos legales no deben ignorarse; se gestionan formalmente."
+    "respuestaCorrecta": 3,
+    "explicacion": "La trazabilidad y los modelos permiten identificar efectos directos e indirectos."
   },
   {
     "id": 215,
     "examen": 5,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Aprendizaje continuo",
-    "dificultad": "media",
-    "pregunta": "¿Qué práctica demuestra mejora continua?",
+    "dominio": "Business Analysis",
+    "tema": "Prototipos y modelos",
+    "dificultad": "alta situacional",
+    "pregunta": "En optimización del proceso de despacho, los usuarios no logran imaginar la solución a partir de texto. ¿Qué técnica ayudaría primero?",
     "opciones": [
-      "Revisar desempeño, aprender y ajustar procesos",
-      "Repetir errores",
-      "Evitar retrospectivas",
-      "No medir resultados"
+      "Un prototipo de baja fidelidad para explorar y validar la interacción.",
+      "Una estimación paramétrica.",
+      "Un análisis de ruta crítica.",
+      "Una reserva de gestión."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La mejora continua se basa en medición, aprendizaje y ajuste."
+    "explicacion": "Los prototipos hacen visible una posible solución y facilitan feedback temprano."
   },
   {
     "id": 216,
     "examen": 5,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Influencias externas",
-    "dificultad": "media",
-    "pregunta": "Una nueva norma afecta el proyecto. ¿Qué tipo de factor es?",
+    "dominio": "Business Analysis",
+    "tema": "Requisitos de transición",
+    "dificultad": "alta situacional",
+    "pregunta": "En optimización del proceso de despacho, es necesario migrar datos históricos una sola vez y capacitar usuarios antes del despliegue. ¿Cómo se clasifica?",
     "opciones": [
-      "Factor externo o ambiental que puede generar cambios y riesgos",
-      "Historia de usuario",
-      "Entregable terminado",
-      "Sprint goal"
+      "Como funciones permanentes del producto.",
+      "Como requisitos de transición para pasar al estado futuro.",
+      "Como beneficios ya realizados.",
+      "Como restricciones del portafolio."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Las normas externas pueden afectar restricciones, requisitos o riesgos."
+    "respuestaCorrecta": 1,
+    "explicacion": "Los requisitos de transición habilitan el cambio y pueden dejar de ser necesarios después de implementar."
   },
   {
     "id": 217,
     "examen": 5,
-    "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Autoridad informal",
-    "dificultad": "media",
-    "pregunta": "Un miembro sin cargo formal influye mucho por su experiencia. ¿Qué tipo de influencia tiene?",
+    "dominio": "Agile",
+    "tema": "Priorización del backlog",
+    "dificultad": "alta situacional",
+    "pregunta": "En desarrollo de una plataforma de analítica, el equipo no puede completar todas las funciones solicitadas. ¿Qué debería guiar el orden del backlog?",
     "opciones": [
-      "Influencia informal o experta",
-      "Autoridad contractual siempre",
-      "Poder legal",
-      "Ninguna influencia"
+      "El orden de llegada de las solicitudes sin revisión.",
+      "Valor, riesgo, urgencia, dependencias y aprendizaje esperado.",
+      "La preferencia del desarrollador más antiguo.",
+      "El tamaño del texto de cada historia."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La experiencia puede generar influencia informal significativa."
+    "respuestaCorrecta": 1,
+    "explicacion": "El backlog se ordena para maximizar valor y reducir riesgo considerando dependencias."
   },
   {
     "id": 218,
     "examen": 5,
     "dominio": "Fundamentos y conceptos centrales",
-    "tema": "Cierre y beneficios",
-    "dificultad": "alta",
-    "pregunta": "El proyecto cerró entregables, pero no se definió quién medirá beneficios. ¿Qué falta?",
+    "tema": "Ética profesional",
+    "dificultad": "alta situacional",
+    "pregunta": "Durante ampliación de una planta de producción, un superior pide mantener un avance inflado para evitar una penalidad. ¿Qué debería hacer el miembro del equipo?",
     "opciones": [
-      "Responsabilidad de seguimiento de beneficios",
-      "Ruta crítica",
-      "Daily standup",
-      "Estimación análoga"
+      "Mantener la cifra porque fue solicitada por una autoridad.",
+      "Modificar otros indicadores para compensar la diferencia.",
+      "Reportar los datos reales por los canales apropiados y actuar con transparencia.",
+      "Esperar al cierre para registrar el hecho como lección aprendida."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La realización de beneficios requiere responsables y métricas posteriores."
+    "respuestaCorrecta": 2,
+    "explicacion": "La ética profesional exige honestidad, responsabilidad y comunicación oportuna de información relevante."
   },
   {
     "id": 219,
     "examen": 5,
     "dominio": "Predictivo",
-    "tema": "Pronóstico",
-    "dificultad": "alta",
-    "pregunta": "¿Qué permite un pronóstico del proyecto?",
+    "tema": "WBS y alcance",
+    "dificultad": "alta situacional",
+    "pregunta": "En montaje de una nueva línea industrial, existe un cronograma detallado, pero el equipo no puede demostrar que todo el alcance aprobado esté incluido. ¿Qué debe revisar?",
     "opciones": [
-      "Anticipar resultados futuros usando desempeño actual",
-      "Garantizar éxito sin control",
-      "Eliminar riesgos",
-      "Cambiar alcance automáticamente"
+      "Solo el registro de interesados.",
+      "Únicamente el plan de comunicaciones.",
+      "El informe de costos reales, sin revisar alcance.",
+      "La WBS, su diccionario y la línea base del alcance."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los pronósticos usan datos para prever costo, plazo u otros resultados."
+    "respuestaCorrecta": 3,
+    "explicacion": "La línea base del alcance integra enunciado, WBS y diccionario para definir y controlar el trabajo."
   },
   {
     "id": 220,
     "examen": 5,
-    "dominio": "Predictivo",
-    "tema": "TCPI",
-    "dificultad": "alta",
-    "pregunta": "¿Qué indica el TCPI?",
+    "dominio": "Business Analysis",
+    "tema": "Criterios de aceptación",
+    "dificultad": "alta situacional",
+    "pregunta": "En optimización del proceso de despacho, un requisito indica que la pantalla “debe verse bien”. ¿Qué debería hacer el analista?",
     "opciones": [
-      "Eficiencia requerida del costo para cumplir una meta presupuestal",
-      "Trabajo pendiente del backlog",
-      "Nivel de satisfacción",
-      "Cantidad de proveedores"
+      "Convertirlo en criterios específicos, verificables y acordados.",
+      "Aprobarlo porque todos entienden lo mismo por “bien”.",
+      "Eliminarlo porque la experiencia no puede ser un requisito.",
+      "Dejar que cada desarrollador lo interprete."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "TCPI mide el desempeño de costo necesario para alcanzar BAC o EAC."
+    "explicacion": "Los criterios de aceptación deben permitir una decisión consistente y objetiva."
   },
   {
     "id": 221,
     "examen": 5,
-    "dominio": "Predictivo",
-    "tema": "Variación de costo",
-    "dificultad": "alta",
-    "pregunta": "Si EV = 120 y AC = 150, ¿qué indica CV?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Conflicto e inteligencia emocional",
+    "dificultad": "alta situacional",
+    "pregunta": "Dos especialistas de ampliación de una planta de producción defienden soluciones distintas y la discusión se vuelve personal. ¿Qué debería hacer primero el director?",
     "opciones": [
-      "CV = -30, hay sobrecosto",
-      "CV = 30, hay ahorro",
-      "CV = 270",
-      "No hay variación"
+      "Elegir de inmediato a la persona con mayor cargo.",
+      "Escuchar posiciones e intereses y reenfocar la conversación en datos y objetivos.",
+      "Evitar el tema hasta que una parte ceda.",
+      "Escalar sin intentar comprender la fuente del conflicto."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "CV = EV - AC = 120 - 150 = -30, desfavorable."
+    "respuestaCorrecta": 1,
+    "explicacion": "La resolución colaborativa comienza por comprender la causa y separar a las personas del problema."
   },
   {
     "id": 222,
     "examen": 5,
-    "dominio": "Predictivo",
-    "tema": "Variación de cronograma",
-    "dificultad": "alta",
-    "pregunta": "Si EV = 90 y PV = 100, ¿qué indica SV?",
+    "dominio": "Agile",
+    "tema": "MVP y feedback",
+    "dificultad": "alta situacional",
+    "pregunta": "En desarrollo de una plataforma de analítica, se quiere validar una hipótesis antes de construir la solución completa. ¿Qué enfoque es más útil?",
     "opciones": [
-      "SV = -10, atraso frente al plan",
-      "SV = 10, adelanto",
-      "SV = 190",
-      "No se puede calcular"
+      "Construir toda la solución y solicitar feedback al final.",
+      "Aumentar la documentación sin probar el comportamiento.",
+      "Crear el experimento o MVP más pequeño que produzca aprendizaje confiable.",
+      "Congelar el producto hasta eliminar toda incertidumbre."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "SV = EV - PV = 90 - 100 = -10, indica atraso."
+    "respuestaCorrecta": 2,
+    "explicacion": "Un MVP reduce desperdicio y permite validar valor o viabilidad mediante aprendizaje temprano."
   },
   {
     "id": 223,
     "examen": 5,
     "dominio": "Predictivo",
-    "tema": "Línea base integrada",
-    "dificultad": "media",
-    "pregunta": "¿Por qué se integran líneas base de alcance, cronograma y costo?",
+    "tema": "Compresión del cronograma",
+    "dificultad": "alta situacional",
+    "pregunta": "Para adelantar montaje de una nueva línea industrial, se propone agregar una segunda cuadrilla a una actividad crítica. ¿Qué técnica se evalúa?",
     "opciones": [
-      "Para controlar el desempeño de manera coherente",
-      "Para duplicar documentos",
-      "Para eliminar cambios",
-      "Para evitar seguimiento"
+      "Fast tracking, que consiste en agregar recursos.",
+      "Crashing, que intercambia mayor costo por menor duración.",
+      "Nivelación de recursos para extender el plazo.",
+      "Aceptación pasiva del riesgo."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El control integrado requiere entender impactos entre alcance, tiempo y costo."
+    "respuestaCorrecta": 1,
+    "explicacion": "Crashing agrega recursos o costo a actividades críticas para reducir duración."
   },
   {
     "id": 224,
     "examen": 5,
-    "dominio": "Predictivo",
-    "tema": "Gestión de adquisiciones",
-    "dificultad": "media",
-    "pregunta": "¿Qué debe revisarse antes de cerrar una adquisición?",
+    "dominio": "Business Analysis",
+    "tema": "Elicitación",
+    "dificultad": "alta situacional",
+    "pregunta": "En optimización del proceso de despacho, los usuarios realizan un trabajo complejo que les cuesta explicar y existen muchas excepciones. ¿Qué técnica puede revelar mejor la realidad?",
     "opciones": [
-      "Cumplimiento del contrato y aceptación de entregables",
-      "Solo el nombre del proveedor",
-      "El color del documento",
-      "La daily"
+      "Solo una encuesta cerrada a una persona.",
+      "Un cálculo de valor ganado.",
+      "Observación directa complementada con preguntas.",
+      "La ruta crítica del proyecto."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El cierre de adquisiciones confirma obligaciones contractuales y aceptación."
+    "respuestaCorrecta": 2,
+    "explicacion": "La observación ayuda a descubrir conocimiento tácito y diferencias entre el proceso declarado y el real."
   },
   {
     "id": 225,
     "examen": 5,
-    "dominio": "Predictivo",
-    "tema": "Control de calidad",
-    "dificultad": "media",
-    "pregunta": "¿Qué herramienta puede usarse para identificar causas de defectos?",
+    "dominio": "Business Analysis",
+    "tema": "Interesados BA",
+    "dificultad": "alta situacional",
+    "pregunta": "En optimización del proceso de despacho, un usuario conoce el proceso pero tiene poca autoridad, mientras un director tiene poder pero poco detalle. ¿Cómo debe gestionarse?",
     "opciones": [
-      "Diagrama de causa y efecto",
-      "Product backlog",
-      "Acta de constitución",
-      "Matriz RACI"
+      "Consultar solo al director por tener mayor poder.",
+      "Consultar solo al usuario y omitir aprobación ejecutiva.",
+      "Aplicar la misma estrategia a todos sin análisis.",
+      "Involucrar a ambos según conocimiento, influencia y decisiones requeridas."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El diagrama causa-efecto ayuda a analizar causas raíz."
+    "respuestaCorrecta": 3,
+    "explicacion": "El análisis considera poder, conocimiento, impacto, necesidades y rol en decisiones."
   },
   {
     "id": 226,
     "examen": 5,
-    "dominio": "Predictivo",
-    "tema": "Gestión de riesgos",
-    "dificultad": "alta",
-    "pregunta": "¿Qué significa transferir un riesgo?",
+    "dominio": "Agile",
+    "tema": "Daily e impedimentos",
+    "dificultad": "alta situacional",
+    "pregunta": "La daily de desarrollo de una plataforma de analítica se convirtió en un reporte de 45 minutos al gerente. ¿Qué debería corregirse?",
     "opciones": [
-      "Asignar parte del impacto a un tercero, como mediante seguro o contrato",
-      "Eliminar toda incertidumbre",
-      "Aceptar el riesgo sin acción",
-      "Ignorar el riesgo"
+      "Aumentar su duración para responder más preguntas gerenciales.",
+      "Reenfocarla en la coordinación del equipo hacia el sprint goal.",
+      "Invitar a todos los interesados para aprobar cada tarea.",
+      "Eliminar la inspección diaria del progreso."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Transferir desplaza responsabilidad o impacto, pero no siempre elimina el riesgo."
+    "respuestaCorrecta": 1,
+    "explicacion": "La daily es un evento breve de coordinación e inspección, no un reporte jerárquico."
   },
   {
     "id": 227,
     "examen": 5,
-    "dominio": "Agile",
-    "tema": "Agile situacional",
-    "dificultad": "alta",
-    "pregunta": "El equipo entrega incrementos, pero los interesados no dan feedback. ¿Qué problema genera?",
+    "dominio": "Business Analysis",
+    "tema": "AS-IS y TO-BE",
+    "dificultad": "alta situacional",
+    "pregunta": "En optimización del proceso de despacho, el equipo documenta el proceso actual y luego diseña el futuro deseado. ¿Qué debe analizar entre ambos?",
     "opciones": [
-      "Menor capacidad de adaptar el producto al valor real",
-      "Mayor certeza automática",
-      "Eliminación de defectos",
-      "Cierre inmediato"
+      "Solo el diseño visual de la pantalla.",
+      "Únicamente el costo inicial de la solución.",
+      "Nada, porque el estado futuro reemplaza automáticamente al actual.",
+      "La brecha de capacidades, procesos, tecnología, personas y controles."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Sin feedback se pierde aprendizaje y adaptación."
+    "respuestaCorrecta": 3,
+    "explicacion": "El análisis de brecha identifica lo necesario para pasar del AS-IS al TO-BE."
   },
   {
     "id": 228,
     "examen": 5,
     "dominio": "Agile",
-    "tema": "Backlog ordenado",
-    "dificultad": "alta",
-    "pregunta": "¿Qué característica debe tener un backlog saludable?",
+    "tema": "Selección de enfoque",
+    "dificultad": "alta situacional",
+    "pregunta": "En desarrollo de una plataforma de analítica, los usuarios no pueden definir todos los requisitos y necesitan ver versiones frecuentes para aprender. ¿Qué enfoque es más adecuado?",
     "opciones": [
-      "Elementos priorizados, claros y suficientemente refinados",
-      "Elementos ocultos",
-      "Sin relación con valor",
-      "Orden aleatorio permanente"
+      "Predictivo rígido con alcance congelado desde el inicio.",
+      "Operacional sin objetivo de producto.",
+      "Suspender todo trabajo hasta conocer cada requisito.",
+      "Adaptativo, con entregas cortas y retroalimentación continua."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Un backlog saludable facilita planificación y entrega de valor."
+    "respuestaCorrecta": 3,
+    "explicacion": "El enfoque adaptativo es apropiado cuando existe incertidumbre y el aprendizaje frecuente aporta valor."
   },
   {
     "id": 229,
     "examen": 5,
-    "dominio": "Agile",
-    "tema": "Retrospectiva conflictiva",
-    "dificultad": "alta",
-    "pregunta": "Durante la retrospectiva, el equipo culpa a una persona. ¿Qué debe promover el facilitador?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Lecciones aprendidas",
+    "dificultad": "alta situacional",
+    "pregunta": "Durante ampliación de una planta de producción, el equipo descubre una solución que evitaría retrabajo en las siguientes fases. ¿Cuándo debería registrarla y compartirla?",
     "opciones": [
-      "Análisis del proceso y acciones de mejora sin culpas",
-      "Ataques personales",
-      "Evitar hablar",
-      "Cancelar el equipo"
+      "Ahora, para que pueda aplicarse durante el mismo proyecto.",
+      "Solo después del cierre administrativo.",
+      "Únicamente si la solución surgió de un fracaso.",
+      "Nunca, porque las lecciones son información informal."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La retrospectiva debe enfocarse en mejora del sistema de trabajo."
+    "explicacion": "Las lecciones se capturan y utilizan durante todo el ciclo de vida, no solo al cierre."
   },
   {
     "id": 230,
     "examen": 5,
-    "dominio": "Agile",
-    "tema": "Estimación ágil",
-    "dificultad": "media",
-    "pregunta": "¿Para qué sirven los story points?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Acta de constitución y patrocinio",
+    "dificultad": "alta situacional",
+    "pregunta": "El director asignado a ampliación de una planta de producción necesita comprometer recursos funcionales, pero la iniciativa aún no está autorizada formalmente. ¿Qué debe obtener primero?",
     "opciones": [
-      "Estimar esfuerzo relativo y complejidad",
-      "Calcular costo contable exacto",
-      "Definir contratos legales",
-      "Medir edad del proyecto"
+      "Una lista detallada de actividades sin aprobación del patrocinador.",
+      "Un informe de cierre de adquisiciones.",
+      "Un acta de constitución aprobada que confirme objetivos y autoridad.",
+      "Una retrospectiva del equipo técnico."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los story points son una medida relativa para estimar trabajo."
+    "respuestaCorrecta": 2,
+    "explicacion": "El acta autoriza formalmente el proyecto y otorga autoridad inicial al director."
   },
   {
     "id": 231,
     "examen": 5,
-    "dominio": "Agile",
-    "tema": "Planning poker",
-    "dificultad": "media",
-    "pregunta": "¿Qué busca planning poker?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Interesados y comunicación",
+    "dificultad": "alta situacional",
+    "pregunta": "En ampliación de una planta de producción, un interesado de alto poder e interés afirma que recibe información demasiado tarde para decidir. ¿Qué debería revisar primero el director?",
     "opciones": [
-      "Estimación colaborativa y discusión de diferencias",
-      "Aprobación contractual",
-      "Cierre financiero",
-      "Eliminación de requisitos"
+      "La WBS, porque define automáticamente la frecuencia de reportes.",
+      "Las necesidades de comunicación y la estrategia de involucramiento de ese interesado.",
+      "El registro de adquisiciones cerradas.",
+      "La velocidad del equipo, sin conversar con el interesado."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Planning poker favorece entendimiento y estimación conjunta."
+    "respuestaCorrecta": 1,
+    "explicacion": "La comunicación debe adaptarse al poder, interés, necesidades y momento de decisión de cada interesado."
   },
   {
     "id": 232,
     "examen": 5,
-    "dominio": "Agile",
-    "tema": "Escalado ágil",
-    "dificultad": "media",
-    "pregunta": "¿Qué desafío aparece al escalar agile?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Roles y responsabilidades",
+    "dificultad": "alta situacional",
+    "pregunta": "En ampliación de una planta de producción, el patrocinador intenta asignar tareas diarias directamente a cada miembro y genera instrucciones contradictorias. ¿Qué debería hacer el director?",
     "opciones": [
-      "Coordinar múltiples equipos manteniendo alineación y valor",
-      "Eliminar toda comunicación",
-      "Evitar dependencias",
-      "No integrar incrementos"
+      "Permitir todas las instrucciones porque el patrocinador tiene mayor jerarquía.",
+      "Excluir al patrocinador de toda comunicación futura.",
+      "Pedir al equipo que elija qué instrucciones seguir sin criterios.",
+      "Aclarar roles y acordar un canal de dirección coherente con la gobernanza."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Escalar agile requiere coordinación, sincronización e integración."
+    "respuestaCorrecta": 3,
+    "explicacion": "El patrocinador aporta dirección estratégica; el director integra y coordina la ejecución cotidiana."
   },
   {
     "id": 233,
     "examen": 5,
-    "dominio": "Agile",
-    "tema": "Kanban mejora",
-    "dificultad": "media",
-    "pregunta": "Un equipo ve muchas tarjetas bloqueadas. ¿Qué debería analizar?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Gobernanza y autoridad",
+    "dificultad": "alta situacional",
+    "pregunta": "En ampliación de una planta de producción, un cambio supera el límite de autoridad del director. ¿Qué debe ocurrir antes de ejecutarlo?",
     "opciones": [
-      "Causas de bloqueo y flujo de trabajo",
-      "Solo aumentar tareas nuevas",
-      "Ocultar bloqueos",
-      "Eliminar límites WIP"
+      "Implementarlo de inmediato para mantener satisfecho al solicitante.",
+      "Rechazarlo automáticamente sin análisis.",
+      "Aprobarlo mediante votación informal del equipo.",
+      "Analizar el impacto y elevarlo al órgano autorizado para decidir."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los bloqueos visibles permiten mejorar el flujo."
+    "respuestaCorrecta": 3,
+    "explicacion": "La gobernanza define umbrales, derechos de decisión y rutas de escalamiento."
   },
   {
     "id": 234,
     "examen": 5,
-    "dominio": "Agile",
-    "tema": "Scrum empirismo",
-    "dificultad": "media",
-    "pregunta": "¿En qué se basa Scrum?",
+    "dominio": "Business Analysis",
+    "tema": "Priorización de requisitos",
+    "dificultad": "alta situacional",
+    "pregunta": "En optimización del proceso de despacho, no todos los requisitos caben en la primera versión. ¿Qué criterio debería guiar la prioridad?",
     "opciones": [
-      "Transparencia, inspección y adaptación",
-      "Planificación cerrada sin revisión",
-      "Ausencia de roles",
-      "Control secreto"
+      "Valor, riesgo, urgencia, cumplimiento y dependencias mediante criterios acordados.",
+      "La persona que habla más fuerte en la reunión.",
+      "El orden de llegada sin revisión.",
+      "La cantidad de palabras de cada requisito."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Scrum es un marco empírico basado en transparencia, inspección y adaptación."
+    "explicacion": "La priorización debe ser transparente y relacionarse con valor y restricciones reales."
   },
   {
     "id": 235,
     "examen": 5,
     "dominio": "Agile",
-    "tema": "Incremento no terminado",
-    "dificultad": "alta",
-    "pregunta": "Al final del sprint, parte del trabajo no cumple la Definition of Done. ¿Qué debe hacerse?",
+    "tema": "Liderazgo servicial",
+    "dificultad": "alta situacional",
+    "pregunta": "En desarrollo de una plataforma de analítica, el equipo espera que el Scrum Master asigne cada tarea. ¿Qué debería fomentar?",
     "opciones": [
-      "No considerarlo terminado y revisar el backlog",
-      "Declararlo terminado por presión",
-      "Ocultar defectos",
-      "Eliminar la DoD"
+      "Que el Scrum Master actúe como jefe funcional.",
+      "Que el product owner controle a cada persona.",
+      "Que el equipo se organice y decida cómo alcanzar el objetivo dentro de límites claros.",
+      "Que los interesados asignen trabajo directamente."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Solo el trabajo que cumple la Definition of Done se considera terminado."
+    "respuestaCorrecta": 2,
+    "explicacion": "El liderazgo servicial facilita autonomía, colaboración y eliminación de impedimentos."
   },
   {
     "id": 236,
     "examen": 5,
-    "dominio": "Agile",
-    "tema": "Valor temprano",
-    "dificultad": "media",
-    "pregunta": "¿Por qué agile entrega en incrementos pequeños?",
+    "dominio": "Business Analysis",
+    "tema": "Funcional y no funcional",
+    "dificultad": "alta situacional",
+    "pregunta": "En optimización del proceso de despacho, el requisito dice: “el 95 % de las búsquedas responderá en menos de dos segundos”. ¿Cómo se clasifica?",
     "opciones": [
-      "Para obtener feedback temprano y reducir riesgo",
-      "Para evitar al cliente",
-      "Para aumentar retrabajo",
-      "Para cerrar contratos"
+      "Como requisito funcional de registro.",
+      "Como requisito de transición temporal.",
+      "Como beneficio de negocio ya realizado.",
+      "Como requisito no funcional y medible de desempeño."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Entregar por incrementos permite aprender y ajustar."
+    "respuestaCorrecta": 3,
+    "explicacion": "Los no funcionales describen atributos como rendimiento, seguridad, disponibilidad y usabilidad."
   },
   {
     "id": 237,
     "examen": 5,
-    "dominio": "Business Analysis",
-    "tema": "Caso de uso",
-    "dificultad": "media",
-    "pregunta": "¿Para qué sirve un caso de uso?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Gestión de problemas",
+    "dificultad": "alta situacional",
+    "pregunta": "En ampliación de una planta de producción, una dependencia externa ya incumplió y bloquea el trabajo. ¿Qué debería hacer primero el equipo?",
     "opciones": [
-      "Describir interacción entre actor y sistema para lograr un objetivo",
-      "Calcular ruta crítica",
-      "Registrar vacaciones",
-      "Cerrar adquisiciones"
+      "Registrar el problema y evaluar su impacto real en los objetivos del proyecto.",
+      "Mantenerlo solo como riesgo porque alguna vez fue incierto.",
+      "Eliminar la dependencia del cronograma sin modificar el plan.",
+      "Esperar al cierre para documentarlo."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Los casos de uso modelan interacciones funcionales."
+    "explicacion": "Cuando un evento ya ocurrió, se gestiona como problema actual y se analiza su impacto integrado."
   },
   {
     "id": 238,
     "examen": 5,
-    "dominio": "Business Analysis",
-    "tema": "Mapa de procesos",
-    "dificultad": "media",
-    "pregunta": "¿Qué permite un mapa de procesos?",
+    "dominio": "Agile",
+    "tema": "Definition of Done",
+    "dificultad": "alta situacional",
+    "pregunta": "Una historia de desarrollo de una plataforma de analítica fue desarrollada, pero no probada, y la DoD exige pruebas aprobadas. ¿Puede contarse como terminada?",
     "opciones": [
-      "Visualizar actividades, responsables y flujo del proceso",
-      "Calcular CPI",
-      "Gestionar deuda técnica",
-      "Cerrar el sprint"
+      "Sí; basta con finalizar la codificación.",
+      "Sí; las pruebas pueden realizarse después del proyecto.",
+      "Depende solo de la opinión del desarrollador.",
+      "No; debe cumplir completamente la Definition of Done."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Mapear procesos ayuda a detectar problemas y oportunidades."
+    "respuestaCorrecta": 3,
+    "explicacion": "La DoD crea un entendimiento común y verificable de calidad y completitud."
   },
   {
     "id": 239,
     "examen": 5,
-    "dominio": "Business Analysis",
-    "tema": "Requisito mal entendido",
-    "dificultad": "alta",
-    "pregunta": "El equipo interpretó diferente un requisito aprobado. ¿Qué habría ayudado a evitarlo?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Calidad y grado",
+    "dificultad": "alta situacional",
+    "pregunta": "En ampliación de una planta de producción, el cliente acepta pocas funciones, pero exige que todas cumplan sin defectos los criterios acordados. ¿Qué se ilustra?",
     "opciones": [
-      "Criterios de aceptación claros y validación con interesados",
-      "Menos comunicación",
-      "No documentar nada",
-      "Cambiar de proveedor"
+      "Bajo grado y baja calidad son exactamente lo mismo.",
+      "El producto puede tener bajo grado, pero debe cumplir la calidad acordada.",
+      "La calidad depende solo de la cantidad de funciones.",
+      "El grado elimina la necesidad de criterios de aceptación."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "La claridad y validación reducen interpretaciones erróneas."
+    "respuestaCorrecta": 1,
+    "explicacion": "Grado es categoría o cantidad de características; calidad es conformidad y aptitud para uso."
   },
   {
     "id": 240,
     "examen": 5,
-    "dominio": "Business Analysis",
-    "tema": "Gestión de alcance de solución",
-    "dificultad": "alta",
-    "pregunta": "¿Qué ocurre si se agregan características sin evaluar valor?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Proyecto y operaciones",
+    "dificultad": "alta situacional",
+    "pregunta": "Durante ampliación de una planta de producción, el equipo implementará un resultado único y después un área permanente lo administrará mensualmente. ¿Cómo debe clasificarse el trabajo?",
     "opciones": [
-      "Puede aumentar costo y complejidad sin beneficio proporcional",
-      "Siempre mejora el producto",
-      "Reduce todos los riesgos",
-      "Elimina pruebas"
+      "La implementación es un proyecto y la administración posterior es una operación.",
+      "Ambos son proyectos porque consumen recursos.",
+      "La implementación es una operación y la administración es un programa.",
+      "Ambos son operaciones porque pertenecen a la misma organización."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Agregar funciones sin valor claro genera sobrealcance y complejidad."
+    "explicacion": "Un proyecto es temporal y único; una operación es continua y repetitiva."
   },
   {
     "id": 241,
     "examen": 5,
     "dominio": "Business Analysis",
-    "tema": "Matriz de decisión",
-    "dificultad": "media",
-    "pregunta": "¿Para qué sirve una matriz de decisión?",
+    "tema": "Verificación y validación",
+    "dificultad": "alta situacional",
+    "pregunta": "En optimización del proceso de despacho, un requisito está bien escrito y comprobable, pero no resuelve ninguna necesidad real. ¿Qué ocurrió?",
     "opciones": [
-      "Comparar alternativas con criterios ponderados",
-      "Registrar daily meetings",
-      "Cerrar contratos",
-      "Calcular holgura"
+      "Fue validado, pero no estimado.",
+      "Fue aceptado y por eso no puede cambiar.",
+      "Fue verificado, pero no validado contra la necesidad de negocio.",
+      "Solo carece de una reserva de contingencia."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Una matriz de decisión ayuda a seleccionar opciones de forma estructurada."
+    "respuestaCorrecta": 2,
+    "explicacion": "Verificar evalúa calidad formal; validar confirma relevancia y capacidad de satisfacer la necesidad."
   },
   {
     "id": 242,
     "examen": 5,
     "dominio": "Business Analysis",
-    "tema": "Análisis costo-beneficio",
-    "dificultad": "media",
-    "pregunta": "¿Qué compara el análisis costo-beneficio?",
+    "tema": "Regulación, datos e interfaces",
+    "dificultad": "alta situacional",
+    "pregunta": "En optimización del proceso de despacho, dos sistemas usan definiciones distintas para el mismo dato crítico. ¿Qué debe resolverse antes de integrar?",
     "opciones": [
-      "Costos de una solución frente a beneficios esperados",
-      "Riesgos positivos y negativos únicamente",
-      "Historias grandes y pequeñas",
-      "Sprint y release"
+      "Solo la velocidad de transferencia.",
+      "La estructura de la WBS.",
+      "El número de reuniones del equipo.",
+      "La semántica, reglas, formato, validación y propietario de los datos."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Ayuda a evaluar si una alternativa justifica la inversión."
+    "respuestaCorrecta": 3,
+    "explicacion": "Las interfaces requieren acuerdos claros sobre significado, formato, frecuencia y manejo de errores."
   },
   {
     "id": 243,
     "examen": 5,
-    "dominio": "Business Analysis",
-    "tema": "Validación de solución",
-    "dificultad": "alta",
-    "pregunta": "Después de implementar una solución, ¿qué debe evaluarse?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Reuniones y causa raíz",
+    "dificultad": "alta situacional",
+    "pregunta": "Las reuniones de ampliación de una planta de producción terminan sin decisiones ni responsables. ¿Qué mejora debería aplicarse primero?",
     "opciones": [
-      "Si satisface la necesidad y entrega beneficios esperados",
-      "Solo si se usó el presupuesto",
-      "El número de correos enviados",
-      "El color de la interfaz"
+      "Definir objetivo, agenda, participantes, decisiones esperadas y seguimiento de acciones.",
+      "Invitar a más personas y ampliar la duración.",
+      "Eliminar las actas para ahorrar tiempo.",
+      "Tratar todos los temas sin priorización."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "La evaluación posterior confirma valor y efectividad."
+    "explicacion": "Una reunión efectiva tiene propósito, preparación, facilitación y acciones con responsables y fechas."
   },
   {
     "id": 244,
     "examen": 5,
     "dominio": "Business Analysis",
-    "tema": "Requisitos de datos",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es un requisito relacionado con datos?",
+    "tema": "Necesidad y solución",
+    "dificultad": "alta situacional",
+    "pregunta": "En optimización del proceso de despacho, un área solicita comprar una aplicación, pero no puede explicar qué problema resolverá. ¿Qué debe hacer primero el analista?",
     "opciones": [
-      "El sistema debe conservar historial de cambios por cinco años",
-      "El botón debe ser azul",
-      "El cronograma debe durar 60 días",
-      "El proveedor debe facturar"
+      "Comprar la aplicación para no retrasar el proyecto.",
+      "Investigar la necesidad, causas y resultados deseados antes de definir la solución.",
+      "Crear la WBS de implementación sin más preguntas.",
+      "Elegir el producto con mayor cantidad de funciones."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los requisitos de datos definen almacenamiento, calidad, historial o uso de información."
+    "respuestaCorrecta": 1,
+    "explicacion": "El análisis de negocio comienza entendiendo el problema u oportunidad, no una solución preconcebida."
   },
   {
     "id": 245,
     "examen": 5,
-    "dominio": "Business Analysis",
-    "tema": "Requisito de interfaz",
-    "dificultad": "media",
-    "pregunta": "¿Qué describe un requisito de interfaz?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Factores ambientales y activos",
+    "dificultad": "alta situacional",
+    "pregunta": "Una nueva ley modifica requisitos de ampliación de una planta de producción. ¿Cómo debe tratarse esta información?",
     "opciones": [
-      "Cómo interactúa la solución con otros sistemas o usuarios",
-      "El costo final",
-      "La ruta crítica",
-      "El cierre del contrato"
+      "Como una lección aprendida interna.",
+      "Como un paquete de trabajo ya terminado.",
+      "Como un factor ambiental externo que obliga a revisar los planes afectados.",
+      "Como una reserva de contingencia."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Los requisitos de interfaz definen interacciones con personas, sistemas o componentes."
+    "respuestaCorrecta": 2,
+    "explicacion": "Las leyes y condiciones de mercado son factores externos que influyen en el proyecto."
   },
   {
     "id": 246,
     "examen": 5,
-    "dominio": "Business Analysis",
-    "tema": "Backlog y BA",
-    "dificultad": "media",
-    "pregunta": "En agile, ¿cómo puede apoyar el análisis de negocio al product owner?",
+    "dominio": "Agile",
+    "tema": "Sprint planning",
+    "dificultad": "alta situacional",
+    "pregunta": "Durante la planificación de desarrollo de una plataforma de analítica, se propone trabajo para el doble de la capacidad histórica. ¿Qué debería hacer el equipo?",
     "opciones": [
-      "Refinando necesidades, criterios y valor de los elementos del backlog",
-      "Eliminando feedback",
-      "Aprobando pagos",
-      "Cerrando contratos"
+      "Comprometer todo para satisfacer al product owner.",
+      "Seleccionar una cantidad realista y construir un sprint goal coherente.",
+      "Duplicar la velocidad prevista sin cambiar capacidad.",
+      "Reducir la Definition of Done para aceptar más trabajo."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "BA ayuda a clarificar requisitos, valor y criterios de aceptación."
+    "respuestaCorrecta": 1,
+    "explicacion": "El equipo selecciona trabajo según capacidad, objetivo y entendimiento de los elementos."
   },
   {
     "id": 247,
     "examen": 5,
-    "dominio": "Business Analysis",
-    "tema": "Aprobación parcial",
-    "dificultad": "alta",
-    "pregunta": "Un entregable cumple algunos criterios pero falla en uno crítico. ¿Qué debe hacerse?",
+    "dominio": "Predictivo",
+    "tema": "Control integrado de cambios",
+    "dificultad": "alta situacional",
+    "pregunta": "En montaje de una nueva línea industrial, el cliente solicita un entregable adicional después de aprobarse la línea base. ¿Qué debe hacerse primero?",
     "opciones": [
-      "No aceptarlo completamente hasta resolver el criterio crítico o acordar excepción",
-      "Aceptarlo sin registrar",
-      "Eliminar el criterio",
-      "Cerrar el proyecto"
+      "Registrar la solicitud y analizar impactos antes de obtener una decisión formal.",
+      "Ejecutarla y solicitar aprobación después.",
+      "Rechazarla porque una línea base nunca puede cambiar.",
+      "Modificar solo el presupuesto sin revisar otros objetivos."
     ],
     "respuestaCorrecta": 0,
-    "explicacion": "Los criterios críticos deben cumplirse o gestionarse formalmente."
+    "explicacion": "El control integrado evalúa impactos y obtiene aprobación antes de modificar líneas base."
   },
   {
     "id": 248,
     "examen": 5,
-    "dominio": "Business Analysis",
-    "tema": "Dependencia de requisitos",
-    "dificultad": "media",
-    "pregunta": "Un requisito depende de otro para generar valor. ¿Qué debe considerarse?",
+    "dominio": "Agile",
+    "tema": "Estimación y velocidad",
+    "dificultad": "alta situacional",
+    "pregunta": "Dos equipos de desarrollo de una plataforma de analítica tienen velocidades de 30 y 50 puntos. ¿Puede concluirse que el segundo es más productivo?",
     "opciones": [
-      "La dependencia al priorizar y planificar",
-      "Eliminar ambos",
-      "Ignorar la relación",
-      "Implementar el dependiente primero siempre"
+      "Sí; una velocidad mayor siempre demuestra mejor productividad.",
+      "Sí, siempre que tengan el mismo product owner.",
+      "No; los puntos son relativos a cada equipo y no deben compararse directamente.",
+      "No, porque la velocidad nunca sirve para pronosticar."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Las dependencias afectan secuencia, priorización y planificación."
+    "respuestaCorrecta": 2,
+    "explicacion": "La velocidad ayuda a un equipo a pronosticar su propio trabajo, no a comparar productividad."
   },
   {
     "id": 249,
     "examen": 5,
-    "dominio": "Business Analysis",
-    "tema": "Necesidad vs solución",
-    "dificultad": "media",
-    "pregunta": "¿Cuál es la diferencia entre necesidad y solución?",
+    "dominio": "Fundamentos y conceptos centrales",
+    "tema": "Adaptación e híbrido",
+    "dificultad": "alta situacional",
+    "pregunta": "En ampliación de una planta de producción, los requisitos regulatorios son estables, pero la experiencia del usuario necesita pruebas frecuentes. ¿Qué enfoque es más apropiado?",
     "opciones": [
-      "La necesidad describe el problema u oportunidad; la solución describe cómo abordarlo",
-      "Son lo mismo",
-      "La solución siempre aparece antes de la necesidad",
-      "La necesidad es un defecto"
+      "Predictivo para todo, prohibiendo retroalimentación durante la ejecución.",
+      "Adaptativo para todo, eliminando controles regulatorios.",
+      "Ningún enfoque, porque no se pueden combinar prácticas.",
+      "Un enfoque híbrido: predictivo para lo regulatorio y adaptativo para lo incierto."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "Separar necesidad de solución evita construir respuestas equivocadas."
+    "respuestaCorrecta": 3,
+    "explicacion": "La forma de trabajo se adapta a incertidumbre, cumplimiento, riesgo y naturaleza de cada componente."
   },
   {
     "id": 250,
     "examen": 5,
     "dominio": "Business Analysis",
-    "tema": "Medición de valor",
-    "dificultad": "alta",
-    "pregunta": "¿Cuál indicador ayuda a medir valor de una solución?",
+    "tema": "Evaluación de solución",
+    "dificultad": "alta situacional",
+    "pregunta": "Después de implementar optimización del proceso de despacho, el indicador principal no mejora. ¿Qué debería hacer el analista?",
     "opciones": [
-      "Reducción de tiempo de proceso o aumento de satisfacción del usuario",
-      "Número de reuniones sin resultado",
-      "Cantidad de documentos no leídos",
-      "Color del tablero"
+      "Declarar éxito porque la solución fue instalada.",
+      "Medir solo la cantidad de funciones entregadas.",
+      "Comparar resultados con metas, investigar causas y recomendar ajustes.",
+      "Cerrar toda evaluación al finalizar el proyecto."
     ],
-    "respuestaCorrecta": 0,
-    "explicacion": "El valor debe medirse con indicadores vinculados a resultados de negocio."
+    "respuestaCorrecta": 2,
+    "explicacion": "La evaluación determina si la solución obtiene el valor esperado e identifica limitaciones."
   }
 ];
